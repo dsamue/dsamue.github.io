@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "AR-Business Card"
+title:  "AR-Business Card eller?"
 date:   2017-01-10 05:35:11 -0400
 categories: jekyll update
 ---
