@@ -12,14 +12,14 @@
   <p>hej</p>
 
   <script>
-    d3.csv("data3.csv" , function (data){
+    d3.csv("data.csv" , function (data){
 
       var canvas = d3.select("body").append("svg")
         .attr("width", 500)
         .attr("height", 500)
 
       canvas.selectAll("rect")
-        .data(data3)
+        .data(data)
         .enter()
           .append("rect")
           .attr("width", function(d){ return d.age*10; })
