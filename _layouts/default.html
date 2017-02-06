@@ -22,7 +22,7 @@
         .data(data)
         .enter()
           .append("rect")
-          .attr("width", function(d){ return d.Number*10; })
+          .attr("width", function(d){ return d.age*10; })
           .attr("height", 48)
           .attr("y", function(d, i) { return i*50; })
           .attr("fill", "blue");
