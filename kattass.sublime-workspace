@@ -223,6 +223,23 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "_layouts/default.html",
+			"settings":
+			{
+				"buffer_size": 2721,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/David/Desktop/d3test.html",
+			"settings":
+			{
+				"buffer_size": 2691,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -256,10 +273,13 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/David/Desktop/KTH/Github/samuelsson87.github.io"
+		"/Users/David/Desktop/KTH/Github/samuelsson87.github.io",
+		"/Users/David/Desktop/KTH/Github/samuelsson87.github.io/_layouts"
 	],
 	"file_history":
 	[
+		"/Users/David/Desktop/KTH/Github/samuelsson87.github.io/_layouts 08.31.17/default.html",
+		"/Users/David/Desktop/KTH/Github/samuelsson87.github.io/_layouts/default.html",
 		"/Users/David/Downloads/hejhej.html.svg",
 		"/Users/David/Desktop/Backup på kattass/index.html",
 		"/Users/David/Desktop/KTH/Github/samuelsson87.github.io/index.html",
@@ -412,8 +432,69 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "_layouts/default.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2721,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								35,
+								35
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/David/Desktop/d3test.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2691,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								2691
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
