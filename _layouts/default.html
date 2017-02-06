@@ -5,7 +5,7 @@
 
 <head>
   <title>D3 test</title>
-  <script src="https://d3js.org/d3.v3.min.js"></script>
+  <script src="http://d3js.org/d3.v3.min.js"></script>
 </head>
 
 <body>
@@ -33,6 +33,7 @@
           .append("text")
           .attr("fill", "white")
           .attr("y", function (d, i) { return i * 50 + 24; })
+          .text(function (d) { return d.name; })
 
     })
 
