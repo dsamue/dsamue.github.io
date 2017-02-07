@@ -227,17 +227,18 @@
 			"file": "_layouts/default.html",
 			"settings":
 			{
-				"buffer_size": 2721,
+				"buffer_size": 937,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/Users/David/Desktop/d3test.html",
+			"file": "mydata.csv",
 			"settings":
 			{
-				"buffer_size": 2691,
-				"line_ending": "Unix"
+				"buffer_size": 52,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -278,12 +279,13 @@
 	],
 	"file_history":
 	[
+		"/Users/David/Desktop/d3-backups/Första med stapeldiagrammet.html",
+		"/Users/David/Desktop/d3test.html",
 		"/Users/David/Desktop/KTH/Github/samuelsson87.github.io/_layouts 08.31.17/default.html",
 		"/Users/David/Desktop/KTH/Github/samuelsson87.github.io/_layouts/default.html",
 		"/Users/David/Downloads/hejhej.html.svg",
 		"/Users/David/Desktop/Backup på kattass/index.html",
 		"/Users/David/Desktop/KTH/Github/samuelsson87.github.io/index.html",
-		"/Users/David/Desktop/d3test.html",
 		"/Users/David/Desktop/data.csv",
 		"/Users/David/Desktop/Java/Lab6/samples/decompress.3.in",
 		"/Users/David/Desktop/Java/Lab6/samples/decompress.2.ans",
@@ -393,7 +395,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 93.0,
 		"where_history":
 		[
 		]
@@ -441,15 +443,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2721,
+						"buffer_size": 937,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								35,
-								35
+								925,
+								0
 							]
 						],
 						"settings":
@@ -467,26 +469,24 @@
 				},
 				{
 					"buffer": 1,
-					"file": "/Users/David/Desktop/d3test.html",
+					"file": "mydata.csv",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2691,
+						"buffer_size": 52,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								2691
+								52,
+								52
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -575,7 +575,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 276.0,
+	"side_bar_width": 202.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
