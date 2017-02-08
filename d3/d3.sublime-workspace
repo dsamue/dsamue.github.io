@@ -1,0 +1,576 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"subs",
+				"substring"
+			],
+			[
+				"sub",
+				"substring"
+			],
+			[
+				"subS",
+				"substring"
+			],
+			[
+				"De",
+				"Dekomprimera"
+			],
+			[
+				"o",
+				"out"
+			],
+			[
+				"string",
+				"String"
+			],
+			[
+				"next",
+				"nextLine"
+			],
+			[
+				"antal",
+				"antalPersoner"
+			],
+			[
+				"ord",
+				"ordArray"
+			],
+			[
+				"kod",
+				"kodArray"
+			],
+			[
+				"total",
+				"totalStracka"
+			],
+			[
+				"tot",
+				"totalStracka"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"padding-",
+				"padding-bottom"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"m",
+				"margin-top"
+			],
+			[
+				"borderr",
+				"border-radius"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"bin",
+				"binId"
+			],
+			[
+				"my",
+				"mySentence"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"getDi",
+				"getDishPrice"
+			],
+			[
+				"pre",
+				"preparationView"
+			],
+			[
+				"Pre",
+				"preparationViewController"
+			],
+			[
+				"confirm",
+				"confrimButton"
+			],
+			[
+				"single",
+				"singleDish"
+			],
+			[
+				"getDish",
+				"getDishOverview"
+			],
+			[
+				"de",
+				"dessert"
+			],
+			[
+				"border",
+				"border-style"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"po",
+				"padding-top"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"bak",
+				"background-color"
+			],
+			[
+				"men",
+				"menuPreparations"
+			],
+			[
+				"menu",
+				"menuPreparation"
+			],
+			[
+				"p",
+				"preparationView"
+			],
+			[
+				"remo",
+				"removeDishFromMenu"
+			],
+			[
+				"number",
+				"numberOfGuests"
+			],
+			[
+				"get",
+				"getSelectedDish"
+			],
+			[
+				"add",
+				"addDishToMenu"
+			],
+			[
+				"num",
+				"numberOfGuests"
+			],
+			[
+				"all",
+				"allIngredients"
+			],
+			[
+				"in",
+				"ingredients"
+			],
+			[
+				"numb",
+				"numberOfGuests"
+			],
+			[
+				"backgro",
+				"background-color"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"plus",
+				"plusButton"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 925,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/David/Desktop/d3/mydata.csv",
+			"settings":
+			{
+				"buffer_size": 52,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/David/Desktop/KTH/Github/samuelsson87.github.io/_layouts 08.31.17/default.html",
+		"/Users/David/Desktop/KTH/Github/samuelsson87.github.io/_layouts/default.html",
+		"/Users/David/Downloads/hejhej.html.svg",
+		"/Users/David/Desktop/Backup på kattass/index.html",
+		"/Users/David/Desktop/KTH/Github/samuelsson87.github.io/index.html",
+		"/Users/David/Desktop/d3test.html",
+		"/Users/David/Desktop/data.csv",
+		"/Users/David/Desktop/Java/Lab6/samples/decompress.3.in",
+		"/Users/David/Desktop/Java/Lab6/samples/decompress.2.ans",
+		"/Users/David/Desktop/Java/Lab6/samples/decompress.2.in",
+		"/Users/David/Desktop/Java/Lab6/samples/decompress.1.in",
+		"/Users/David/Desktop/Java/Lab6/Backups/Dekompression7.0.java",
+		"/Users/David/Desktop/Java/Lab6/Backups/Dekompression5.0.java",
+		"/Users/David/Desktop/Java/Lab6/Backups/Dekompression6.0.java",
+		"/Users/David/Desktop/Java/Lab6/Backups/Dekompression4.0.java",
+		"/Users/David/Desktop/KTH/Github/MR4BusinessCard/Assembly-CSharp-Editor.csproj",
+		"/Users/David/Desktop/threeTest/threetest.html",
+		"/Users/David/Desktop/KTH_Logotyp_RGB_2013-2.svg",
+		"/Users/David/Desktop/KTH/Github/MR4BusinessCard/Assets/smcs.rsp",
+		"/Users/David/Desktop/Java/Lab4/Enigma.java",
+		"/Users/David/Desktop/Java/Lab6/Backups/Dekompression2.0.java",
+		"/Users/David/Desktop/Java/Lab6/Backups/Dekompression3.0.java",
+		"/Users/David/Desktop/Java/Lab6/Backups/Dekompression1.0.java",
+		"/Users/David/Desktop/KTH/Tilda/Lab5/Backup/huvudprogrammlabb5.py",
+		"/Users/David/Desktop/KTH/Tilda/Lab6/lab6.py",
+		"/Users/David/Desktop/KTH/Python/P-uppgift maj/Städad skarp uppgift .py",
+		"/Users/David/Desktop/KTH/Tilda/Lab7/lab7.5.py",
+		"/Users/David/Desktop/Java/Lab5/samples/tidbokning.1.in",
+		"/Users/David/Desktop/Java/Lab5/samples/tidbokning.1.ans",
+		"/Users/David/Desktop/Java/Lab5/Backups/TidsBokning1.0 Final.java",
+		"/Users/David/Desktop/Java/Lab5/Backups/MeetingTime1.0 Final.java",
+		"/Users/David/Desktop/Java/Lab1/LaggIhopOrd.java",
+		"/Users/David/Desktop/Java/Lab4/Backups/Enigma2.0.java",
+		"/Users/David/Desktop/Java/Lab4/Backups/Enigma1.0 final.java",
+		"/Users/David/Desktop/Java/Lab3/samples/aquarium.1.in",
+		"/Users/David/Desktop/Java/Lab3/Backups/Akvariet1.0 final.java",
+		"/Users/David/Desktop/Java/Lab3/samples/aquarium.1.ans",
+		"/Applications/Pd-0.47-1.app/Contents/Resources/doc/1.manual/index.htm",
+		"/Users/David/Desktop/Java/Lab2/Backups/Talfoljd1.0.java",
+		"/Users/David/Desktop/Java/Lab1/backups/LaggIhopOrd 2.0 final.java",
+		"/Users/David/Desktop/Java/Lab1/backups/LaggIhopOrd1.2.java",
+		"/Users/David/Desktop/Java/Lab1/backups/LaggIhopOrd1.1.java",
+		"/Users/David/Desktop/KTH/Java/lab1/test.java",
+		"/Users/David/Desktop/KTH/Github/samuelsson87.github.io/_config.yml",
+		"/Users/David/Desktop/Java/lab2/nextNumber.java",
+		"/Users/David/Desktop/Java/lab1/skrivUt.java",
+		"/Users/David/Desktop/Github/intprog-projekt/projekt.sublime-workspace",
+		"/Users/David/Desktop/Github/intprog-projekt/app/index.html",
+		"/Users/David/Desktop/Github/lab1/test2.html",
+		"/Users/David/Desktop/Github/lab1/style.css",
+		"/Users/David/Desktop/Github/lab1/mapScript.js",
+		"/Users/David/Desktop/Github/lab1/test.html",
+		"/Users/David/Desktop/Github/intprog-projekt/app/partials/finish.html",
+		"/Users/David/Desktop/Github/intprog-projekt/app/js/progressbarCtrl.js",
+		"/Users/David/Desktop/Github/intprog-projekt/app/js/pickSentenceCtrl.js",
+		"/Users/David/Desktop/Github/intprog-projekt/app/partials/pickSentence.html",
+		"/Users/David/Desktop/Github/intprog-projekt/app/ng-sortable/ng-sortable.css",
+		"/Users/David/Desktop/Github/intprog-projekt/app/style.css",
+		"/Users/David/Desktop/Github/intprog-projekt/app/partials/progressbar.html",
+		"/Users/David/Desktop/Github/angular-phonecat/app/phones/phones.json",
+		"/Users/David/Desktop/Github/intprog-projekt/app/dist/ng-sortable.css",
+		"/Users/David/Desktop/Github/intprog-projekt/app/dist/ng-sortable.js",
+		"/Users/David/Desktop/Github/intprog-projekt/app/dist/ng-sortable.style.css",
+		"/Users/David/Desktop/Github/ng-sortable/dist/ng-sortable.js",
+		"/Users/David/Desktop/Github/ng-sortable/Gruntfile.js",
+		"/Users/David/Desktop/Github/intprog-projekt/package.json",
+		"/Users/David/Desktop/Github/intprog-projekt/bower.json",
+		"/Users/David/Desktop/Github/intprog-projekt/Gruntfile.js",
+		"/Users/David/Desktop/Github/ng-sortable/source/sortable.js",
+		"/Users/David/Desktop/Github/ng-sortable/dist/ng-sortable.min.js",
+		"/Users/David/Desktop/Github/ng-sortable/source/ng-sortable.css",
+		"/Users/David/Downloads/Dragger (1)/index.html",
+		"/Users/David/Downloads/Dragger (1)/home.html",
+		"/Users/David/Desktop/Github/intprog-projekt/map.html",
+		"/Users/David/Desktop/Github/intprog-projekt/map-character.html",
+		"/Users/David/Desktop/Github/intprog-projekt/MapView.js",
+		"/Users/David/Desktop/Github/intprog-projekt/view.js",
+		"/Users/David/Desktop/Github/intprog-projekt/LanguageController.js",
+		"/Users/David/Desktop/Github/intprog-projekt/character.png",
+		"/Users/David/Desktop/Github/intprog-projekt/app.js",
+		"/Users/David/Desktop/Github/intprog-projekt/index.html",
+		"/Users/David/Desktop/Github/intprog-projekt/app/js/appService.js",
+		"/Users/David/Desktop/Github/intprog-projekt/app/js/app.js",
+		"/Users/David/Desktop/Github/intprog-projekt/app/js/someCtrl.js",
+		"/Users/David/Desktop/Github/intprog-projekt/app/partials/home.html",
+		"/Users/David/Desktop/Github/intprog-projekt/app/partials/start.html",
+		"/Users/David/Desktop/Github/intprog-projekt/style.css",
+		"/Users/David/Desktop/Github/intprog-projekt/model.js",
+		"/Users/David/Desktop/Github/lab2/index.html",
+		"/Users/David/Downloads/Dragger/index.html",
+		"/Users/David/Downloads/Dragger/home.html",
+		"/Users/David/Desktop/Git startinfo.txt",
+		"/Users/David/Desktop/Veckoplan.txt",
+		"/Users/David/Desktop/Github/lab2/select-dish.html",
+		"/Users/David/Desktop/Github/lab2/select-starter.html",
+		"/Users/David/Desktop/Github/lab2/dinner-preparation.html",
+		"/Users/David/Desktop/Github/lab2/dinner-overview.html",
+		"/Users/David/Desktop/Github/lab2/screen-after.html",
+		"/Users/David/Desktop/Github/lab2/home.html",
+		"/Users/David/Desktop/Github/lab2/style.css",
+		"/Users/David/Desktop/Github/lab2/js/exampleViewController.js",
+		"/Users/David/Desktop/Github/lab2/lab2.sublime-workspace",
+		"/Users/David/Desktop/Github/lab2/js/view/overView.js",
+		"/Users/David/Desktop/Github/lab2s/js/model/dinnerModel.js",
+		"/Users/David/Desktop/KTH/Python/P-uppgift maj/Städad skarp uppgift - Väldigt Kommenterad.py",
+		"/Users/David/Desktop/Github/dinnerplanner-html/index.html",
+		"/Users/David/Desktop/Github/test3/Hej.xml",
+		"/Users/David/Desktop/Github/dinnerplanner-html/README.md"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"{",
+			"bchash",
+			"bchashmultiMap",
+			"con",
+			"dragControlListeners",
+			"drop",
+			"words",
+			"drop",
+			"dropp",
+			"appendChild",
+			"mysentence",
+			");\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 925,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								925,
+								925
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/David/Desktop/d3/mydata.csv",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 52,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "d3.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 202.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
