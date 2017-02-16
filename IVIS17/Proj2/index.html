@@ -1,0 +1,292 @@
+<html>
+<head>
+  <title>A D3 chart</title>
+  <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+  <script src="json-world.js"></script>
+</head>
+<body>
+
+
+  <p>Choose variable:
+  <input type="radio" name="variable" id="happniess" value="happniess" onclick="variable='happiness';makeMap();" />
+  Happniess
+  <input type="radio" name="variable" id="family" value="family" onclick="variable='family';makeMap();" />
+  Family
+  <input type="radio" name="variable" id="friends" value="friends" onclick="variable='friends';makeMap();" /> 
+  Friends
+  <input type="radio" name="variable" id="leisure" value="leisure" onclick="variable='leisure';makeMap();" /> 
+  Leisure
+  <input type="radio" name="variable" id="politics" value="politics" onclick="variable='politics';makeMap();" /> 
+  Politics
+  <input type="radio" name="variable" id="religion" value="religion" onclick="variable='religion';makeMap();" /> 
+  Religion
+  <input type="radio" name="variable" id="work" value="work" onclick="variable='work';makeMap();" /> 
+  Work
+  <input type="radio" name="variable" id="health" value="health" onclick="variable='health';makeMap();" /> 
+  Health
+  </p>
+
+
+  <script>
+
+//Skapar en global variabel för data
+var myData;
+var currentIndex = 0;
+var variable = "happiness";
+var wave = 0
+
+var svg = d3.select( "body" )
+            .append( "svg" )
+              .attr( "width", 500 )
+              .attr( "height", 150 );
+
+  var width = 1000,
+      height = 800;
+
+
+  var svgMap = d3.select( "body" )
+    .append( "svg" )
+    .attr( "width", width )
+    .attr( "height", height );
+
+
+//Läs in data
+function readData(){
+
+  //svg.selectAll("svg").remove();
+
+  //read default wave and make map
+  if(wave === 0){
+
+    d3.csv("wave1.csv", function(data){
+      myData = data;
+      makeMap();
+      drawChart(obj2Arr(myData[0]));
+    });
+  }
+
+  //read wave 1 and update map
+  if(wave === 1){
+
+    d3.csv("wave1.csv", function(data){
+      myData = data;
+      makeMap();
+      drawChart(obj2Arr(myData[currentIndex]));
+    });
+  }
+
+  //read wave 2 and update map
+  else if(wave === 2){
+
+    d3.csv("wave2.csv", function(data){
+    myData = data;
+    makeMap();
+    drawChart(obj2Arr(myData[currentIndex]));
+    });
+  }
+
+  //makeMap();
+}
+
+
+
+
+//Rita diagram
+function drawChart( dataArray ){
+
+  if (typeof dataArray === "string"){
+    for (i = 0; i < myData.length; i++) { 
+      if(dataArray === myData[i].country){
+        dataArray = [ myData[i].happiness, myData[i].family, myData[i].friends, myData[i].leisure, myData[i].politics, myData[i].religion, myData[i].work, myData[i].health ];
+       // country,happiness,family,friends,leisure,politics,religion,work,health
+
+      }
+    }
+    if (typeof dataArray === "string"){
+      alert("Sorry, no data for this country.");
+      return;
+    }
+  }
+
+    // create a selection
+  var selection = svg.selectAll( "rect" )
+                       .data( dataArray );
+
+    // create new elements wherever needed                   
+    selection.enter()
+      .append( "rect" )
+      .attr( "x", function(d,i){
+        return i*25;
+      })
+      .attr( "width", 15 )
+      .attr( "fill", "#d1c9b8" )
+      //Klicka på en stapel för att ta bort
+      .on( "click", function(){
+        d3.select(this).remove();
+      });
+
+    // set bar heights based on data
+    selection
+      .attr( "height", function(d){
+        return d/10 * 15;
+      })
+      .attr( "y", function(d){
+        return 150 - d/10 * 15;
+      });
+    
+
+    // remove any unused bars
+    selection.exit()
+      .remove();
+}
+
+
+
+//Skapa karta
+function makeMap(){
+
+  //d3.select("svgMap").remove();
+
+
+  var g = svgMap.append( "g" );
+
+  var albersProjection = d3.geo.mercator()
+    .scale( 160 )
+    .rotate( [71.057,0] )
+    .center( [0, 42.313] )
+    .translate( [width/2,height/2] );
+
+  var geoPath = d3.geo.path()
+      .projection( albersProjection );
+
+  g.selectAll( "path" )
+    .data( world_json.features )
+    .enter()
+    .append( "path" )
+    .attr( "fill", function(d){
+      for (i = 0; i < myData.length; i++) { 
+        //console.log(i);
+        if(d.properties.name === myData[i].country){
+          // var color = d3.scale()
+          //   .domain([0, 100])
+          //   .range(["red", "green"]);
+
+          var color = d3.scale.linear().domain([0,50,100]).range(["#EB382F","#FFFE5D","#A8FB54"]);
+
+            //console.log(myData[i][variable]);
+            return color(myData[i][variable]); 
+
+
+          //return "#0f0";
+        }
+      }
+      return "#ccc";
+    })
+    .attr( "d", geoPath )
+    .on("click", function(d){
+      drawChart(d.properties.name);
+      currentIndex = getIndex(d.properties.name);
+      // console.log(currentIndex);
+      // console.log(d.properties.name);
+    });
+
+    // // remove old map
+    // selection.exit()
+    //   .remove();
+  }
+
+  // function updateMap(){
+
+  // var g = svgMap.append( "g" );
+
+  // var albersProjection = d3.geo.mercator()
+  //   .scale( 160 )
+  //   .rotate( [71.057,0] )
+  //   .center( [0, 42.313] )
+  //   .translate( [width/2,height/2] );
+
+  // var geoPath = d3.geo.path()
+  //     .projection( albersProjection );
+  //   var g = svgMap.append( "g" );
+
+  //     g.selectAll( "path" )
+  //   .data( world_json.features )
+  //   .enter()
+  //   .append( "path" )
+  //   .attr( "fill", function(d){
+  //     for (i = 0; i < myData.length; i++) { 
+  //       //console.log(i);
+  //       if(d.properties.name === myData[i].country){
+  //         // var color = d3.scale()
+  //         //   .domain([0, 100])
+  //         //   .range(["red", "green"]);
+
+  //         var color = d3.scale.linear().domain([0,50,100]).range(["#EB382F","#FFFE5D","#A8FB54"]);
+
+  //           console.log(myData[i].happiness);
+  //           return color(myData[i][variable]);
+
+
+  //         //return "#0f0";
+  //       }
+  //     }
+  //     return "#ccc";
+  //   })
+  //   .attr( "d", geoPath )
+  //   .on("click", function(d){
+  //     drawChart(d.properties.name);
+  //     currentIndex = getIndex(d.properties.name);
+  //     // console.log(currentIndex);
+  //     // console.log(d.properties.name);
+  //   });
+  // }
+
+  //Skapa lista
+  function makeList( dataArray ){
+
+  var body = d3.select( "body" );
+  // create a selection
+
+  var selection = body.selectAll( "p" )
+                       .data( dataArray );
+  
+  selection.enter()
+    .append("p")
+    .text(function(d){
+      return d.country;
+    })
+    .on( "click", function(d){
+      drawChart([d.happniess, d.family]);    //viktigt med array istället för d som bara är ett objekt. Ok, denna är inte uppdaterad efter ny data. 
+    });            
+  }
+
+
+  function getIndex(name){
+    for (i = 0; i < myData.length; i++) { 
+      if(name === myData[i].country){
+        return i;
+      }
+    }
+  }
+
+
+function obj2Arr(object){
+  return [ object.happiness, object.family, object.friends, object.leisure, object.politics, object.religion, object.work, object.health ];
+}
+
+readData("0");
+
+
+  </script>
+
+  <!-- klicka på knappen för att lägga till ny data alt. ta bort sista stapeln -->
+  <!-- <button onclick="readData('2')"></button>  <!--Vet ej varför denna blir liten?--
+
+  <!-- drawChart(obj2Arr(myData[1])) -->
+  <!--<button onclick="console.log(currentIndex);console.log('hej');"></button>  -->
+  <input type="button" onclick="wave=1;readData();" value="First Wave" />
+  <input type="button" onclick="wave=2;readData();" value="Second Wave" />
+  
+
+</body>
+</html>
