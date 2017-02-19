@@ -7,15 +7,20 @@
 <body>
 
 
+  <input type="button" onclick="wave=1;readData();" value="First Wave" />
+  <input type="button" onclick="wave=2;readData();" value="Second Wave" />
+  <input type="button" onclick="wave=3;readData();" value="Third Wave" />
+  <input type="button" onclick="wave=4;readData();" value="Fourth Wave" />
+
   <p>Choose variable:
-  <input type="radio" name="variable" id="happniess" value="happniess" onclick="variable='happiness';makeMap();" />
+  <input type="radio" name="variable" id="happniess" value="happniess" onclick="variable='happiness';makeMap();" checked="checked" />
   Happniess
   <input type="radio" name="variable" id="family" value="family" onclick="variable='family';makeMap();" />
   Family
   <input type="radio" name="variable" id="friends" value="friends" onclick="variable='friends';makeMap();" /> 
   Friends
-  <input type="radio" name="variable" id="leisure" value="leisure" onclick="variable='leisure';makeMap();" /> 
-  Leisure
+  <input type="radio" name="variable" id="parents" value="parents" onclick="variable='parents';makeMap();" /> 
+  parents
   <input type="radio" name="variable" id="politics" value="politics" onclick="variable='politics';makeMap();" /> 
   Politics
   <input type="radio" name="variable" id="religion" value="religion" onclick="variable='religion';makeMap();" /> 
@@ -34,11 +39,13 @@ var myData;
 var currentIndex = 0;
 var variable = "happiness";
 var wave = 0
+var countryName;
+
 
 var svg = d3.select( "body" )
             .append( "svg" )
-              .attr( "width", 500 )
-              .attr( "height", 150 );
+              .attr( "width", 300 )
+              .attr( "height", 300 );
 
   var width = 1000,
       height = 800;
@@ -58,33 +65,54 @@ function readData(){
   //read default wave and make map
   if(wave === 0){
 
-    d3.csv("wave1.csv", function(data){
+    d3.csv("wave3.csv", function(data){
+      wave = 1;
       myData = data;
       makeMap();
-      drawChart(obj2Arr(myData[0]));
+      makeList(myData);
+      drawChart("World");
     });
   }
 
   //read wave 1 and update map
   if(wave === 1){
 
-    d3.csv("wave1.csv", function(data){
+    d3.csv("wave3.csv", function(data){
       myData = data;
       makeMap();
-      drawChart(obj2Arr(myData[currentIndex]));
+      drawChart(countryName);
     });
   }
 
   //read wave 2 and update map
   else if(wave === 2){
 
-    d3.csv("wave2.csv", function(data){
-    myData = data;
-    makeMap();
-    drawChart(obj2Arr(myData[currentIndex]));
+    d3.csv("wave4.csv", function(data){
+      myData = data;
+      makeMap();
+      drawChart(countryName);
     });
   }
 
+    //read wave 3 and update map
+  else if(wave === 3){
+
+    d3.csv("wave5.csv", function(data){
+      myData = data;
+      makeMap();
+      drawChart(countryName);
+    });
+  }
+
+  //read wave 4 and update map
+  else if(wave === 4){
+
+    d3.csv("wave6.csv", function(data){
+    myData = data;
+    makeMap();
+    drawChart(countryName);
+    });
+  }
   //makeMap();
 }
 
@@ -97,28 +125,56 @@ function drawChart( dataArray ){
   if (typeof dataArray === "string"){
     for (i = 0; i < myData.length; i++) { 
       if(dataArray === myData[i].country){
-        dataArray = [ myData[i].happiness, myData[i].family, myData[i].friends, myData[i].leisure, myData[i].politics, myData[i].religion, myData[i].work, myData[i].health ];
-       // country,happiness,family,friends,leisure,politics,religion,work,health
+        countryName = myData[i].country;
+        // console.log(countryName);
+        // console.log(myData[i].happiness);
+
+        //Om landet saknar data vid klick eller byte av våg:
+        if(myData[i].happiness == undefined){
+          //d3.select("svg").selectAll("rect").remove();
+          dataArray = [0,0,0,0,0,0,0,0];
+          //alert("Sorry, no data for this wave.");
+        }
+
+        else{
+          dataArray = [ myData[i].happiness, myData[i].family, myData[i].friends, myData[i].parents, myData[i].politics, myData[i].religion, myData[i].work, myData[i].health ];
+        }
+       // country,happiness,family,friends,parents,politics,religion,work,health
 
       }
     }
+    //Om man klickar på ett land som inte finns
     if (typeof dataArray === "string"){
+      //d3.select("svg").selectAll("rect").remove();
       alert("Sorry, no data for this country.");
+      //drawChart("World");
       return;
     }
+
+
   }
 
-    // create a selection
+  //Remove old text
+  var textSelection = svg.selectAll("text")
+                        .data( dataArray );
+  
+  textSelection.exit()
+      .remove();
+
+
+      // create a selection
   var selection = svg.selectAll( "rect" )
                        .data( dataArray );
+
+
 
     // create new elements wherever needed                   
     selection.enter()
       .append( "rect" )
-      .attr( "x", function(d,i){
+      .attr( "y", function(d,i){
         return i*25;
       })
-      .attr( "width", 15 )
+      .attr( "height", 15 )
       .attr( "fill", "#d1c9b8" )
       //Klicka på en stapel för att ta bort
       .on( "click", function(){
@@ -127,17 +183,60 @@ function drawChart( dataArray ){
 
     // set bar heights based on data
     selection
-      .attr( "height", function(d){
+      .attr( "width", function(d){
         return d/10 * 15;
       })
-      .attr( "y", function(d){
-        return 150 - d/10 * 15;
+      .attr( "x", function(d){
+        return 100;
       });
     
+    //Skriv ut etiketter
+    svg.selectAll("text")
+      .data(dataArray)
+      .enter()
+        .append("text")
+        .attr("fill", "black")
+        .attr("x", function(d, i) { return 5; })
+        .attr("y", function(d, i) { return (i * 25) + 15; })
+        .text(function (d,i) { if(i==0){ return "Happniess";}
+                               if(i==1){ return "Family";}
+                               if(i==2){ return "Friends";}
+                               if(i==3){ return "parents";}
+                               if(i==4){ return "Politics";}
+                               if(i==5){ return "Religion";}
+                               if(i==6){ return "Work";}
+                               if(i==7){ return "Health";}
+
+
+         })
+        
 
     // remove any unused bars
     selection.exit()
       .remove();
+
+  // Skriv ut Land
+  //console.log(countryName + "!");
+  svg.append("text")
+        .attr("x", 100)             
+        .attr("y", 220) 
+        .style("font-size", "24px")   
+        .text(countryName)
+        .append('svg:tspan')  //fixar radbryt-ish
+        .attr("x", 100)             
+        .attr("y", 240) 
+        .style("font-size", "16px")   
+        .text("Wave: " + wave )
+
+        //Om data saknas
+        if(dataArray[0]==0){
+          console.log("funkar");
+         svg.append("text") 
+        .attr("x", 100)             
+        .attr("y", 260) 
+        .style("font-size", "16px")   
+        .text("No data")
+        }
 }
 
 
@@ -241,11 +340,28 @@ function makeMap(){
   //   });
   // }
 
-  //Skapa lista
+  //Skapa lista //bara anropad för wave1 i nuläget
   function makeList( dataArray ){
 
-  var body = d3.select( "body" );
   // create a selection
+  var body = d3.select( "body" );
+
+  //rensa bort dom utan data //Av någon anledning så bråkar denna med att klicka på ett land utan data.. rensar även orginaldata?
+  // for(i=0; i<dataArray.length; i++){
+  //   //console.log(dataArray[i]);
+  //   if (dataArray[i].happiness == undefined){
+  //     //console.log("hej");
+  //     var dataArray = dataArray.splice(i,1);
+  //     console.log(dataArray.length)
+
+  //   }
+  // }
+
+//Sortering, funkar inte helt med att köra in variable  
+  dataArray.sort(function(x,y){
+    console.log(variable);
+   return d3.descending(x.happiness, y.happiness);
+})
 
   var selection = body.selectAll( "p" )
                        .data( dataArray );
@@ -256,7 +372,8 @@ function makeMap(){
       return d.country;
     })
     .on( "click", function(d){
-      drawChart([d.happniess, d.family]);    //viktigt med array istället för d som bara är ett objekt. Ok, denna är inte uppdaterad efter ny data. 
+      countryName = d.country;
+      drawChart(d.country);    //Ok, denna är inte uppdaterad efter ny data. 
     });            
   }
 
@@ -271,22 +388,14 @@ function makeMap(){
 
 
 function obj2Arr(object){
-  return [ object.happiness, object.family, object.friends, object.leisure, object.politics, object.religion, object.work, object.health ];
+  //countryName = object.country;    //genom att toggla den här kan jag få mina två olika fellägen med titlarn om den nedanförskickar arrayen?
+  return object.country;//[ object.happiness, object.family, object.friends, object.parents, object.politics, object.religion, object.work, object.health ];
 }
 
 readData("0");
 
 
   </script>
-
-  <!-- klicka på knappen för att lägga till ny data alt. ta bort sista stapeln -->
-  <!-- <button onclick="readData('2')"></button>  <!--Vet ej varför denna blir liten?--
-
-  <!-- drawChart(obj2Arr(myData[1])) -->
-  <!--<button onclick="console.log(currentIndex);console.log('hej');"></button>  -->
-  <input type="button" onclick="wave=1;readData();" value="First Wave" />
-  <input type="button" onclick="wave=2;readData();" value="Second Wave" />
   
-
 </body>
 </html>
