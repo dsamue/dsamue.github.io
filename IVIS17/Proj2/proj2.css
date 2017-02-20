@@ -1,0 +1,73 @@
+html, body {
+margin:0;
+padding:0;
+
+}
+
+body{
+	background-color: #FAFAFA;
+	font-family: "Arial", "Helvetica", sans-serif;
+}
+
+
+.sidebar {
+
+    height: 100%; /* 100% Full-height */
+    width: 300; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #c5c5c5; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 10px; /* Place content 60px from the top */
+    padding-left: 10px;
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    color: black;
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    margin-left: 320px;
+
+}
+
+
+/*.header{
+	z-index:2;
+    height:100px;
+    background:#F0F0F0;
+    position: relative;
+    /*margin:-10px auto;
+}*/
+
+
+}
+#chart{
+	position: fixed;
+	top: 500px;
+}
+
+
+#worldButton{
+	margin-left: 100px;
+}
+
+
+#mapandlist {
+    width: 1300px;
+/*    border: 1px solid black;*/
+    overflow: hidden; /* will contain if #first is longer than #second */
+}
+#map {
+    width: 1000px;
+    float:left; /* add this */
+/*    border: 1px;*/
+}
+#list {
+/*    border: 1px;*/
+    overflow: hidden; /* if you don't want #second to wrap below #first */
+    margin-left: 10px;
+    margin-top: 200px;
+}
