@@ -4,8 +4,8 @@
 
     <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 
-    <script type="text/javascript" src="json-world.js" async></script>
-    <script type="text/javascript" src="proj2.js" async></script>
+    <script type="text/javascript" src="json-world.js" defer></script>
+    <script type="text/javascript" src="proj2.js" defer></script>
 
     <link rel="stylesheet" type="text/css" href="proj2.css"></link>
   </head>
@@ -54,18 +54,20 @@
 
         <div id="year">
           <p> Choose period:
-            <input type="radio" name="variable" onclick="wave=10;readData();makeList(myData);" value="All Waves" checked="checked" />
+            <input type="radio" name="wave" onclick="wave=10;readData();makeList(myData);" value="All Waves" checked="checked" />
             All Waves
-            <input type="radio" name="variable" onclick="wave=3;readData();makeList(myData);" value="1995-1999" />
+            <input type="radio" name="wave" onclick="wave=3;readData();makeList(myData);" value="1995-1999" />
             1995-1999
-            <input type="radio" name="variable" onclick="wave=4;readData();makeList(myData);" value="2000-2004" />
+            <input type="radio" name="wave" onclick="wave=4;readData();makeList(myData);" value="2000-2004" />
             2000-2004
-            <input type="radio" name="variable" onclick="wave=5;readData();makeList(myData);" value="2005-2009" />
+            <input type="radio" name="wave" onclick="wave=5;readData();makeList(myData);" value="2005-2009" />
             2005-2009
-            <input type="radio" name="variable" onclick="wave=6;readData();makeList(myData);" value="2010-2014" />
+            <input type="radio" name="wave" onclick="wave=6;readData();makeList(myData);" value="2010-2014" />
             2010-2014
           </p>
         </div>
+
+        <a id="trailLink" href="https://docs.google.com/document/d/1PA5BIbOUp4eMcgOTl0E1DFIk-JlXOeFow16z6CKHIPc/edit?usp=sharing">Analytic Trail</a>
 
       </div>
 
