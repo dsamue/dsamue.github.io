@@ -1,0 +1,107 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+China,2015,United States,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,410804.879573
+China,2015,"Hong Kong, China",All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,334290.809773
+China,2015,Japan,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,135896.918447
+China,2015,"Korea, Rep.",All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,101474.642077
+China,2015,Germany,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,69216.821304
+China,2015,"Korea, Rep.",All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,174563.829863
+China,2015,United States,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,150543.983983
+China,2015,"Other Asia, nes",All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,144980.99889
+China,2015,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,144434.50606
+China,2015,Japan,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,143092.948903
+China,2015,World,Animal,Export,Export(US$ Mil),17356.155528
+China,2015,World,Vegetable,Export,Export(US$ Mil),23005.934613
+China,2015,World,Food Products,Export,Export(US$ Mil),27921.855881
+China,2015,World,Minerals,Export,Export(US$ Mil),3829.807393
+China,2015,World,Fuels,Export,Export(US$ Mil),27946.00674
+China,2015,World,Chemicals,Export,Export(US$ Mil),106122.318888
+China,2015,World,Plastic or Rubber,Export,Export(US$ Mil),86518.985967
+China,2015,World,Hides and Skins,Export,Export(US$ Mil),35114.859868
+China,2015,World,Wood,Export,Export(US$ Mil),40308.967842
+China,2015,World,Textiles and Clothing,Export,Export(US$ Mil),273644.634389
+China,2015,World,Footwear,Export,Export(US$ Mil),68354.95478
+China,2015,World,Stone and Glass,Export,Export(US$ Mil),84478.008786
+China,2015,World,Metals,Export,Export(US$ Mil),176783.599478
+China,2015,World,Mach and Elec,Export,Export(US$ Mil),963640.05283
+China,2015,World,Transportation,Export,Export(US$ Mil),107338.981452
+China,2015,World,Miscellaneous,Export,Export(US$ Mil),239490.798048
+China,2015,World,Raw materials,Export,Export(US$ Mil),37932.250753
+China,2015,World,Intermediate goods,Export,Export(US$ Mil),365603.113844
+China,2015,World,Consumer goods,Export,Export(US$ Mil),830749.894378001
+China,2015,World,Capital goods,Export,Export(US$ Mil),1008282.100853
+China,2015,World,Raw materials,Import,Import(US$ Mil),366439.968384
+China,2015,World,Intermediate goods,Import,Import(US$ Mil),316304.298312001
+China,2015,World,Consumer goods,Import,Import(US$ Mil),204576.270592
+China,2015,World,Capital goods,Import,Import(US$ Mil),708007.908161
+China,2015,World,All Products,Export,Exports (in US$ Mil),2281855.922483
+China,2015,World,All Products,Import,Imports (in US$ Mil),1681670.81614
+China,2015,World,All Products,Tariff,Duty Free Imports (US$ Thousand),840125783.487
+China,2015,...,...,Development,Trade Balance (current US$ Mil),385502.3366
+China,2015,...,...,Development,GDP (current US$ Mil),11007720.594
+China,2015,...,...,Tariff,No. Of Tariff Agreement,22
+China,2015,...,...,Import,No. Of Import partners,206
+China,2015,...,...,Import,No. Of Import products,4457
+China,2015,...,...,Export,No. Of Export partners,209
+China,2015,...,...,Export,No. Of Export products,4428
+China,2015,...,...,Others,Population,1371220000
+China,2016,...,...,Others,Ease of Doing Business Rank,78
+China,2016,...,...,Others,Trading Across Borders Rank,96
+China,2014,...,...,Others,LPI Rank,28
+China,2014,...,...,Others,LPI Score,3.531463
+China,2013,...,...,Others,No Of NTM Affected Products (HS 6 Digit),81
+China,2013,...,...,Others,No Of NTM Measures,3
+China,2009,...,...,Others,Overall Trade Restrictiveness Index -  Applied Tariff,0.0973663
+China,2009,...,...,Others,Overall Trade Restrictiveness Index - MFN Tariff,0.1021822
+China,,...,...,Others,Services Trade Restrictions Index - Over All,36.6
+China,2013,...,...,Others,Temporary Trade Barriers in Effect - Simple Average,1.414180517
+China,2013,...,...,Others,Temporary Trade Barriers in Effect - Weighted Average,1.888844728
+China,2015,United States,All Products,Export,Partner share(%)-Top 5 Export Partner,18.0031
+China,2015,"Hong Kong, China",All Products,Export,Partner share(%)-Top 5 Export Partner,14.65
+China,2015,Japan,All Products,Export,Partner share(%)-Top 5 Export Partner,5.9555
+China,2015,"Korea, Rep.",All Products,Export,Partner share(%)-Top 5 Export Partner,4.447
+China,2015,Germany,All Products,Export,Partner share(%)-Top 5 Export Partner,3.0334
+China,2015,"Korea, Rep.",All Products,Import,Partner share(%)-Top 5 Import Partner,10.3804
+China,2015,United States,All Products,Import,Partner share(%)-Top 5 Import Partner,8.952
+China,2015,"Other Asia, nes",All Products,Import,Partner share(%)-Top 5 Import Partner,8.6212
+China,2015,China,All Products,Import,Partner share(%)-Top 5 Import Partner,8.5888
+China,2015,Japan,All Products,Import,Partner share(%)-Top 5 Import Partner,8.509
+China,2015,World,Animal,Export,Export Product share(%),0.7606
+China,2015,World,Vegetable,Export,Export Product share(%),1.0082
+China,2015,World,Food Products,Export,Export Product share(%),1.2236
+China,2015,World,Minerals,Export,Export Product share(%),0.1678
+China,2015,World,Fuels,Export,Export Product share(%),1.2247
+China,2015,World,Chemicals,Export,Export Product share(%),4.6507
+China,2015,World,Plastic or Rubber,Export,Export Product share(%),3.7916
+China,2015,World,Hides and Skins,Export,Export Product share(%),1.5389
+China,2015,World,Wood,Export,Export Product share(%),1.7665
+China,2015,World,Textiles and Clothing,Export,Export Product share(%),11.9922
+China,2015,World,Footwear,Export,Export Product share(%),2.9956
+China,2015,World,Stone and Glass,Export,Export Product share(%),3.7022
+China,2015,World,Metals,Export,Export Product share(%),7.7474
+China,2015,World,Mach and Elec,Export,Export Product share(%),42.2305
+China,2015,World,Transportation,Export,Export Product share(%),4.704
+China,2015,World,Miscellaneous,Export,Export Product share(%),10.4954
+China,2015,World,Raw materials,Export,Export Product share(%),1.6623
+China,2015,World,Intermediate goods,Export,Export Product share(%),16.0222
+China,2015,World,Consumer goods,Export,Export Product share(%),36.4068
+China,2015,World,Capital goods,Export,Export Product share(%),44.1869
+China,2015,World,Raw materials,Import,Import Product share(%),21.7902
+China,2015,World,Intermediate goods,Import,Import Product share(%),18.8089
+China,2015,World,Consumer goods,Import,Import Product share(%),12.1651
+China,2015,World,Capital goods,Import,Import Product share(%),42.1015
+China,2015,World,Raw materials,Tariff,Weighted Average (%),1.37474243820141
+China,2015,World,Intermediate goods,Tariff,Weighted Average (%),3.55327756381166
+China,2015,World,Consumer goods,Tariff,Weighted Average (%),10.1427561558541
+China,2015,World,Capital goods,Tariff,Weighted Average (%),4.75437852168799
+China,2015,World,All Products,Trade Indicator,World Growth (%),-7.8698674978916
+China,2015,World,All Products,Trade Indicator,Country Growth (%),-3.0836105119828
+China,2015,World,All Products,Tariff,Simple Average (%),7.82004460698607
+China,2015,World,All Products,Tariff,Weighted Average (%),4.52189851616838
+China,2015,World,All Products,Tariff,Maximum Rate (%),3000
+China,2015,World,All Products,Tariff,Duty Free Tariff Lines Share (%),26.1645351464107
+China,2015,...,...,Trade Indicator,Index of export market penetration,49.0634748671896
+China,2015,...,...,Trade Indicator,HH Market concentration index,0.0690749096398507
+China,2015,...,...,Development,Trade Balance (% of GDP),3.502108664
+China,2015,...,...,Development,Trade in services (% of GDP),6.862780023
+China,2015,...,...,Development,Trade (% of GDP),40.671681678
+China,2015,...,...,Development,"GNI per capita, Atlas method (current US$)",7930

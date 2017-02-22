@@ -1,0 +1,104 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Burkina Faso,2015,Switzerland,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,1101.566448
+Burkina Faso,2015,India,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,224.197036
+Burkina Faso,2015,Singapore,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,218.478747
+Burkina Faso,2015,South Africa,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,84.8526
+Burkina Faso,2015,Cote d'Ivoire,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,77.419619
+Burkina Faso,2015,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,330.333168
+Burkina Faso,2015,France,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,269.180086
+Burkina Faso,2015,Cote d'Ivoire,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,249.305613
+Burkina Faso,2015,Netherlands,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,227.719156
+Burkina Faso,2015,United States,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,192.426022
+Burkina Faso,2015,World,Animal,Export,Export(US$ Mil),7.479091
+Burkina Faso,2015,World,Vegetable,Export,Export(US$ Mil),348.618149
+Burkina Faso,2015,World,Food Products,Export,Export(US$ Mil),11.807568
+Burkina Faso,2015,World,Minerals,Export,Export(US$ Mil),5.853947
+Burkina Faso,2015,World,Fuels,Export,Export(US$ Mil),0.191905
+Burkina Faso,2015,World,Chemicals,Export,Export(US$ Mil),14.744626
+Burkina Faso,2015,World,Plastic or Rubber,Export,Export(US$ Mil),2.02981
+Burkina Faso,2015,World,Hides and Skins,Export,Export(US$ Mil),0.488717
+Burkina Faso,2015,World,Wood,Export,Export(US$ Mil),1.439354
+Burkina Faso,2015,World,Textiles and Clothing,Export,Export(US$ Mil),303.205732
+Burkina Faso,2015,World,Footwear,Export,Export(US$ Mil),0.162458
+Burkina Faso,2015,World,Stone and Glass,Export,Export(US$ Mil),1346.52499
+Burkina Faso,2015,World,Metals,Export,Export(US$ Mil),64.968697
+Burkina Faso,2015,World,Mach and Elec,Export,Export(US$ Mil),34.153346
+Burkina Faso,2015,World,Transportation,Export,Export(US$ Mil),31.299932
+Burkina Faso,2015,World,Miscellaneous,Export,Export(US$ Mil),4.528296
+Burkina Faso,2015,World,Raw materials,Export,Export(US$ Mil),627.217423
+Burkina Faso,2015,World,Intermediate goods,Export,Export(US$ Mil),1457.701512
+Burkina Faso,2015,World,Consumer goods,Export,Export(US$ Mil),32.121992
+Burkina Faso,2015,World,Capital goods,Export,Export(US$ Mil),60.419832
+Burkina Faso,2015,World,Raw materials,Import,Import(US$ Mil),81.410871
+Burkina Faso,2015,World,Intermediate goods,Import,Import(US$ Mil),631.743599000001
+Burkina Faso,2015,World,Consumer goods,Import,Import(US$ Mil),1549.649922
+Burkina Faso,2015,World,Capital goods,Import,Import(US$ Mil),704.875363
+Burkina Faso,2015,World,All Products,Export,Exports (in US$ Mil),2177.496616
+Burkina Faso,2015,World,All Products,Import,Imports (in US$ Mil),2979.784874
+Burkina Faso,2015,World,All Products,Tariff,Duty Free Imports (US$ Thousand),61469.393
+Burkina Faso,2015,...,...,Development,Trade Balance (current US$ Mil),-1610.0173486
+Burkina Faso,2015,...,...,Development,GDP (current US$ Mil),10678.201939
+Burkina Faso,2015,...,...,Tariff,No. Of Tariff Agreement,2
+Burkina Faso,2015,...,...,Import,No. Of Import partners,144
+Burkina Faso,2015,...,...,Import,No. Of Import products,2782
+Burkina Faso,2015,...,...,Export,No. Of Export partners,95
+Burkina Faso,2015,...,...,Export,No. Of Export products,687
+Burkina Faso,2015,...,...,Others,Population,18105570
+Burkina Faso,2016,...,...,Others,Ease of Doing Business Rank,146
+Burkina Faso,2016,...,...,Others,Trading Across Borders Rank,104
+Burkina Faso,2015,...,...,Others,CPIA Trade Ratings,4
+Burkina Faso,2014,...,...,Others,LPI Rank,98
+Burkina Faso,2014,...,...,Others,LPI Score,2.6383
+Burkina Faso,2012,...,...,Others,No Of NTM Affected Products (HS 6 Digit),5052
+Burkina Faso,2012,...,...,Others,No Of NTM Measures,33
+Burkina Faso,2009,...,...,Others,Overall Trade Restrictiveness Index -  Applied Tariff,0.1214529
+Burkina Faso,2009,...,...,Others,Overall Trade Restrictiveness Index - MFN Tariff,0.1351108
+Burkina Faso,2015,Switzerland,All Products,Export,Partner share(%)-Top 5 Export Partner,50.5887
+Burkina Faso,2015,India,All Products,Export,Partner share(%)-Top 5 Export Partner,10.2961
+Burkina Faso,2015,Singapore,All Products,Export,Partner share(%)-Top 5 Export Partner,10.0335
+Burkina Faso,2015,South Africa,All Products,Export,Partner share(%)-Top 5 Export Partner,3.8968
+Burkina Faso,2015,Cote d'Ivoire,All Products,Export,Partner share(%)-Top 5 Export Partner,3.5554
+Burkina Faso,2015,China,All Products,Import,Partner share(%)-Top 5 Import Partner,11.0858
+Burkina Faso,2015,France,All Products,Import,Partner share(%)-Top 5 Import Partner,9.0335
+Burkina Faso,2015,Cote d'Ivoire,All Products,Import,Partner share(%)-Top 5 Import Partner,8.3666
+Burkina Faso,2015,Netherlands,All Products,Import,Partner share(%)-Top 5 Import Partner,7.6421
+Burkina Faso,2015,United States,All Products,Import,Partner share(%)-Top 5 Import Partner,6.4577
+Burkina Faso,2015,World,Animal,Export,Export Product share(%),0.3435
+Burkina Faso,2015,World,Vegetable,Export,Export Product share(%),16.01
+Burkina Faso,2015,World,Food Products,Export,Export Product share(%),0.5423
+Burkina Faso,2015,World,Minerals,Export,Export Product share(%),0.2688
+Burkina Faso,2015,World,Fuels,Export,Export Product share(%),0.0088
+Burkina Faso,2015,World,Chemicals,Export,Export Product share(%),0.6771
+Burkina Faso,2015,World,Plastic or Rubber,Export,Export Product share(%),0.0932
+Burkina Faso,2015,World,Hides and Skins,Export,Export Product share(%),0.0224
+Burkina Faso,2015,World,Wood,Export,Export Product share(%),0.0661
+Burkina Faso,2015,World,Textiles and Clothing,Export,Export Product share(%),13.9245
+Burkina Faso,2015,World,Footwear,Export,Export Product share(%),0.0075
+Burkina Faso,2015,World,Stone and Glass,Export,Export Product share(%),61.8382
+Burkina Faso,2015,World,Metals,Export,Export Product share(%),2.9836
+Burkina Faso,2015,World,Mach and Elec,Export,Export Product share(%),1.5685
+Burkina Faso,2015,World,Transportation,Export,Export Product share(%),1.4374
+Burkina Faso,2015,World,Miscellaneous,Export,Export Product share(%),0.208
+Burkina Faso,2015,World,Raw materials,Export,Export Product share(%),28.8045
+Burkina Faso,2015,World,Intermediate goods,Export,Export Product share(%),66.9439
+Burkina Faso,2015,World,Consumer goods,Export,Export Product share(%),1.4752
+Burkina Faso,2015,World,Capital goods,Export,Export Product share(%),2.7747
+Burkina Faso,2015,World,Raw materials,Import,Import Product share(%),2.7321
+Burkina Faso,2015,World,Intermediate goods,Import,Import Product share(%),21.201
+Burkina Faso,2015,World,Consumer goods,Import,Import Product share(%),52.0054
+Burkina Faso,2015,World,Capital goods,Import,Import Product share(%),23.6552
+Burkina Faso,2015,World,Raw materials,Tariff,Weighted Average (%),8.81552042110354
+Burkina Faso,2015,World,Intermediate goods,Tariff,Weighted Average (%),7.09070787965005
+Burkina Faso,2015,World,Consumer goods,Tariff,Weighted Average (%),13.9283251170369
+Burkina Faso,2015,World,Capital goods,Tariff,Weighted Average (%),7.39121391152167
+Burkina Faso,2015,World,All Products,Trade Indicator,World Growth (%),-7.8698674978916
+Burkina Faso,2015,World,All Products,Trade Indicator,Country Growth (%),-9.62875388798109
+Burkina Faso,2015,World,All Products,Tariff,Simple Average (%),12.1990152884853
+Burkina Faso,2015,World,All Products,Tariff,Weighted Average (%),9.59376715505368
+Burkina Faso,2015,World,All Products,Tariff,Maximum Rate (%),35
+Burkina Faso,2015,World,All Products,Tariff,Duty Free Tariff Lines Share (%),2.73862908392056
+Burkina Faso,2015,...,...,Trade Indicator,Index of export market penetration,1.47731863117196
+Burkina Faso,2015,...,...,Trade Indicator,HH Market concentration index,0.370267791465948
+Burkina Faso,2015,...,...,Development,Trade Balance (% of GDP),-15.077607239
+Burkina Faso,2015,...,...,Development,Trade (% of GDP),65.412242997
+Burkina Faso,2015,...,...,Development,"GNI per capita, Atlas method (current US$)",640

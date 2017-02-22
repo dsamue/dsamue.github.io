@@ -1,0 +1,101 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Moldova,2015,Romania,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,446.370394
+Moldova,2015,Russian Federation,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,240.648608
+Moldova,2015,Italy,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,197.047302
+Moldova,2015,United Kingdom,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,138.156653
+Moldova,2015,Belarus,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,131.563932
+Moldova,2015,Romania,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,555.137307
+Moldova,2015,Russian Federation,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,535.691125
+Moldova,2015,Ukraine,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,371.128
+Moldova,2015,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,366.426128
+Moldova,2015,Germany,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,321.297162
+Moldova,2015,World,Animal,Export,Export(US$ Mil),37.51091
+Moldova,2015,World,Vegetable,Export,Export(US$ Mil),573.833523
+Moldova,2015,World,Food Products,Export,Export(US$ Mil),303.264905
+Moldova,2015,World,Minerals,Export,Export(US$ Mil),6.830334
+Moldova,2015,World,Fuels,Export,Export(US$ Mil),10.058404
+Moldova,2015,World,Chemicals,Export,Export(US$ Mil),118.739473
+Moldova,2015,World,Plastic or Rubber,Export,Export(US$ Mil),40.280738
+Moldova,2015,World,Hides and Skins,Export,Export(US$ Mil),25.026761
+Moldova,2015,World,Wood,Export,Export(US$ Mil),20.200234
+Moldova,2015,World,Textiles and Clothing,Export,Export(US$ Mil),273.714391
+Moldova,2015,World,Footwear,Export,Export(US$ Mil),24.013801
+Moldova,2015,World,Stone and Glass,Export,Export(US$ Mil),42.603083
+Moldova,2015,World,Metals,Export,Export(US$ Mil),43.244216
+Moldova,2015,World,Mach and Elec,Export,Export(US$ Mil),295.511341
+Moldova,2015,World,Transportation,Export,Export(US$ Mil),18.040197
+Moldova,2015,World,Miscellaneous,Export,Export(US$ Mil),133.965003
+Moldova,2015,World,Raw materials,Export,Export(US$ Mil),593.71745
+Moldova,2015,World,Intermediate goods,Export,Export(US$ Mil),234.919768
+Moldova,2015,World,Consumer goods,Export,Export(US$ Mil),1012.483101
+Moldova,2015,World,Capital goods,Export,Export(US$ Mil),123.127908
+Moldova,2015,World,Raw materials,Import,Import(US$ Mil),265.819233
+Moldova,2015,World,Intermediate goods,Import,Import(US$ Mil),934.188887999998
+Moldova,2015,World,Consumer goods,Import,Import(US$ Mil),1835.606708
+Moldova,2015,World,Capital goods,Import,Import(US$ Mil),643.127689999999
+Moldova,2015,World,All Products,Export,Exports (in US$ Mil),1966.837314
+Moldova,2015,World,All Products,Import,Imports (in US$ Mil),3986.820641
+Moldova,2015,World,All Products,Tariff,Duty Free Imports (US$ Thousand),2200591.416
+Moldova,2015,...,...,Development,Trade Balance (current US$ Mil),-2028.9208007
+Moldova,2015,...,...,Development,GDP (current US$ Mil),6568.2888618
+Moldova,2015,...,...,Tariff,No. Of Tariff Agreement,9
+Moldova,2015,...,...,Import,No. Of Import partners,165
+Moldova,2015,...,...,Import,No. Of Import products,3782
+Moldova,2015,...,...,Export,No. Of Export partners,115
+Moldova,2015,...,...,Export,No. Of Export products,2097
+Moldova,2015,...,...,Others,Population,3554150
+Moldova,2016,...,...,Others,Ease of Doing Business Rank,44
+Moldova,2016,...,...,Others,Trading Across Borders Rank,34
+Moldova,2015,...,...,Others,CPIA Trade Ratings,4.5
+Moldova,2014,...,...,Others,LPI Rank,94
+Moldova,2014,...,...,Others,LPI Score,2.653311
+Moldova,2015,Romania,All Products,Export,Partner share(%)-Top 5 Export Partner,22.6948
+Moldova,2015,Russian Federation,All Products,Export,Partner share(%)-Top 5 Export Partner,12.2353
+Moldova,2015,Italy,All Products,Export,Partner share(%)-Top 5 Export Partner,10.0185
+Moldova,2015,United Kingdom,All Products,Export,Partner share(%)-Top 5 Export Partner,7.0243
+Moldova,2015,Belarus,All Products,Export,Partner share(%)-Top 5 Export Partner,6.6891
+Moldova,2015,Romania,All Products,Import,Partner share(%)-Top 5 Import Partner,13.9243
+Moldova,2015,Russian Federation,All Products,Import,Partner share(%)-Top 5 Import Partner,13.4365
+Moldova,2015,Ukraine,All Products,Import,Partner share(%)-Top 5 Import Partner,9.3089
+Moldova,2015,China,All Products,Import,Partner share(%)-Top 5 Import Partner,9.1909
+Moldova,2015,Germany,All Products,Import,Partner share(%)-Top 5 Import Partner,8.059
+Moldova,2015,World,Animal,Export,Export Product share(%),1.9072
+Moldova,2015,World,Vegetable,Export,Export Product share(%),29.1754
+Moldova,2015,World,Food Products,Export,Export Product share(%),15.4189
+Moldova,2015,World,Minerals,Export,Export Product share(%),0.3473
+Moldova,2015,World,Fuels,Export,Export Product share(%),0.5114
+Moldova,2015,World,Chemicals,Export,Export Product share(%),6.0371
+Moldova,2015,World,Plastic or Rubber,Export,Export Product share(%),2.048
+Moldova,2015,World,Hides and Skins,Export,Export Product share(%),1.2724
+Moldova,2015,World,Wood,Export,Export Product share(%),1.027
+Moldova,2015,World,Textiles and Clothing,Export,Export Product share(%),13.9165
+Moldova,2015,World,Footwear,Export,Export Product share(%),1.2209
+Moldova,2015,World,Stone and Glass,Export,Export Product share(%),2.1661
+Moldova,2015,World,Metals,Export,Export Product share(%),2.1987
+Moldova,2015,World,Mach and Elec,Export,Export Product share(%),15.0247
+Moldova,2015,World,Transportation,Export,Export Product share(%),0.9172
+Moldova,2015,World,Miscellaneous,Export,Export Product share(%),6.8112
+Moldova,2015,World,Raw materials,Export,Export Product share(%),30.1864
+Moldova,2015,World,Intermediate goods,Export,Export Product share(%),11.944
+Moldova,2015,World,Consumer goods,Export,Export Product share(%),51.4777
+Moldova,2015,World,Capital goods,Export,Export Product share(%),6.2602
+Moldova,2015,World,Raw materials,Import,Import Product share(%),6.6674
+Moldova,2015,World,Intermediate goods,Import,Import Product share(%),23.4319
+Moldova,2015,World,Consumer goods,Import,Import Product share(%),46.0419
+Moldova,2015,World,Capital goods,Import,Import Product share(%),16.1313
+Moldova,2015,World,Raw materials,Tariff,Weighted Average (%),6.98931658066155
+Moldova,2015,World,Intermediate goods,Tariff,Weighted Average (%),2.4687556217998
+Moldova,2015,World,Consumer goods,Tariff,Weighted Average (%),3.63499488456456
+Moldova,2015,World,Capital goods,Tariff,Weighted Average (%),2.82178392178952
+Moldova,2015,World,All Products,Trade Indicator,World Growth (%),-7.8698674978916
+Moldova,2015,World,All Products,Trade Indicator,Country Growth (%),-8.78686066455605
+Moldova,2015,World,All Products,Tariff,Simple Average (%),5.40564449900726
+Moldova,2015,World,All Products,Tariff,Weighted Average (%),3.39274029019077
+Moldova,2015,World,All Products,Tariff,Maximum Rate (%),75
+Moldova,2015,World,All Products,Tariff,Duty Free Tariff Lines Share (%),37.5812367286532
+Moldova,2015,...,...,Trade Indicator,Index of export market penetration,2.96305253327227
+Moldova,2015,...,...,Trade Indicator,HH Market concentration index,0.0857178271397135
+Moldova,2015,...,...,Development,Trade Balance (% of GDP),-30.889640261
+Moldova,2015,...,...,Development,Trade in services (% of GDP),27.393435914
+Moldova,2015,...,...,Development,Trade (% of GDP),117.53116874
+Moldova,2015,...,...,Development,"GNI per capita, Atlas method (current US$)",2240

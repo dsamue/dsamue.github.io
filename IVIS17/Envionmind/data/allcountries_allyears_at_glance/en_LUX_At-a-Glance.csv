@@ -1,0 +1,90 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Luxembourg,2015,Germany,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,3427.807765
+Luxembourg,2015,France,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,1767.509534
+Luxembourg,2015,Belgium,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,1606.206615
+Luxembourg,2015,Netherlands,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,668.889274
+Luxembourg,2015,Italy,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,488.102542
+Luxembourg,2015,Germany,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,4629.224688
+Luxembourg,2015,Belgium,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,4374.054958
+Luxembourg,2015,France,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,2295.985379
+Luxembourg,2015,United States,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,1765.378431
+Luxembourg,2015,Unspecified,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,1206.077453
+Luxembourg,2015,World,Animal,Export,Export(US$ Mil),604.397935
+Luxembourg,2015,World,Vegetable,Export,Export(US$ Mil),156.380513
+Luxembourg,2015,World,Food Products,Export,Export(US$ Mil),604.660648
+Luxembourg,2015,World,Minerals,Export,Export(US$ Mil),69.446229
+Luxembourg,2015,World,Fuels,Export,Export(US$ Mil),60.811879
+Luxembourg,2015,World,Chemicals,Export,Export(US$ Mil),735.278481
+Luxembourg,2015,World,Plastic or Rubber,Export,Export(US$ Mil),1906.916964
+Luxembourg,2015,World,Hides and Skins,Export,Export(US$ Mil),10.675874
+Luxembourg,2015,World,Wood,Export,Export(US$ Mil),579.850321
+Luxembourg,2015,World,Textiles and Clothing,Export,Export(US$ Mil),720.083181
+Luxembourg,2015,World,Footwear,Export,Export(US$ Mil),37.53729
+Luxembourg,2015,World,Stone and Glass,Export,Export(US$ Mil),452.296136
+Luxembourg,2015,World,Metals,Export,Export(US$ Mil),3004.503914
+Luxembourg,2015,World,Mach and Elec,Export,Export(US$ Mil),2071.899133
+Luxembourg,2015,World,Transportation,Export,Export(US$ Mil),970.808347
+Luxembourg,2015,World,Miscellaneous,Export,Export(US$ Mil),640.155826
+Luxembourg,2015,World,Raw materials,Export,Export(US$ Mil),470.500006
+Luxembourg,2015,World,Intermediate goods,Export,Export(US$ Mil),4071.929472
+Luxembourg,2015,World,Consumer goods,Export,Export(US$ Mil),4711.995391
+Luxembourg,2015,World,Capital goods,Export,Export(US$ Mil),2673.990278
+Luxembourg,2015,World,Raw materials,Import,Import(US$ Mil),1830.331749
+Luxembourg,2015,World,Intermediate goods,Import,Import(US$ Mil),3514.152438
+Luxembourg,2015,World,Consumer goods,Import,Import(US$ Mil),8342.02997199999
+Luxembourg,2015,World,Capital goods,Import,Import(US$ Mil),4575.034523
+Luxembourg,2015,World,All Products,Export,Exports (in US$ Mil),12625.702669
+Luxembourg,2015,World,All Products,Import,Imports (in US$ Mil),19296.337662
+Luxembourg,2015,...,...,Development,Trade Balance (current US$ Mil),20922.59067
+Luxembourg,2015,...,...,Development,GDP (current US$ Mil),57793.612066
+Luxembourg,2015,...,...,Import,No. Of Import partners,206
+Luxembourg,2015,...,...,Import,No. Of Import products,4300
+Luxembourg,2015,...,...,Export,No. Of Export partners,191
+Luxembourg,2015,...,...,Export,No. Of Export products,3451
+Luxembourg,2015,...,...,Others,Population,569676
+Luxembourg,2016,...,...,Others,Ease of Doing Business Rank,59
+Luxembourg,2016,...,...,Others,Trading Across Borders Rank,1
+Luxembourg,2014,...,...,Others,LPI Rank,8
+Luxembourg,2014,...,...,Others,LPI Score,3.946726
+Luxembourg,2015,Germany,All Products,Export,Partner share(%)-Top 5 Export Partner,27.1494
+Luxembourg,2015,France,All Products,Export,Partner share(%)-Top 5 Export Partner,13.9993
+Luxembourg,2015,Belgium,All Products,Export,Partner share(%)-Top 5 Export Partner,12.7217
+Luxembourg,2015,Netherlands,All Products,Export,Partner share(%)-Top 5 Export Partner,5.2978
+Luxembourg,2015,Italy,All Products,Export,Partner share(%)-Top 5 Export Partner,3.8659
+Luxembourg,2015,Germany,All Products,Import,Partner share(%)-Top 5 Import Partner,23.9902
+Luxembourg,2015,Belgium,All Products,Import,Partner share(%)-Top 5 Import Partner,22.6678
+Luxembourg,2015,France,All Products,Import,Partner share(%)-Top 5 Import Partner,11.8986
+Luxembourg,2015,United States,All Products,Import,Partner share(%)-Top 5 Import Partner,9.1488
+Luxembourg,2015,Unspecified,All Products,Import,Partner share(%)-Top 5 Import Partner,6.2503
+Luxembourg,2015,World,Animal,Export,Export Product share(%),4.787
+Luxembourg,2015,World,Vegetable,Export,Export Product share(%),1.2386
+Luxembourg,2015,World,Food Products,Export,Export Product share(%),4.7891
+Luxembourg,2015,World,Minerals,Export,Export Product share(%),0.55
+Luxembourg,2015,World,Fuels,Export,Export Product share(%),0.4817
+Luxembourg,2015,World,Chemicals,Export,Export Product share(%),5.8237
+Luxembourg,2015,World,Plastic or Rubber,Export,Export Product share(%),15.1035
+Luxembourg,2015,World,Hides and Skins,Export,Export Product share(%),0.0846
+Luxembourg,2015,World,Wood,Export,Export Product share(%),4.5926
+Luxembourg,2015,World,Textiles and Clothing,Export,Export Product share(%),5.7033
+Luxembourg,2015,World,Footwear,Export,Export Product share(%),0.2973
+Luxembourg,2015,World,Stone and Glass,Export,Export Product share(%),3.5823
+Luxembourg,2015,World,Metals,Export,Export Product share(%),23.7967
+Luxembourg,2015,World,Mach and Elec,Export,Export Product share(%),16.4102
+Luxembourg,2015,World,Transportation,Export,Export Product share(%),7.6891
+Luxembourg,2015,World,Miscellaneous,Export,Export Product share(%),5.0703
+Luxembourg,2015,World,Raw materials,Export,Export Product share(%),3.7265
+Luxembourg,2015,World,Intermediate goods,Export,Export Product share(%),32.2511
+Luxembourg,2015,World,Consumer goods,Export,Export Product share(%),37.3207
+Luxembourg,2015,World,Capital goods,Export,Export Product share(%),21.1789
+Luxembourg,2015,World,Raw materials,Import,Import Product share(%),9.4854
+Luxembourg,2015,World,Intermediate goods,Import,Import Product share(%),18.2115
+Luxembourg,2015,World,Consumer goods,Import,Import Product share(%),43.2312
+Luxembourg,2015,World,Capital goods,Import,Import Product share(%),23.7093
+Luxembourg,2015,World,All Products,Trade Indicator,World Growth (%),-7.8698674978916
+Luxembourg,2015,World,All Products,Trade Indicator,Country Growth (%),-6.21194872513525
+Luxembourg,2015,...,...,Trade Indicator,Index of export market penetration,5.25298569177652
+Luxembourg,2015,...,...,Trade Indicator,HH Market concentration index,0.0958270732745427
+Luxembourg,2015,...,...,Development,Trade Balance (% of GDP),36.20225474
+Luxembourg,2015,...,...,Development,Trade in services (% of GDP),288.71821541
+Luxembourg,2015,...,...,Development,Trade (% of GDP),391.49743344
+Luxembourg,2015,...,...,Development,"GNI per capita, Atlas method (current US$)",77000

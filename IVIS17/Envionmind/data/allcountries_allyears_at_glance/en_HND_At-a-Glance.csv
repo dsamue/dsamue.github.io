@@ -1,0 +1,106 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Honduras,2014,United States,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,2006.405684
+Honduras,2014,Germany,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,326.243151
+Honduras,2014,El Salvador,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,276.888821
+Honduras,2014,Guatemala,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,227.199466
+Honduras,2014,Nicaragua,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,211.807715
+Honduras,2014,United States,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,3259.435111
+Honduras,2014,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,900.221553
+Honduras,2014,Guatemala,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,601.485054
+Honduras,2014,Mexico,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,533.304269
+Honduras,2014,El Salvador,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,321.303
+Honduras,2014,World,Animal,Export,Export(US$ Mil),473.343549
+Honduras,2014,World,Vegetable,Export,Export(US$ Mil),1493.334528
+Honduras,2014,World,Food Products,Export,Export(US$ Mil),443.562517
+Honduras,2014,World,Minerals,Export,Export(US$ Mil),107.934847
+Honduras,2014,World,Fuels,Export,Export(US$ Mil),1.182818
+Honduras,2014,World,Chemicals,Export,Export(US$ Mil),263.37929
+Honduras,2014,World,Plastic or Rubber,Export,Export(US$ Mil),186.591951
+Honduras,2014,World,Hides and Skins,Export,Export(US$ Mil),5.028034
+Honduras,2014,World,Wood,Export,Export(US$ Mil),297.3996
+Honduras,2014,World,Textiles and Clothing,Export,Export(US$ Mil),19.487982
+Honduras,2014,World,Footwear,Export,Export(US$ Mil),7.87214
+Honduras,2014,World,Stone and Glass,Export,Export(US$ Mil),198.471678
+Honduras,2014,World,Metals,Export,Export(US$ Mil),281.477351
+Honduras,2014,World,Mach and Elec,Export,Export(US$ Mil),644.48963
+Honduras,2014,World,Transportation,Export,Export(US$ Mil),55.453198
+Honduras,2014,World,Miscellaneous,Export,Export(US$ Mil),54.338528
+Honduras,2014,World,Raw materials,Export,Export(US$ Mil),1908.341381
+Honduras,2014,World,Intermediate goods,Export,Export(US$ Mil),961.893793
+Honduras,2014,World,Consumer goods,Export,Export(US$ Mil),1528.443959
+Honduras,2014,World,Capital goods,Export,Export(US$ Mil),119.135674
+Honduras,2014,World,Raw materials,Import,Import(US$ Mil),449.908822
+Honduras,2014,World,Intermediate goods,Import,Import(US$ Mil),1534.141956
+Honduras,2014,World,Consumer goods,Import,Import(US$ Mil),4528.83213899999
+Honduras,2014,World,Capital goods,Import,Import(US$ Mil),1391.431747
+Honduras,2014,World,All Products,Export,Exports (in US$ Mil),4533.347641
+Honduras,2014,World,All Products,Import,Imports (in US$ Mil),7983.626391
+Honduras,2012,World,All Products,Tariff,Duty Free Imports (US$ Thousand),2453480.375
+Honduras,2015,...,...,Development,Trade Balance (current US$ Mil),-3623.192762
+Honduras,2015,...,...,Development,GDP (current US$ Mil),20420.967149
+Honduras,2012,...,...,Tariff,No. Of Tariff Agreement,1
+Honduras,2014,...,...,Import,No. Of Import partners,135
+Honduras,2014,...,...,Import,No. Of Import products,3917
+Honduras,2014,...,...,Export,No. Of Export partners,107
+Honduras,2014,...,...,Export,No. Of Export products,2235
+Honduras,2015,...,...,Others,Population,8075060
+Honduras,2016,...,...,Others,Ease of Doing Business Rank,105
+Honduras,2016,...,...,Others,Trading Across Borders Rank,109
+Honduras,2015,...,...,Others,CPIA Trade Ratings,4.5
+Honduras,2014,...,...,Others,LPI Rank,103
+Honduras,2014,...,...,Others,LPI Score,2.607427
+Honduras,2014,...,...,Others,No Of NTM Affected Products (HS 6 Digit),1070
+Honduras,2014,...,...,Others,No Of NTM Measures,31
+Honduras,2009,...,...,Others,Overall Trade Restrictiveness Index -  Applied Tariff,0.0936778
+Honduras,2009,...,...,Others,Overall Trade Restrictiveness Index - MFN Tariff,0.0936778
+Honduras,,...,...,Others,Services Trade Restrictions Index - Over All,21.1
+Honduras,2014,United States,All Products,Export,Partner share(%)-Top 5 Export Partner,44.2588
+Honduras,2014,Germany,All Products,Export,Partner share(%)-Top 5 Export Partner,7.1965
+Honduras,2014,El Salvador,All Products,Export,Partner share(%)-Top 5 Export Partner,6.1078
+Honduras,2014,Guatemala,All Products,Export,Partner share(%)-Top 5 Export Partner,5.0117
+Honduras,2014,Nicaragua,All Products,Export,Partner share(%)-Top 5 Export Partner,4.6722
+Honduras,2014,United States,All Products,Import,Partner share(%)-Top 5 Import Partner,40.8265
+Honduras,2014,China,All Products,Import,Partner share(%)-Top 5 Import Partner,11.2758
+Honduras,2014,Guatemala,All Products,Import,Partner share(%)-Top 5 Import Partner,7.534
+Honduras,2014,Mexico,All Products,Import,Partner share(%)-Top 5 Import Partner,6.68
+Honduras,2014,El Salvador,All Products,Import,Partner share(%)-Top 5 Import Partner,4.0245
+Honduras,2014,World,Animal,Export,Export Product share(%),10.4414
+Honduras,2014,World,Vegetable,Export,Export Product share(%),32.9411
+Honduras,2014,World,Food Products,Export,Export Product share(%),9.7844
+Honduras,2014,World,Minerals,Export,Export Product share(%),2.3809
+Honduras,2014,World,Fuels,Export,Export Product share(%),0.0261
+Honduras,2014,World,Chemicals,Export,Export Product share(%),5.8098
+Honduras,2014,World,Plastic or Rubber,Export,Export Product share(%),4.116
+Honduras,2014,World,Hides and Skins,Export,Export Product share(%),0.1109
+Honduras,2014,World,Wood,Export,Export Product share(%),6.5603
+Honduras,2014,World,Textiles and Clothing,Export,Export Product share(%),0.4299
+Honduras,2014,World,Footwear,Export,Export Product share(%),0.1736
+Honduras,2014,World,Stone and Glass,Export,Export Product share(%),4.378
+Honduras,2014,World,Metals,Export,Export Product share(%),6.209
+Honduras,2014,World,Mach and Elec,Export,Export Product share(%),14.2166
+Honduras,2014,World,Transportation,Export,Export Product share(%),1.2232
+Honduras,2014,World,Miscellaneous,Export,Export Product share(%),1.1986
+Honduras,2014,World,Raw materials,Export,Export Product share(%),42.0956
+Honduras,2014,World,Intermediate goods,Export,Export Product share(%),21.2182
+Honduras,2014,World,Consumer goods,Export,Export Product share(%),33.7156
+Honduras,2014,World,Capital goods,Export,Export Product share(%),2.628
+Honduras,2014,World,Raw materials,Import,Import Product share(%),5.6354
+Honduras,2014,World,Intermediate goods,Import,Import Product share(%),19.2161
+Honduras,2014,World,Consumer goods,Import,Import Product share(%),56.7265
+Honduras,2014,World,Capital goods,Import,Import Product share(%),17.4286
+Honduras,2012,World,Raw materials,Tariff,Weighted Average (%),13.23107207813
+Honduras,2012,World,Intermediate goods,Tariff,Weighted Average (%),4.11544723722648
+Honduras,2012,World,Consumer goods,Tariff,Weighted Average (%),7.49350722709668
+Honduras,2012,World,Capital goods,Tariff,Weighted Average (%),2.83737768534215
+Honduras,2014,World,All Products,Trade Indicator,World Growth (%),0.131747689931871
+Honduras,2014,World,All Products,Trade Indicator,Country Growth (%),1.87212219650084
+Honduras,2012,World,All Products,Tariff,Simple Average (%),6.3793335040537
+Honduras,2012,World,All Products,Tariff,Weighted Average (%),6.30991656876702
+Honduras,2012,World,All Products,Tariff,Maximum Rate (%),164
+Honduras,2012,World,All Products,Tariff,Duty Free Tariff Lines Share (%),44.1640108289641
+Honduras,2014,...,...,Trade Indicator,Index of export market penetration,2.81305937777973
+Honduras,2014,...,...,Trade Indicator,HH Market concentration index,0.331435151588806
+Honduras,2015,...,...,Development,Trade Balance (% of GDP),-17.742513054
+Honduras,2015,...,...,Development,Trade in services (% of GDP),21.937644863
+Honduras,2015,...,...,Development,Trade (% of GDP),107.43491607
+Honduras,2015,...,...,Development,"GNI per capita, Atlas method (current US$)",2280

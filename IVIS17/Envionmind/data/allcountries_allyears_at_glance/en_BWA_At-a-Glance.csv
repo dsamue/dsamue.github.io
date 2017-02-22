@@ -1,0 +1,103 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Botswana,2015,Belgium,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,1252.881849
+Botswana,2015,South Africa,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,987.538005
+Botswana,2015,India,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,784.024831
+Botswana,2015,Namibia,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,745.416701
+Botswana,2015,Canada,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,397.183412
+Botswana,2015,South Africa,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,4455.267414
+Botswana,2015,Namibia,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,1123.146257
+Botswana,2015,Canada,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,509.604142
+Botswana,2015,Unspecified,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,465.696426
+Botswana,2015,Belgium,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,209.956474
+Botswana,2015,World,Animal,Export,Export(US$ Mil),119.184146
+Botswana,2015,World,Vegetable,Export,Export(US$ Mil),10.046548
+Botswana,2015,World,Food Products,Export,Export(US$ Mil),12.316574
+Botswana,2015,World,Minerals,Export,Export(US$ Mil),78.628524
+Botswana,2015,World,Fuels,Export,Export(US$ Mil),24.103191
+Botswana,2015,World,Chemicals,Export,Export(US$ Mil),58.639723
+Botswana,2015,World,Plastic or Rubber,Export,Export(US$ Mil),31.236826
+Botswana,2015,World,Hides and Skins,Export,Export(US$ Mil),2.749191
+Botswana,2015,World,Wood,Export,Export(US$ Mil),11.180981
+Botswana,2015,World,Textiles and Clothing,Export,Export(US$ Mil),37.068894
+Botswana,2015,World,Footwear,Export,Export(US$ Mil),0.919947
+Botswana,2015,World,Stone and Glass,Export,Export(US$ Mil),5286.261345
+Botswana,2015,World,Metals,Export,Export(US$ Mil),355.355297
+Botswana,2015,World,Mach and Elec,Export,Export(US$ Mil),195.231211
+Botswana,2015,World,Transportation,Export,Export(US$ Mil),68.670749
+Botswana,2015,World,Miscellaneous,Export,Export(US$ Mil),27.597824
+Botswana,2015,World,Raw materials,Export,Export(US$ Mil),5018.19519499999
+Botswana,2015,World,Intermediate goods,Export,Export(US$ Mil),872.840468999999
+Botswana,2015,World,Consumer goods,Export,Export(US$ Mil),274.918982
+Botswana,2015,World,Capital goods,Export,Export(US$ Mil),134.622891
+Botswana,2015,World,Raw materials,Import,Import(US$ Mil),3215.030027
+Botswana,2015,World,Intermediate goods,Import,Import(US$ Mil),742.709909
+Botswana,2015,World,Consumer goods,Import,Import(US$ Mil),2414.102105
+Botswana,2015,World,Capital goods,Import,Import(US$ Mil),1150.196237
+Botswana,2015,World,All Products,Export,Exports (in US$ Mil),6319.190972
+Botswana,2015,World,All Products,Import,Imports (in US$ Mil),7626.168261
+Botswana,2015,World,All Products,Tariff,Duty Free Imports (US$ Thousand),7260562.68299999
+Botswana,2015,...,...,Development,Trade Balance (current US$ Mil),-190.889071
+Botswana,2015,...,...,Development,GDP (current US$ Mil),14389.717321
+Botswana,2015,...,...,Tariff,No. Of Tariff Agreement,4
+Botswana,2015,...,...,Import,No. Of Import partners,146
+Botswana,2015,...,...,Import,No. Of Import products,4037
+Botswana,2015,...,...,Export,No. Of Export partners,100
+Botswana,2015,...,...,Export,No. Of Export products,2450
+Botswana,2015,...,...,Others,Population,2262485
+Botswana,2016,...,...,Others,Ease of Doing Business Rank,71
+Botswana,2016,...,...,Others,Trading Across Borders Rank,51
+Botswana,2014,...,...,Others,LPI Rank,120
+Botswana,2014,...,...,Others,LPI Score,2.492775
+Botswana,2009,...,...,Others,Overall Trade Restrictiveness Index -  Applied Tariff,0.0063094
+Botswana,2009,...,...,Others,Overall Trade Restrictiveness Index - MFN Tariff,0.0593047
+Botswana,,...,...,Others,Services Trade Restrictions Index - Over All,38.3
+Botswana,2015,Belgium,All Products,Export,Partner share(%)-Top 5 Export Partner,19.8266
+Botswana,2015,South Africa,All Products,Export,Partner share(%)-Top 5 Export Partner,15.6276
+Botswana,2015,India,All Products,Export,Partner share(%)-Top 5 Export Partner,12.407
+Botswana,2015,Namibia,All Products,Export,Partner share(%)-Top 5 Export Partner,11.7961
+Botswana,2015,Canada,All Products,Export,Partner share(%)-Top 5 Export Partner,6.2854
+Botswana,2015,South Africa,All Products,Import,Partner share(%)-Top 5 Import Partner,58.4208
+Botswana,2015,Namibia,All Products,Import,Partner share(%)-Top 5 Import Partner,14.7275
+Botswana,2015,Canada,All Products,Import,Partner share(%)-Top 5 Import Partner,6.6823
+Botswana,2015,Unspecified,All Products,Import,Partner share(%)-Top 5 Import Partner,6.1066
+Botswana,2015,Belgium,All Products,Import,Partner share(%)-Top 5 Import Partner,2.7531
+Botswana,2015,World,Animal,Export,Export Product share(%),1.8861
+Botswana,2015,World,Vegetable,Export,Export Product share(%),0.159
+Botswana,2015,World,Food Products,Export,Export Product share(%),0.1949
+Botswana,2015,World,Minerals,Export,Export Product share(%),1.2443
+Botswana,2015,World,Fuels,Export,Export Product share(%),0.3814
+Botswana,2015,World,Chemicals,Export,Export Product share(%),0.928
+Botswana,2015,World,Plastic or Rubber,Export,Export Product share(%),0.4943
+Botswana,2015,World,Hides and Skins,Export,Export Product share(%),0.0435
+Botswana,2015,World,Wood,Export,Export Product share(%),0.1769
+Botswana,2015,World,Textiles and Clothing,Export,Export Product share(%),0.5866
+Botswana,2015,World,Footwear,Export,Export Product share(%),0.0146
+Botswana,2015,World,Stone and Glass,Export,Export Product share(%),83.6541
+Botswana,2015,World,Metals,Export,Export Product share(%),5.6234
+Botswana,2015,World,Mach and Elec,Export,Export Product share(%),3.0895
+Botswana,2015,World,Transportation,Export,Export Product share(%),1.0867
+Botswana,2015,World,Miscellaneous,Export,Export Product share(%),0.4367
+Botswana,2015,World,Raw materials,Export,Export Product share(%),79.412
+Botswana,2015,World,Intermediate goods,Export,Export Product share(%),13.8125
+Botswana,2015,World,Consumer goods,Export,Export Product share(%),4.3505
+Botswana,2015,World,Capital goods,Export,Export Product share(%),2.1304
+Botswana,2015,World,Raw materials,Import,Import Product share(%),42.1579
+Botswana,2015,World,Intermediate goods,Import,Import Product share(%),9.739
+Botswana,2015,World,Consumer goods,Import,Import Product share(%),31.6555
+Botswana,2015,World,Capital goods,Import,Import Product share(%),15.0822
+Botswana,2015,World,Raw materials,Tariff,Weighted Average (%),0.00609521819847397
+Botswana,2015,World,Intermediate goods,Tariff,Weighted Average (%),0.297325589255282
+Botswana,2015,World,Consumer goods,Tariff,Weighted Average (%),1.75631008075737
+Botswana,2015,World,Capital goods,Tariff,Weighted Average (%),0.968704579347101
+Botswana,2015,World,All Products,Trade Indicator,World Growth (%),-7.8698674978916
+Botswana,2015,World,All Products,Trade Indicator,Country Growth (%),-23.0443018512092
+Botswana,2015,World,All Products,Tariff,Simple Average (%),7.61304614188145
+Botswana,2015,World,All Products,Tariff,Weighted Average (%),0.563674429263896
+Botswana,2015,World,All Products,Tariff,Maximum Rate (%),395.800109863281
+Botswana,2015,World,All Products,Tariff,Duty Free Tariff Lines Share (%),60.5939583208216
+Botswana,2015,...,...,Trade Indicator,Index of export market penetration,1.60485288848522
+Botswana,2015,...,...,Trade Indicator,HH Market concentration index,0.208846668398542
+Botswana,2015,...,...,Development,Trade Balance (% of GDP),-1.326565816
+Botswana,2015,...,...,Development,Trade in services (% of GDP),13.076714131
+Botswana,2015,...,...,Development,Trade (% of GDP),105.94614803
+Botswana,2015,...,...,Development,"GNI per capita, Atlas method (current US$)",6460

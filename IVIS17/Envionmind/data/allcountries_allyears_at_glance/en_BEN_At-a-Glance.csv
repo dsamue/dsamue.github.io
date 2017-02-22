@@ -1,0 +1,104 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Benin,2015,India,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,81.138322
+Benin,2015,Niger,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,59.946059
+Benin,2015,Malaysia,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,54.988437
+Benin,2015,Singapore,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,49.550217
+Benin,2015,Vietnam,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,46.731625
+Benin,2015,France,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,288.759414
+Benin,2015,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,266.533375
+Benin,2015,India,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,242.680883
+Benin,2015,Togo,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,211.294341
+Benin,2015,Thailand,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,191.38513
+Benin,2015,World,Animal,Export,Export(US$ Mil),4.365675
+Benin,2015,World,Vegetable,Export,Export(US$ Mil),124.893479
+Benin,2015,World,Food Products,Export,Export(US$ Mil),12.690109
+Benin,2015,World,Minerals,Export,Export(US$ Mil),37.535667
+Benin,2015,World,Fuels,Export,Export(US$ Mil),22.730666
+Benin,2015,World,Chemicals,Export,Export(US$ Mil),3.056918
+Benin,2015,World,Plastic or Rubber,Export,Export(US$ Mil),2.862359
+Benin,2015,World,Hides and Skins,Export,Export(US$ Mil),0.05464
+Benin,2015,World,Wood,Export,Export(US$ Mil),12.554685
+Benin,2015,World,Textiles and Clothing,Export,Export(US$ Mil),273.67996
+Benin,2015,World,Footwear,Export,Export(US$ Mil),0.258662
+Benin,2015,World,Stone and Glass,Export,Export(US$ Mil),15.171997
+Benin,2015,World,Metals,Export,Export(US$ Mil),40.264756
+Benin,2015,World,Mach and Elec,Export,Export(US$ Mil),22.022183
+Benin,2015,World,Transportation,Export,Export(US$ Mil),50.45807
+Benin,2015,World,Miscellaneous,Export,Export(US$ Mil),2.978085
+Benin,2015,World,Raw materials,Export,Export(US$ Mil),376.43571
+Benin,2015,World,Intermediate goods,Export,Export(US$ Mil),106.454454
+Benin,2015,World,Consumer goods,Export,Export(US$ Mil),66.559396
+Benin,2015,World,Capital goods,Export,Export(US$ Mil),72.249218
+Benin,2015,World,Raw materials,Import,Import(US$ Mil),434.705136
+Benin,2015,World,Intermediate goods,Import,Import(US$ Mil),418.645194
+Benin,2015,World,Consumer goods,Import,Import(US$ Mil),1255.192288
+Benin,2015,World,Capital goods,Import,Import(US$ Mil),350.247157
+Benin,2015,World,All Products,Export,Exports (in US$ Mil),625.57791
+Benin,2015,World,All Products,Import,Imports (in US$ Mil),2474.735519
+Benin,2015,World,All Products,Tariff,Duty Free Imports (US$ Thousand),52273.701
+Benin,2015,...,...,Development,Trade Balance (current US$ Mil),-959.6761853
+Benin,2015,...,...,Development,GDP (current US$ Mil),8290.9868045
+Benin,2015,...,...,Tariff,No. Of Tariff Agreement,2
+Benin,2015,...,...,Import,No. Of Import partners,152
+Benin,2015,...,...,Import,No. Of Import products,2682
+Benin,2015,...,...,Export,No. Of Export partners,97
+Benin,2015,...,...,Export,No. Of Export products,592
+Benin,2015,...,...,Others,Population,10879829
+Benin,2016,...,...,Others,Ease of Doing Business Rank,155
+Benin,2016,...,...,Others,Trading Across Borders Rank,133
+Benin,2015,...,...,Others,CPIA Trade Ratings,4
+Benin,2014,...,...,Others,LPI Rank,109
+Benin,2014,...,...,Others,LPI Score,2.560822
+Benin,2014,...,...,Others,No Of NTM Affected Products (HS 6 Digit),5052
+Benin,2014,...,...,Others,No Of NTM Measures,62
+Benin,2009,...,...,Others,Overall Trade Restrictiveness Index -  Applied Tariff,0.1091418
+Benin,2009,...,...,Others,Overall Trade Restrictiveness Index - MFN Tariff,0.1172308
+Benin,2015,India,All Products,Export,Partner share(%)-Top 5 Export Partner,12.9701
+Benin,2015,Niger,All Products,Export,Partner share(%)-Top 5 Export Partner,9.5825
+Benin,2015,Malaysia,All Products,Export,Partner share(%)-Top 5 Export Partner,8.79
+Benin,2015,Singapore,All Products,Export,Partner share(%)-Top 5 Export Partner,7.9207
+Benin,2015,Vietnam,All Products,Export,Partner share(%)-Top 5 Export Partner,7.4702
+Benin,2015,France,All Products,Import,Partner share(%)-Top 5 Import Partner,11.6683
+Benin,2015,China,All Products,Import,Partner share(%)-Top 5 Import Partner,10.7702
+Benin,2015,India,All Products,Import,Partner share(%)-Top 5 Import Partner,9.8063
+Benin,2015,Togo,All Products,Import,Partner share(%)-Top 5 Import Partner,8.5381
+Benin,2015,Thailand,All Products,Import,Partner share(%)-Top 5 Import Partner,7.7336
+Benin,2015,World,Animal,Export,Export Product share(%),0.6979
+Benin,2015,World,Vegetable,Export,Export Product share(%),19.9645
+Benin,2015,World,Food Products,Export,Export Product share(%),2.0285
+Benin,2015,World,Minerals,Export,Export Product share(%),6.0002
+Benin,2015,World,Fuels,Export,Export Product share(%),3.6335
+Benin,2015,World,Chemicals,Export,Export Product share(%),0.4887
+Benin,2015,World,Plastic or Rubber,Export,Export Product share(%),0.4576
+Benin,2015,World,Hides and Skins,Export,Export Product share(%),0.0087
+Benin,2015,World,Wood,Export,Export Product share(%),2.0069
+Benin,2015,World,Textiles and Clothing,Export,Export Product share(%),43.7483
+Benin,2015,World,Footwear,Export,Export Product share(%),0.0413
+Benin,2015,World,Stone and Glass,Export,Export Product share(%),2.4253
+Benin,2015,World,Metals,Export,Export Product share(%),6.4364
+Benin,2015,World,Mach and Elec,Export,Export Product share(%),3.5203
+Benin,2015,World,Transportation,Export,Export Product share(%),8.0658
+Benin,2015,World,Miscellaneous,Export,Export Product share(%),0.4761
+Benin,2015,World,Raw materials,Export,Export Product share(%),60.1741
+Benin,2015,World,Intermediate goods,Export,Export Product share(%),17.017
+Benin,2015,World,Consumer goods,Export,Export Product share(%),10.6397
+Benin,2015,World,Capital goods,Export,Export Product share(%),11.5492
+Benin,2015,World,Raw materials,Import,Import Product share(%),17.5657
+Benin,2015,World,Intermediate goods,Import,Import Product share(%),16.9168
+Benin,2015,World,Consumer goods,Import,Import Product share(%),50.7203
+Benin,2015,World,Capital goods,Import,Import Product share(%),14.1529
+Benin,2015,World,Raw materials,Tariff,Weighted Average (%),31.799839570006
+Benin,2015,World,Intermediate goods,Tariff,Weighted Average (%),17.641043028001
+Benin,2015,World,Consumer goods,Tariff,Weighted Average (%),17.2132600935225
+Benin,2015,World,Capital goods,Tariff,Weighted Average (%),8.7320782455094
+Benin,2015,World,All Products,Trade Indicator,World Growth (%),-7.8698674978916
+Benin,2015,World,All Products,Trade Indicator,Country Growth (%),-42.8973169408992
+Benin,2015,World,All Products,Tariff,Simple Average (%),13.2240850890368
+Benin,2015,World,All Products,Tariff,Weighted Average (%),17.2247047342894
+Benin,2015,World,All Products,Tariff,Maximum Rate (%),35
+Benin,2015,World,All Products,Tariff,Duty Free Tariff Lines Share (%),2.95172863666014
+Benin,2015,...,...,Trade Indicator,Index of export market penetration,1.39510419803778
+Benin,2015,...,...,Trade Indicator,HH Market concentration index,0.181175909374211
+Benin,2015,...,...,Development,Trade Balance (% of GDP),-11.574933214
+Benin,2015,...,...,Development,Trade (% of GDP),68.018027204
+Benin,2015,...,...,Development,"GNI per capita, Atlas method (current US$)",840

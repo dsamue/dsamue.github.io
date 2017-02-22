@@ -1,0 +1,100 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Cyprus,2015,Bunkers,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,235.064405
+Cyprus,2015,Greece,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,206.617325
+Cyprus,2015,Ireland,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,179.748394
+Cyprus,2015,United Kingdom,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,133.790074
+Cyprus,2015,Israel,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,112.562868
+Cyprus,2015,Greece,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,1435.538079
+Cyprus,2015,United Kingdom,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,500.466168
+Cyprus,2015,Italy,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,449.232866
+Cyprus,2015,Germany,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,417.771632
+Cyprus,2015,Israel,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,309.555402
+Cyprus,2015,World,Animal,Export,Export(US$ Mil),163.029905
+Cyprus,2015,World,Vegetable,Export,Export(US$ Mil),79.635883
+Cyprus,2015,World,Food Products,Export,Export(US$ Mil),127.33197
+Cyprus,2015,World,Minerals,Export,Export(US$ Mil),89.36738
+Cyprus,2015,World,Fuels,Export,Export(US$ Mil),320.603063
+Cyprus,2015,World,Chemicals,Export,Export(US$ Mil),364.941776
+Cyprus,2015,World,Plastic or Rubber,Export,Export(US$ Mil),19.215913
+Cyprus,2015,World,Hides and Skins,Export,Export(US$ Mil),6.182311
+Cyprus,2015,World,Wood,Export,Export(US$ Mil),9.248144
+Cyprus,2015,World,Textiles and Clothing,Export,Export(US$ Mil),19.696055
+Cyprus,2015,World,Footwear,Export,Export(US$ Mil),14.0503
+Cyprus,2015,World,Stone and Glass,Export,Export(US$ Mil),14.79895
+Cyprus,2015,World,Metals,Export,Export(US$ Mil),69.479114
+Cyprus,2015,World,Mach and Elec,Export,Export(US$ Mil),203.886555
+Cyprus,2015,World,Transportation,Export,Export(US$ Mil),243.587639
+Cyprus,2015,World,Miscellaneous,Export,Export(US$ Mil),186.370415
+Cyprus,2015,World,Raw materials,Export,Export(US$ Mil),168.653113
+Cyprus,2015,World,Intermediate goods,Export,Export(US$ Mil),199.291337
+Cyprus,2015,World,Consumer goods,Export,Export(US$ Mil),1026.893858
+Cyprus,2015,World,Capital goods,Export,Export(US$ Mil),415.91241
+Cyprus,2015,World,Raw materials,Import,Import(US$ Mil),338.228409
+Cyprus,2015,World,Intermediate goods,Import,Import(US$ Mil),723.185728
+Cyprus,2015,World,Consumer goods,Import,Import(US$ Mil),3847.79536499999
+Cyprus,2015,World,Capital goods,Import,Import(US$ Mil),700.941497
+Cyprus,2015,World,All Products,Export,Exports (in US$ Mil),1931.425371
+Cyprus,2015,World,All Products,Import,Imports (in US$ Mil),5666.003587
+Cyprus,2002,World,All Products,Tariff,Duty Free Imports (US$ Thousand),1171144.398
+Cyprus,2015,...,...,Development,Trade Balance (current US$ Mil),65.431962
+Cyprus,2015,...,...,Development,GDP (current US$ Mil),19559.942331
+Cyprus,2002,...,...,Tariff,No. Of Tariff Agreement,1
+Cyprus,2015,...,...,Import,No. Of Import partners,148
+Cyprus,2015,...,...,Import,No. Of Import products,3835
+Cyprus,2015,...,...,Export,No. Of Export partners,190
+Cyprus,2015,...,...,Export,No. Of Export products,1762
+Cyprus,2015,...,...,Others,Population,1165300
+Cyprus,2016,...,...,Others,Ease of Doing Business Rank,45
+Cyprus,2016,...,...,Others,Trading Across Borders Rank,45
+Cyprus,2014,...,...,Others,LPI Rank,58
+Cyprus,2014,...,...,Others,LPI Score,3.000577
+Cyprus,2015,Bunkers,All Products,Export,Partner share(%)-Top 5 Export Partner,12.1705
+Cyprus,2015,Greece,All Products,Export,Partner share(%)-Top 5 Export Partner,10.6977
+Cyprus,2015,Ireland,All Products,Export,Partner share(%)-Top 5 Export Partner,9.3065
+Cyprus,2015,United Kingdom,All Products,Export,Partner share(%)-Top 5 Export Partner,6.927
+Cyprus,2015,Israel,All Products,Export,Partner share(%)-Top 5 Export Partner,5.828
+Cyprus,2015,Greece,All Products,Import,Partner share(%)-Top 5 Import Partner,25.336
+Cyprus,2015,United Kingdom,All Products,Import,Partner share(%)-Top 5 Import Partner,8.8328
+Cyprus,2015,Italy,All Products,Import,Partner share(%)-Top 5 Import Partner,7.9286
+Cyprus,2015,Germany,All Products,Import,Partner share(%)-Top 5 Import Partner,7.3733
+Cyprus,2015,Israel,All Products,Import,Partner share(%)-Top 5 Import Partner,5.4634
+Cyprus,2015,World,Animal,Export,Export Product share(%),8.4409
+Cyprus,2015,World,Vegetable,Export,Export Product share(%),4.1232
+Cyprus,2015,World,Food Products,Export,Export Product share(%),6.5926
+Cyprus,2015,World,Minerals,Export,Export Product share(%),4.627
+Cyprus,2015,World,Fuels,Export,Export Product share(%),16.5993
+Cyprus,2015,World,Chemicals,Export,Export Product share(%),18.8949
+Cyprus,2015,World,Plastic or Rubber,Export,Export Product share(%),0.9949
+Cyprus,2015,World,Hides and Skins,Export,Export Product share(%),0.3201
+Cyprus,2015,World,Wood,Export,Export Product share(%),0.4788
+Cyprus,2015,World,Textiles and Clothing,Export,Export Product share(%),1.0198
+Cyprus,2015,World,Footwear,Export,Export Product share(%),0.7275
+Cyprus,2015,World,Stone and Glass,Export,Export Product share(%),0.7662
+Cyprus,2015,World,Metals,Export,Export Product share(%),3.5973
+Cyprus,2015,World,Mach and Elec,Export,Export Product share(%),10.5563
+Cyprus,2015,World,Transportation,Export,Export Product share(%),12.6118
+Cyprus,2015,World,Miscellaneous,Export,Export Product share(%),9.6494
+Cyprus,2015,World,Raw materials,Export,Export Product share(%),8.7321
+Cyprus,2015,World,Intermediate goods,Export,Export Product share(%),10.3184
+Cyprus,2015,World,Consumer goods,Export,Export Product share(%),53.1677
+Cyprus,2015,World,Capital goods,Export,Export Product share(%),21.534
+Cyprus,2015,World,Raw materials,Import,Import Product share(%),5.9694
+Cyprus,2015,World,Intermediate goods,Import,Import Product share(%),12.7636
+Cyprus,2015,World,Consumer goods,Import,Import Product share(%),67.9102
+Cyprus,2015,World,Capital goods,Import,Import Product share(%),12.371
+Cyprus,2002,World,Raw materials,Tariff,Weighted Average (%),10.8036645933792
+Cyprus,2002,World,Intermediate goods,Tariff,Weighted Average (%),4.89201039919017
+Cyprus,2002,World,Consumer goods,Tariff,Weighted Average (%),11.4536291911475
+Cyprus,2002,World,Capital goods,Tariff,Weighted Average (%),3.84887011015015
+Cyprus,2015,World,All Products,Trade Indicator,World Growth (%),-7.8698674978916
+Cyprus,2015,World,All Products,Trade Indicator,Country Growth (%),-1.04214466531295
+Cyprus,2002,World,All Products,Tariff,Simple Average (%),8.45579909781131
+Cyprus,2002,World,All Products,Tariff,Weighted Average (%),8.83108300994303
+Cyprus,2002,World,All Products,Tariff,Maximum Rate (%),563.741027832031
+Cyprus,2002,World,All Products,Tariff,Duty Free Tariff Lines Share (%),21.0408841820085
+Cyprus,2015,...,...,Trade Indicator,Index of export market penetration,2.86627881898014
+Cyprus,2015,...,...,Trade Indicator,HH Market concentration index,0.0543419449763992
+Cyprus,2015,...,...,Development,Trade Balance (% of GDP),0.334520218000002
+Cyprus,2015,...,...,Development,Trade in services (% of GDP),75.641782421
+Cyprus,2015,...,...,Development,Trade (% of GDP),122.10101377
+Cyprus,2015,...,...,Development,"GNI per capita, Atlas method (current US$)",25990

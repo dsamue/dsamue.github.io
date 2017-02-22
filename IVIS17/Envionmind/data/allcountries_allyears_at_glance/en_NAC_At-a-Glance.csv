@@ -1,0 +1,96 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+,2015,United States,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,313598.612816
+,2015,Canada,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,279990.255315
+,2015,Mexico,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,241537.420303
+,2015,China,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,132010.570732
+,2015,Japan,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,70112.045321
+,2015,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,554034.303467
+,2015,Mexico,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,321919.620085
+,2015,Canada,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,304257.974036
+,2015,United States,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,223808.565107
+,2015,Japan,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,146347.319996
+,2015,World,Animal,Export,Export(US$ Mil),36965.116336
+,2015,World,Vegetable,Export,Export(US$ Mil),92275.167643
+,2015,World,Food Products,Export,Export(US$ Mil),57389.923027
+,2015,World,Minerals,Export,Export(US$ Mil),17410.407964
+,2015,World,Fuels,Export,Export(US$ Mil),183740.825757
+,2015,World,Chemicals,Export,Export(US$ Mil),189225.127782
+,2015,World,Plastic or Rubber,Export,Export(US$ Mil),90048.677836
+,2015,World,Hides and Skins,Export,Export(US$ Mil),6642.327398
+,2015,World,Wood,Export,Export(US$ Mil),66556.44532
+,2015,World,Textiles and Clothing,Export,Export(US$ Mil),28053.850568
+,2015,World,Footwear,Export,Export(US$ Mil),2334.518592
+,2015,World,Stone and Glass,Export,Export(US$ Mil),89114.811443
+,2015,World,Metals,Export,Export(US$ Mil),98818.341107
+,2015,World,Mach and Elec,Export,Export(US$ Mil),411045.11946
+,2015,World,Transportation,Export,Export(US$ Mil),219846.173711
+,2015,World,Miscellaneous,Export,Export(US$ Mil),323216.205907
+,2015,World,Raw materials,Export,Export(US$ Mil),231096.090436
+,2015,World,Intermediate goods,Export,Export(US$ Mil),399965.847637999
+,2015,World,Consumer goods,Export,Export(US$ Mil),502009.621054999
+,2015,World,Capital goods,Export,Export(US$ Mil),587917.864417
+,2015,World,Raw materials,Import,Import(US$ Mil),250761.155854
+,2015,World,Intermediate goods,Import,Import(US$ Mil),428351.220276
+,2015,World,Consumer goods,Import,Import(US$ Mil),982736.254147001
+,2015,World,Capital goods,Import,Import(US$ Mil),939892.373809
+,2015,World,All Products,Export,Exports (in US$ Mil),1912683.039851
+,2015,World,All Products,Import,Imports (in US$ Mil),2726902.986018
+,2015,World,All Products,Tariff,Duty Free Imports (US$ Thousand),1779018237.475
+,2015,...,...,Development,Trade Balance (current US$ Mil),-556833.1329
+,2015,...,...,Development,GDP (current US$ Mil),19593076.555
+,2015,...,...,Tariff,No. Of Tariff Agreement,438
+,2015,...,...,Import,No. Of Import partners,232
+,2015,...,...,Import,No. Of Import products,4578
+,2015,...,...,Export,No. Of Export partners,231
+,2015,...,...,Export,No. Of Export products,4569
+,2015,...,...,Others,Population,357335829
+,2015,United States,All Products,Export,Partner share(%)-Top 5 Export Partner,16.3957
+,2015,Canada,All Products,Export,Partner share(%)-Top 5 Export Partner,14.6386
+,2015,Mexico,All Products,Export,Partner share(%)-Top 5 Export Partner,12.6282
+,2015,China,All Products,Export,Partner share(%)-Top 5 Export Partner,6.9019
+,2015,Japan,All Products,Export,Partner share(%)-Top 5 Export Partner,3.6656
+,2015,China,All Products,Import,Partner share(%)-Top 5 Import Partner,20.3173
+,2015,Mexico,All Products,Import,Partner share(%)-Top 5 Import Partner,11.8053
+,2015,Canada,All Products,Import,Partner share(%)-Top 5 Import Partner,11.1576
+,2015,United States,All Products,Import,Partner share(%)-Top 5 Import Partner,8.2074
+,2015,Japan,All Products,Import,Partner share(%)-Top 5 Import Partner,5.3668
+,2015,World,Animal,Export,Export Product share(%),1.9326
+,2015,World,Vegetable,Export,Export Product share(%),4.8244
+,2015,World,Food Products,Export,Export Product share(%),3.0005
+,2015,World,Minerals,Export,Export Product share(%),0.9103
+,2015,World,Fuels,Export,Export Product share(%),9.6064
+,2015,World,Chemicals,Export,Export Product share(%),9.8932
+,2015,World,Plastic or Rubber,Export,Export Product share(%),4.708
+,2015,World,Hides and Skins,Export,Export Product share(%),0.3473
+,2015,World,Wood,Export,Export Product share(%),3.4797
+,2015,World,Textiles and Clothing,Export,Export Product share(%),1.4667
+,2015,World,Footwear,Export,Export Product share(%),0.1221
+,2015,World,Stone and Glass,Export,Export Product share(%),4.6592
+,2015,World,Metals,Export,Export Product share(%),5.1665
+,2015,World,Mach and Elec,Export,Export Product share(%),21.4905
+,2015,World,Transportation,Export,Export Product share(%),11.4941
+,2015,World,Miscellaneous,Export,Export Product share(%),16.8986
+,2015,World,Raw materials,Export,Export Product share(%),12.0823
+,2015,World,Intermediate goods,Export,Export Product share(%),20.9112
+,2015,World,Consumer goods,Export,Export Product share(%),26.2464
+,2015,World,Capital goods,Export,Export Product share(%),30.7379
+,2015,World,Raw materials,Import,Import Product share(%),9.1958
+,2015,World,Intermediate goods,Import,Import Product share(%),15.7083
+,2015,World,Consumer goods,Import,Import Product share(%),36.0385
+,2015,World,Capital goods,Import,Import Product share(%),34.4674
+,2015,World,Raw materials,Tariff,Weighted Average (%),0.824435210004946
+,2015,World,Intermediate goods,Tariff,Weighted Average (%),0.943774625812712
+,2015,World,Consumer goods,Tariff,Weighted Average (%),3.3135315695247
+,2015,World,Capital goods,Tariff,Weighted Average (%),0.453865299457155
+,2015,World,All Products,Trade Indicator,World Growth (%),
+,2015,World,All Products,Trade Indicator,Country Growth (%),
+,2015,World,All Products,Tariff,Simple Average (%),3.76966757988565
+,2015,World,All Products,Tariff,Weighted Average (%),1.68705749799068
+,2015,World,All Products,Tariff,Maximum Rate (%),1449.54296875
+,2015,World,All Products,Tariff,Duty Free Tariff Lines Share (%),58.3109865718561
+,2015,...,...,Trade Indicator,Index of export market penetration,
+,2015,...,...,Trade Indicator,HH Market concentration index,
+,2015,...,...,Development,Trade Balance (% of GDP),-2.840942618
+,2015,...,...,Development,Trade in services (% of GDP),7.2218905384
+,2015,...,...,Development,Trade (% of GDP),31.394061542
+,2015,...,...,Development,"GNI per capita, Atlas method (current US$)",55145.884032
