@@ -31,7 +31,7 @@ countries =
 var countries;
 var codeList;
 var test = [1,2,3];
-var year = 1960; 
+var year = 1960 ; 
 
 function readCountries(callback){
 	// Create list object containing objects with Key = Country Code and Value = {Country: Name of country} 
@@ -39,11 +39,16 @@ function readCountries(callback){
 		countries = {};	
 		codeList = {};
 		for(i in data){
-		// Adding country object to list object
-		countries[data[i]['ISO 3166-1 3 Letter Code']] = {'code': data[i]['ISO 3166-1 3 Letter Code'], 'name': data[i]['Common Name'], 'topExport': {}, 'topImport': {}, 'co2':{} }
+			// Adding country object to list object
+			countries[data[i]['ISO 3166-1 3 Letter Code']] = {'code': data[i]['ISO 3166-1 3 Letter Code'], 'name': data[i]['Common Name'], 'topExport': {}, 'topImport': {}, 'co2':{} }
+			//console.log(countries);
+			for (y=1988;y<2016;y++){
+				countries[data[i]['ISO 3166-1 3 Letter Code']].topExport[y] = {};
+				countries[data[i]['ISO 3166-1 3 Letter Code']].topImport[y] = {};
+			}
 
-		//Adding data to codelist
-		codeList[data[i]['Common Name']] = data[i]['ISO 3166-1 3 Letter Code']
+			//Adding data to codelist
+			codeList[data[i]['Common Name']] = data[i]['ISO 3166-1 3 Letter Code']
 		}
 		callback(null);
 	})
@@ -64,18 +69,20 @@ var q1 = d3.queue();
 function readData(){
 	var q2 = d3.queue();
 	for(i in countries){
-		q2.defer(d3.csv, 'data/allcountries_allyears_at_glance/en_'+countries[i].code+'_At-a-Glance.csv')			
+		q2.defer(d3.csv, 'data/allcountries_allyears_full/en_'+countries[i].code+'_AllYears_WITS_Trade_Summary.csv')			
 	}
 	q2.awaitAll(getTop5ExportImport)
 }
 
 // Takes out all data for top 5 export and top 5 import
 function getTop5ExportImport(error, files){
+	console.log("här är jag");
 	if(error){
 		console.log("Ops, something went wrong")
 	}
 	exports = [];
 	imports = [];
+	//years = [];
 	for(i in files){
 		file = files[i];
 		for(j in file){
@@ -86,6 +93,7 @@ function getTop5ExportImport(error, files){
 			};			
 		}
 	}
+	console.log(exports);
 	sortTop5ExportImport(exports, imports);
 }
 
@@ -96,15 +104,25 @@ function sortTop5ExportImport(exports, imports){
 	for(i in exports){
 		// loops all countries in code-name list and compares name to reporting country name in export-list
 		for(j in countries){
+			
 			if(countries[j].name == exports[i].Reporter){
 				// compares export partner with names in countries code-name list and adds partner country to 
 				// reporting countries topExport. Adds partner as an object with partner country code as key and data as value. 
 				for(k in countries){
-					if(countries[k].name == exports[i].Partner){
-						countries[j].topExport[countries[k].code] = exports[i];
+					
+					for(y=1988;y<2016;y++){
+					
+						if(countries[k].name == exports[i].Partner && exports[i][y] != ""){
+							countries[j].topExport[y][countries[k].code] = {
+							  mDollars:exports[i][y].replace(/\s+/g, ''),
+							  partner:exports[i].Partner
+							  };
+						}
+					
 					}
 				}
 			}
+			
 		}
 	}
 	// Same as above for import
@@ -112,8 +130,13 @@ function sortTop5ExportImport(exports, imports){
 		for(j in countries){
 			if(countries[j].name == imports[i].Reporter){
 				for(k in countries){
-					if(countries[k].name == imports[i].Partner){
-						countries[j].topImport[countries[k].code] = imports[i];
+					for(y=1988;y<2016;y++){
+						if(countries[k].name == imports[i].Partner && imports[i][y] != ""){
+							countries[j].topImport[y][countries[k].code] = {
+							  mDollars:imports[i][y].replace(/\s+/g, ''),
+							  partner:exports[i].Partner
+							  };
+						}
 					}
 				}
 			}
@@ -149,7 +172,7 @@ function readCo2(){
 function name2code(name){
 
 	if(codeList[name]==undefined){
-		//console.log(name + " stämmer ej med namn i land/kod-lista")
+		// console.log(name + " stämmer ej med namn i land/kod-lista")
 	}
 	return codeList[name];
 }

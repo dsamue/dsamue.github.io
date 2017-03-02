@@ -130,7 +130,7 @@ function draw(topo, brushSelected) {
   country.enter().insert("path")
       .attr("class", "country")
       .attr("d", worldPath)
-      .attr("id", function(d,i) { return d.id; })
+      .attr("id", function(d,i) { return name2code(d.properties.name); })
       .attr("title", function(d,i) { return d.properties.name; })
       .style("fill", function(d, i) {
 
@@ -144,10 +144,10 @@ function draw(topo, brushSelected) {
 
       	else{
       		//Hämta co2 för 2010
-      		var co2 = countries[kod].co2['2010'];
+      		var co2 = countries[kod].co2[year];
 
       		//Generera färg beroende på co2 utsläpp	
-      		var color = d3.scale.linear().domain([0,5,20]).range(["#A8FB54", "#FFFE5D", "#EB382F"]); 
+      		var color = d3.scale.linear().domain([0,5,20]).range(["#7860B9", "#EAE8E6", "#5AA9EC"]); 
           	return color(co2); 
       	}
 
@@ -196,15 +196,15 @@ function draw(topo, brushSelected) {
 		var code = name2code(d.properties.name);
 		var exportInfo = "";
 		var importInfo = "";
-		var countryExports = countries[code].topExport
-		var countryImports = countries[code].topImport
+		var countryExports = countries[code].topExport[2015]
+		var countryImports = countries[code].topImport[2015]
 
 		for(var key in countryExports) {
-		    exportInfo += "</br>" + countryExports[key].Partner;
+		    exportInfo += "</br>" + countryExports[key].partner;
 		}
 
 		for(var key in countryImports) {
-		    importInfo += "</br>" + countryImports[key].Partner;
+		    importInfo += "</br>" + countryImports[key].partner;
 		}
 
       var mouse = d3.mouse(worldSvg.node()).map( function(d) { return parseInt(d); } );
@@ -339,4 +339,29 @@ function throttle() {
 //geo translation on mouse click in map
 function click() {
   var latlon = projection.invert(d3.mouse(this));
+}
+
+
+
+function updateMapColors(){
+
+	    d3.selectAll("path.country")
+        .style("fill", function(){
+      		
+      		//Hämta landskod	
+      		var kod = this.id;
+
+      		//Om nåt är knas
+      		if(kod==''){
+	      		return "#000"
+	      	}
+
+	      	//Hämta co2 för rätt år och land
+      		var co2 = countries[kod].co2[year];
+
+      		//Generera färg beroende på co2-utsläpp	
+      		var color = d3.scale.linear().domain([0,5,20]).range(["#7860B9", "#EAE8E6", "#5AA9EC"]); 
+          	return color(co2); 
+
+        });
 }
