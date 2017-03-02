@@ -188,6 +188,10 @@ function draw(topo, brushSelected) {
     .on("mousemove", function(d,i) {
 		f = 0;
 
+		//Nollställfärgen på alla bars //Funkar inte riktigt eftersom alla förflyttningar verkar räknas som en ny mouse-over
+		// d3.selectAll(".bar")
+		//   	.attr('fill', 'blue');
+
 		//Hämtar export-/importinfo från data
 		var code = name2code(d.properties.name);
 		var exportInfo = "";
@@ -225,13 +229,45 @@ function draw(topo, brushSelected) {
       })
       .on("mouseout",  function(d,i) {
         tooltip.classed("hidden", true);
+
+       //ta bort eventuell highlight på bar chart 
+     //   var code = name2code(d.properties.name);
+
+     //   d3.select(".bar#" + code)
+		  	// .attr('fill', 'black');
+
+
       })
+
 	  .on("click", function(d, i) {
 		  //if (f < 6) {
 		  //	f = f + 1;
 		  //} else {
 			//  f = 0;
 		  //}
+
+		  //Hämtar landskod
+		  var code = name2code(d.properties.name);
+		  console.log(code);
+
+		  //Nollställ eventuell  highlightad stapel
+		  d3.selectAll(".bar")
+		  	.attr('fill', 'black');
+
+		  //Highlighta ny stapel i bar chart
+		  d3.select(".bar#" + code)
+		  	.attr('fill', 'orange');
+
+	   //  var tip = d3.tip()
+		  // .attr('class', 'd3-tip')
+		  // .offset([-10, 0])
+		  // .html(function(d) {
+		  //   return d.value.name + "</br>Co2: " + Math.round(d.value.co2[year] * 100) / 100;
+		  // })
+
+
+		  // d3.select(".bar#" + code)
+		  // 	.on('mouseover', tip.show);
 
 	      var mouse = d3.mouse(worldSvg.node()).map( function(d) { return parseInt(d); } );
 	  

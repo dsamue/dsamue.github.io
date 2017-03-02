@@ -30,6 +30,8 @@ countries =
 
 var countries;
 var codeList;
+var test = [1,2,3];
+var year = 1960; 
 
 function readCountries(callback){
 	// Create list object containing objects with Key = Country Code and Value = {Country: Name of country} 
@@ -47,6 +49,8 @@ function readCountries(callback){
 	})
 	//Fick inte riktigt grepp om d3.queue så jag la denna här /David
 	readCo2(); 
+	// drawBarChart();
+
 }
 
 // Waits until readCountries is ready and then runs readCo2 and readData 
@@ -117,6 +121,7 @@ function sortTop5ExportImport(exports, imports){
 	}
 	// Our adorable list of countries
 	console.log(countries)
+	drawBarChart();   //Hittade inget bättre sätt att anropa denna än först efter att hela fetch-data är körd //David
  
 }
 
@@ -148,4 +153,5 @@ function name2code(name){
 	}
 	return codeList[name];
 }
+
 

@@ -227,8 +227,24 @@
 			"file": "_layouts/default.html",
 			"settings":
 			{
-				"buffer_size": 937,
+				"buffer_size": 248,
 				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/David/Desktop/Backup på kattass/_layouts/default.html",
+			"settings":
+			{
+				"buffer_size": 248,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/icon-github.html",
+			"settings":
+			{
+				"buffer_size": 177,
 				"line_ending": "Unix"
 			}
 		},
@@ -274,8 +290,7 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/David/Desktop/KTH/Github/samuelsson87.github.io",
-		"/Users/David/Desktop/KTH/Github/samuelsson87.github.io/_layouts"
+		"/Users/David/Desktop/KTH/Github/samuelsson87.github.io"
 	],
 	"file_history":
 	[
@@ -443,15 +458,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 937,
+						"buffer_size": 248,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								925,
-								0
+								248,
+								248
 							]
 						],
 						"settings":
@@ -469,6 +484,64 @@
 				},
 				{
 					"buffer": 1,
+					"file": "/Users/David/Desktop/Backup på kattass/_layouts/default.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 248,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								248,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "_includes/icon-github.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 177,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								177,
+								177
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": "mydata.csv",
 					"semi_transient": false,
 					"settings":
@@ -492,7 +565,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]

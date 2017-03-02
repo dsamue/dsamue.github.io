@@ -4,18 +4,34 @@
     <meta charset="UTF-8">
     <title>Environmind</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="d3.slider.css" />  
     <script src="d3/d3.js"></script>
     <script src="d3-queue/d3-queue.js"></script>
-  <!--<script src="http://d3js.org/topojson.v0.min.js"></script> -->
+    <script src="js/d3.slider.js"></script>
+
+
+    <!--  <script src="http://d3js.org/topojson.v0.min.js"></script> -->
+
+
 </head>
 <body>
     <h1>Environmind</h1>
     <div id="container"></div>
+    <div id="chart"></div>
+
+    <div class="slider">
+        <h2>Year: <span id="slider4text">1960</span></h2>
+        <div id="slider"></div>
+    </div>
+
+</body>
 
     <!-- SCRIPT -->
-    <script type="text/javascript" src="/js/Worldmap.js"></script>
-    <script src="js/topojson.v1.min.js"></script>
-    <script src="js/fetch_data.js"></script>
-<!--     <script src="js/name2code.js"></script> -->
-</body>
+    <script type="text/javascript" src="js/Worldmap.js" ></script>
+    <script type="text/javascript" src="js/topojson.v1.min.js" ></script>
+    <script type="text/javascript" src="js/fetch_data.js" ></script>
+    <script type="text/javascript" src="js/draw_chart.js" defer ></script>
+    <script type="text/javascript" src="js/slider.js" ></script>
+    <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+    <!--     <script src="js/name2code.js"></script> -->
 </html>
