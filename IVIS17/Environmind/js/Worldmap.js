@@ -1,88 +1,26 @@
 d3.select(window).on("resize", throttle);
 
+//Declaring initial variables
+var country; 
+
 var zoom = d3.behavior.zoom()
     .scaleExtent([1, 9])
     .on("zoom", move);
 
 var width = document.getElementById('container').offsetWidth;
 var height = width / 1.9;
-
-var colors = {
-	"Albania": "#8dd3c7",
-	"Azerbaijan": "#ffffb3",
-	"Argentina": "#bebada",
-	"Australia": "#fb8072",
-	"Bangladesh": "#80b1d3",
-	"Armenia": "#fdb462",
-	"Bulgaria": "#b3de69",
-	"Belarus": "#fccde5",
-	"Chile": "#d9d9d9",
-	"China": "#bc80bd",
-	"Colombia": "#ccebc5",
-	"Croatia": "#ffed6f",
-	"Czech Rep.": "#66c2a5",
-	"Dominican Rep.": "#fc8d62",
-	"El Salvador": "#8da0cb",
-	"Estonia": "#e78ac3",
-	"Finland": "#a6d854",
-	"Georgia": "#ffd92f",
-	"Hungary": "#e5c494",
-	"India": "#b3b3b3",
-	"Japan": "#e41a1c",
-	"Latvia": "#377eb8",
-	"Lithuania":"#4daf4a",
-	"Mexico":"#984ea3",
-	"Moldova":"#ff7f00",
-	"Macedonia":"#ffff33",
-	"United Kingdom":"#a65628",
-	"Bosnia":"#f781bf",
-	"Algeria":"#999999",
-	"Bosnia Herzegovina": "#b3e2cd",
-	"Canada":"#fdcdac",
-	"Indonesia":"#cbd5e8",
-	"Iran":"#f4cae4",
-	"Iraq":"#e6f5c9",
-	"Jordan":"#fff2ae",
-	"South Korea":"#f1e2cc",
-	"Kyrgyzstan":"#cccccc",
-	"Morocco":"#fbb4ae",
-	"Nigeria":"#b3cde3",
-	"Pakistan":"#ccebc5",
-	"Peru":"#decbe4",
-	"Philippines":"#fed9a6",
-	"Puerto Rico":"#ffffcc",
-	"Saudi Arabia":"#e5d8bd",
-	"Singapore":"#fddaec",
-	"South Africa":"#f2f2f2",
-	"Egypt":"#ccc",
-	"Serbia":"#ece2f0",
-	"Montenegro":"#d0d1e6",
-	"Andorra":"#a6bddb",
-	"Brazil":"#67a9cf",
-	"Cyprus":"#3690c0",
-	"Ethiopia":"#02818a",
-	"France":"#016c59",
-	"Ghana":"#014636",
-	"Guatemala":"#f7fcfd",
-	"Hong Kong":"#e0ecf4",
-	"Italy":"#bfd3e6",
-	"Malaysia":"#9ebcda",
-	"Mali":"#8c96c6",
-	"Bahrain":"#8c6bb1",
-	"Ecuador":"#88419d",
-	"Kazakhstan":"#810f7c",
-	"Kuwait":"#4d004b",
-	"Lebanon":"#f7fcf5",
-	"Libya":"#e5f5e0",
-	"Netherlands":"#c7e9c0",
-};
-
 var topo,projection,worldPath,worldSvg,worldG;
 var graticule = d3.geo.graticule();
 var tooltip = d3.select("#container").append("div").attr("class", "tooltip hidden");
-setup(width,height);
+var landETT;
+var landTwo; 
 
-function setup(width,height){
+//Calling setup-function to start setting up map
+setup(width,height, "#container", "world");
+
+//Setting up countries
+//variables 'container' and 'theclass' changes depending on large or small map-view
+function setup(width,height, container, theclass){
   projection = d3.geo.mercator()
     .translate([(width/2), (height/2)])
     .scale( width / 2 / Math.PI)
@@ -90,101 +28,77 @@ function setup(width,height){
 
   worldPath = d3.geo.path().projection(projection);
 
-  worldSvg = d3.select("#container").append("svg")
-      .attr("class", "world")
+  worldSvg = d3.select(container).append("svg")
+      .attr("class", theclass)
       .attr("width", width)
       .attr("height", height)
-      .call(zoom)
-      .on("click", click)
-      .append("g");
+      .append("g");;
+
+      if(container == "#container"){
+      	worldSvg
+      		.call(zoom)
+      		.on("click", click);
+  		}
+  		else{
+  			worldSvg.attr("class", "countrySizePos");
+  		}
+
 
   worldG = worldSvg.append("g");
 
 }
 
+//Drawing large map
 d3.json("world-topo-min.json", function(error, world) {
   var countries = topojson.feature(world, world.objects.countries).features;
   topo = countries;
   draw(topo);
-  
 });
 
-function draw(topo, brushSelected) {
- // Clear map if brush is selected
-  //if (brushSelected) {
-//	  worldG.html("");
-  //}
-  
-  var country = worldG.selectAll(".country").data(topo); 
-  
-  worldSvg.append("path")
-     .datum(graticule)
-     .attr("class", "graticule")
-     .attr("d", worldPath);
 
-  worldG.append("path")
-   .datum({type: "LineString", coordinates: [[-180, 0], [-90, 0], [0, 0], [90, 0], [180, 0]]})
-   .attr("class", "equator")
-   .attr("d", worldPath);
-  
-  country.enter().insert("path")
+//Drawing map and/or small country depending on mapType
+function draw(topo) {
+	//if(mapType == "large"){
+		// worldSvg.append("path")
+	 //     .datum(graticule)
+	 //     .attr("class", "graticule")
+	 //     .attr("d", worldPath);
+
+	 //  worldG.append("path")
+	 //   .datum({type: "LineString", coordinates: [[-180, 0], [-90, 0], [0, 0], [90, 0], [180, 0]]})
+	 //   .attr("class", "equator")
+	 //   .attr("d", worldPath);
+	//}
+	country = worldG.selectAll(".country").data(topo);
+
+	//check id attrubite here (d.properties.name for large, d.id for small???)
+	//With d.properties.name for both the info-box shows up on hover for both
+	country.enter().insert("path")
       .attr("class", "country")
       .attr("d", worldPath)
       .attr("id", function(d,i) { return name2code(d.properties.name); })
-      .attr("title", function(d,i) { return d.properties.name; })
-      .style("fill", function(d, i) {
+      .attr("title", function(d,i) { return d.properties.name; });
+  		
 
+  		//Setting colors for the map
+      	updateMapColors();
 
-      	var kod=name2code(d.properties.name);
+        countryInteraction();
+}
 
-      	//Om vi har problem med att matcha namn:
-      	if(kod==undefined){
-      		return "#000"
-      	}
+//Function that holds all interaction functionality with a country
+function countryInteraction(){
+ 	//offsets for tooltips
+  	var offsetL = document.getElementById('container').offsetLeft+20;
+  	var offsetT = document.getElementById('container').offsetTop+10;
+  	//tooltips
+	var clickState = 0;
+	var sidebarDiv = document.getElementById('sidebar');
+	var mapScreen = document.getElementById('mapScreen');
+	d3.select("#compareLineChart").classed("hidden", true);
 
-      	else{
-      		//Hämta co2 för 2010
-      		var co2 = countries[kod].co2[year];
-
-      		//Generera färg beroende på co2 utsläpp	
-      		var color = d3.scale.linear().domain([0,5,20]).range(["#7860B9", "#EAE8E6", "#5AA9EC"]); 
-          	return color(co2); 
-      	}
-
-      	//console.log(countries[kod]);   //
-      
-		  //return d.properties.color;
-
-
-		  //var returncolor = "efefef";
-		  //if (!brushSelected) {
-	    	//  Object.keys(colors).forEach(function(colorName) {
-	    	//    	if (colorName == d.properties.name) {
-	    	//    		returncolor = colors[colorName];
-	   	//    	}});
-		  //}
-          //
-			//		if (brushSelected) {
-			//			brushSelected.forEach(function(selectedItem) {
-			//  				if (selectedItem.Country == d.properties.name) {
-			//			    	  Object.keys(colors).forEach(function(colorName) {
-			//			    	    	if (colorName == d.properties.name) {
-			//			    	    		returncolor = colors[colorName];
-			//			    	    	}
-			//  				});
-			//			};
-			//		});
-			//		}
-		  //
-		  //return returncolor;
-       });
-
-  //offsets for tooltips
-  var offsetL = document.getElementById('container').offsetLeft+20;
-  var offsetT = document.getElementById('container').offsetTop+10;
-  //tooltips
-  //f = 0;
-  country
+	country
+	//Hover a country
     .on("mousemove", function(d,i) {
 		f = 0;
 
@@ -196,38 +110,28 @@ function draw(topo, brushSelected) {
 		var code = name2code(d.properties.name);
 		var exportInfo = "";
 		var importInfo = "";
-		var countryExports = countries[code].topExport[2015]
-		var countryImports = countries[code].topImport[2015]
+//		var countryExports = countries[code].exports[2015]
+//		var countryImports = countries[code].imports[2015]
 
-		for(var key in countryExports) {
-		    exportInfo += "</br>" + countryExports[key].partner;
-		}
+//		for(var key in countryExports) {
+//		    exportInfo += "</br>" + countryExports[key].partner;
+//		}
 
-		for(var key in countryImports) {
-		    importInfo += "</br>" + countryImports[key].partner;
-		}
+//		for(var key in countryImports) {
+//		    importInfo += "</br>" + countryImports[key].partner;
+//		}
 
       var mouse = d3.mouse(worldSvg.node()).map( function(d) { return parseInt(d); } );
-	  
-	  
-	  //d3.csv("totalgdp.csv", function(data) {
-		//  data.forEach(function(economyData) {
-		//	  if (d.properties.name == economyData.Country) {
-		//	  	  tooltip.html(d.properties.name + "<br>"
-		//		  + economyData.info + "<br>"
-		//		  + "1995-1999: "+ economyData.Year95to99 + "<br>"
-		//		  + "2000-2004: "+ economyData.Year00to04 + "<br>"
-		//		  + "2005-2009: "+ economyData.Year05to09);
-		//	  }
-		//  })
-	 	//});// end csv
+
 
       tooltip.classed("hidden", false)
              .attr("style", "left:"+(mouse[0]+ offsetL)+"px;top:"+(mouse[1]+offsetT)+"px")
              .html(d.properties.name + "</br></br>  Top  exports: " + exportInfo + "</br></br>  Top  imports: " + importInfo);
 
       })
-      .on("mouseout",  function(d,i) {
+
+	//Stop hovering a country
+  	.on("mouseout",  function(d,i) {
         tooltip.classed("hidden", true);
 
        //ta bort eventuell highlight på bar chart 
@@ -235,59 +139,75 @@ function draw(topo, brushSelected) {
 
      //   d3.select(".bar#" + code)
 		  	// .attr('fill', 'black');
-
-
       })
 
+      //Clicking a country
 	  .on("click", function(d, i) {
-		  //if (f < 6) {
-		  //	f = f + 1;
-		  //} else {
-			//  f = 0;
-		  //}
+	  	//If first country to be clicked
+		  if (clickState == 0) {
+		  	d3.select("#sidebarNoCountry").classed("hidden", true);
+		  	d3.select("#sidebarOneCountry").classed("hidden", false);
+		  	d3.select("#sidebarMultipleCountries").classed("hidden", true);
+		  	console.log("i IF " + clickState);
+			landETT = d;
 
-		  //Hämtar landskod
-		  var code = name2code(d.properties.name);
-		  console.log(code);
+			//Clear multiple lineChart if we have one
+			clearLineChart();
 
-		  //Nollställ eventuell  highlightad stapel
-		  d3.selectAll(".bar")
-		  	.attr('fill', 'black');
+			// Update sidebar values and draw piechart
+	        updateSideBar();
+  			drawPieChart();
 
-		  //Highlighta ny stapel i bar chart
-		  d3.select(".bar#" + code)
-		  	.attr('fill', 'orange');
+			clickState++;
+        
+		} 
+		//If second country to be clicked
+		else if (clickState == 1) {
+			d3.selectAll(".compareWorld").remove();
+			d3.select("#sidebarOneCountry").classed("hidden", true);
+			d3.select("#sidebarMultipleCountries").classed("hidden", false);
 
-	   //  var tip = d3.tip()
-		  // .attr('class', 'd3-tip')
-		  // .offset([-10, 0])
-		  // .html(function(d) {
-		  //   return d.value.name + "</br>Co2: " + Math.round(d.value.co2[year] * 100) / 100;
-		  // })
+			landTwo = d;
+
+			//var mouse = d3.mouse(worldSvg.node()).map( function(d) { return parseInt(d); } );
+
+			var width = document.getElementById('compareContainer').offsetWidth/2;
+			var height = width / 1.9;
+
+			//Kan eventuell kolla hur man väljer fler länder här.
+			setup(width,height, "#compareContainer", "compareWorld");
+			draw([landETT]);
+			setup(width,height, "#compareContainer", "compareWorld");
+			draw([landTwo]);
+			
+			//Create code for each country
+			var kod1 = name2code(landETT.properties.name);
+			var kod2 = name2code(landTwo.properties.name);
+
+			//Call multiple line chart 
+			drawLine(countries[kod1].co2, countries[kod2].co2);
+			clickState = 0;
+		  }
 
 
-		  // d3.select(".bar#" + code)
-		  // 	.on('mouseover', tip.show);
+	  //Nollställ eventuell  highlightad stapel
+	  d3.selectAll(".bar")
+	  	.attr('fill', 'black');
 
-	      var mouse = d3.mouse(worldSvg.node()).map( function(d) { return parseInt(d); } );
-	  
-		  //var EconomyDataFiles = ["totalgdp.csv", "AvGdpInc.csv", "GroCapInv.csv", "inflationSum.csv", "industryAvg.csv", "taxrev.csv", "tradebal.csv"]
-	  
-		  //d3.csv(EconomyDataFiles[f], function(data) {
-			//  data.forEach(function(economyData) {
-			//	  if (d.properties.name == economyData.Country) {
-			//	  	  tooltip.html(d.properties.name + "<br>"
-			//		  + economyData.info + "<br>"
-			//		  + "1995-1999: "+ economyData.Year95to99 + "<br>"
-			//		  + "2000-2004: "+ economyData.Year00to04 + "<br>"
-			//		  + "2005-2009: "+ economyData.Year05to09);
-			//	  }
-			//  })
-		 	//});// end csv
 
-	      tooltip.classed("hidden", false)
-	             .attr("style", "left:"+(mouse[0]+ offsetL)+"px;top:"+(mouse[1]+offsetT)+"px")
-	             .html(d.properties.name);
+	  //Hämtar landskod så kan fylla i rätt land 
+	  var code = name2code(d.properties.name);
+
+	  //Highlighta ny stapel i bar chart
+	  d3.select(".bar#" + code)
+	  	.attr('fill', 'orange');
+
+
+      var mouse = d3.mouse(worldSvg.node()).map( function(d) { return parseInt(d); } );
+
+      tooltip.classed("hidden", false)
+             .attr("style", "left:"+(mouse[0]+ offsetL)+"px;top:"+(mouse[1]+offsetT)+"px")
+             .html(d.properties.name);
 	  });
 
 }
@@ -297,7 +217,7 @@ function redraw() {
   width = document.getElementById('container').offsetWidth;
   height = width / 2;
   d3.select('svg').remove();
-  setup(width,height);
+  setup(width,height, "#container", "world");
   draw(topo);
 }
 
@@ -329,6 +249,7 @@ function move() {
 }
 
 var throttleTimer;
+
 function throttle() {
   window.clearTimeout(throttleTimer);
     throttleTimer = window.setTimeout(function() {
@@ -342,9 +263,8 @@ function click() {
 }
 
 
-
+//Updating map-values
 function updateMapColors(){
-
 	    d3.selectAll("path.country")
         .style("fill", function(){
       		
@@ -357,11 +277,12 @@ function updateMapColors(){
 	      	}
 
 	      	//Hämta co2 för rätt år och land
-      		var co2 = countries[kod].co2[year];
+      		var tradingBalance = countries[kod].tradingBalance[year];
 
       		//Generera färg beroende på co2-utsläpp	
-      		var color = d3.scale.linear().domain([0,5,20]).range(["#7860B9", "#EAE8E6", "#5AA9EC"]); 
-          	return color(co2); 
+      		var color = d3.scale.linear().domain([-20,0,20]).range(["#7860B9", "#EAE8E6", "#5AA9EC"]); 
+          	return color(tradingBalance); 
 
         });
+
 }

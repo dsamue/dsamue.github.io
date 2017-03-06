@@ -2,36 +2,123 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Environmind</title>
+    <title>Enviromind</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="d3.slider.css" />  
     <script src="d3/d3.js"></script>
     <script src="d3-queue/d3-queue.js"></script>
     <script src="js/d3.slider.js"></script>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
     <!--  <script src="http://d3js.org/topojson.v0.min.js"></script> -->
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 
 </head>
 <body>
-    <h1>Environmind</h1>
-    <div id="container"></div>
-    <div id="chart"></div>
-
-    <div class="slider">
-        <h2>Year: <span id="slider4text">1960</span></h2>
-        <div id="slider"></div>
+<div class="row">
+    <div id="mapScreen" class="col-lg-6 col-md-6">
+        <div id="container"></div>
+        <div id="belowChart">
+            <div id="chart"></div>
+            <div class="slider">
+                <div id="slider"></div>
+                <h2><span id="slider4text">1960</span></h2>
+            </div>
+        </div>
     </div>
+
+<!--  Details on demand sidebar--> 
+    <div id="sidebar" class="col-lg-6 col-md-6">
+        <!--put cool graphics here-->
+        <h1>ENVIROMIND</h1>
+        <!-- Displayed if no country is selected -->
+        <div id="sidebarNoCountry" class="display">
+            <p id="selectCountry">Select a country on the map for additional information...</p>
+        </div>
+
+        <!-- Displayed if one country is selected --> 
+        <div id="sidebarOneCountry" class="hidden">
+            <div id="headings" class="row">
+                <div class="col-md-3">
+                    <span id="country-name"></span>
+                </div>
+                <div class="col-md-9">
+                    <div id="year-info">
+                        <h3> BY THE YEAR OF <span id="year-label"></span><h3>
+                    </div> <!-- Lägg till data här -->
+                </div>
+            </div>
+            
+            <h3> Annual CO2 per capita: <span class="infoText" id="co2-label"></span></h3>
+            <h3> Trade balance: <span class="infoText" id="trade-label"></span> </h3>
+   
+            <div class="charts-view">
+                <div class="row">
+                    <div id="line-chart-container" class="col-lg-6 col-md-6">Line chart here</div>
+                    <div id="pie-chart-container" class="col-lg-6 col-md-6"></div>
+                </div>
+                <div class="row" id="impExp">
+                    <div id="top-export-container" class="col-lg-6 col-md-6">
+                        <h4>TOP 5 EXPORT</h4>
+                        <ol>
+                            <li>Country 1</li>
+                            <li>Country 2</li>
+                            <li>Country 3</li>
+                            <li>Country 4</li>
+                            <li>Country 5</li>
+                        </ol>
+                    </div>
+                    <div id="top-import-container" class="col-lg-6 col-md-6">
+                        <h4>TOP 5 IMPORT</h4>
+                        <ol>
+                            <li>Country 1</li>
+                            <li>Country 2</li>
+                            <li>Country 3</li>
+                            <li>Country 4</li>
+                            <li>Country 5</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+            <!-- On view 2 append text 'Select two countries to compare them' -->
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                    <span id="additional-countries-hint"></span>
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+
+        </div>
+
+         <!-- Displayed if several countries are selected --> 
+        <div id="sidebarMultipleCountries" class="hidden">
+            <div id="compareContainer"></div>
+            <div class="charts-view" id="multiples">
+                <div id="compare-line-chart"></div>
+            </div>
+        </div>
+    </div>
+</div><!-- End of row --> 
+
 
 
 </body>
 
     <!-- SCRIPT -->
     <script type="text/javascript" src="js/Worldmap.js" ></script>
+    <script type="text/javascript" src="js/pie-chart.js"></script>
+    <script type="text/javascript" src="js/sidebardata.js"></script>
     <script type="text/javascript" src="js/topojson.v1.min.js" ></script>
     <script type="text/javascript" src="js/fetch_data.js" ></script>
     <script type="text/javascript" src="js/draw_chart.js" defer ></script>
+    <script type="text/javascript" src="js/linechart.js"></script>
     <script type="text/javascript" src="js/slider.js" ></script>
     <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
     <!--     <script src="js/name2code.js"></script> -->

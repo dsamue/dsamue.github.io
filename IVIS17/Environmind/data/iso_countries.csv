@@ -126,7 +126,7 @@ Sort Order,Common Name,Formal Name,Type,Sub Type,Sovereignty,Capital,ISO 4217 Cu
 138,Poland,Republic of Poland,Independent State,,,Warsaw,PLN,Zloty,48,PL,POL,616,.pl
 139,Portugal,Portuguese Republic,Independent State,,,Lisbon,EUR,Euro,351,PT,PRT,620,.pt
 140,Qatar,State of Qatar,Independent State,,,Doha,QAR,Rial,974,QA,QAT,634,.qa
-142,Russia,Russian Federation,Independent State,,,Moscow,RUB,Ruble,7,RU,RUS,643,.ru and .su
+142,Russian Federation,Russian Federation,Independent State,,,Moscow,RUB,Ruble,7,RU,RUS,643,.ru and .su
 143,Rwanda,Republic of Rwanda,Independent State,,,Kigali,RWF,Franc,250,RW,RWA,646,.rw
 144,Saint Kitts and Nevis,Federation of Saint Kitts and Nevis,Independent State,,,Basseterre,XCD,Dollar,-868,KN,KNA,659,.kn
 145,Saint Lucia,,Independent State,,,Castries,XCD,Dollar,-757,LC,LCA,662,.lc
@@ -201,3 +201,37 @@ Sort Order,Common Name,Formal Name,Type,Sub Type,Sovereignty,Capital,ISO 4217 Cu
 257,Reunion,Overseas Region of Reunion,Proto Dependency,Overseas Region,France,Saint-Denis,EUR,Euro,262,RE,REU,638,.re
 259,Aruba,,Proto Dependency,,Netherlands,Oranjestad,AWG,Guilder,297,AW,ABW,533,.aw
 260,Netherlands Antilles,,Proto Dependency,,Netherlands,Willemstad,ANG,Guilder,599,AN,ANT,530,.an
+,American Samoa,,,,,,,,,,ASM,,
+,Angola,,,,,,,,,,AGO,,
+,"Virgin Islands, British",,,,,,,,,,VGB,,
+,Channel Islands,,,,,,,,,,CHI,,
+,"Congo, the Democratic Republic of the",,,,,,,,,,ZAR,,
+,Curacao,,,,,,,,,,CUW,,
+,Equatorial Guinea,,,,,,,,,,GNQ,,
+,Gibraltar,,,,,,,,,,GIB,,
+,Guam,,,,,,,,,,GUM,,
+,Haiti,,,,,,,,,,HTI,,
+,Iraq,,,,,,,,,,IRQ,,
+,Isle of Man,,,,,,,,,,IMY,,
+,"Korea, Republic of",,,,,,,,,,PRK,,
+,Kosovo,,,,,,,,,,KSV,,
+,Lao People's Democratic Republic,,,,,,,,,,LAO,,
+,Liberia,,,,,,,,,,LBR,,
+,Liechtenstein,,,,,,,,,,LIE,,
+,Marshall Islands,,,,,,,,,,MHL,,
+,Monaco,,,,,,,,,,MCO,,
+,Montenegro,,,,,,,,,,MNE,,
+,Nauru,,,,,,,,,,NRU,,
+,Northern Mariana Islands,,,,,,,,,,MNP,,
+,Puerto Rico,,,,,,,,,,PRI,,
+,Romania,,,,,,,,,,ROM,,
+,San Marino,,,,,,,,,,SMR,,
+,Serbia,,,,,,,,,,SRB,,
+,Sint Maarten (Dutch part),,,,,,,,,,SXM,,
+,Somalia,,,,,,,,,,SOM,,
+,South Sudan,,,,,,,,,,SSD,,
+,Saint Martin (French part),,,,,,,,,,MAF,,
+,Timor-Leste,,,,,,,,,,TMP,,
+,Uzbekistan,,,,,,,,,,UZB,,
+,"Virgin Islands, U.S.",,,,,,,,,,VIR,,
+,West Bank and Gaza,,,,,,,,,,WBG,,

@@ -1,5 +1,19 @@
-body{
-    font-family: "Arial", "Helvetica", sans-serif;
+html,body
+{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+    font-family: "Helvetica Neue";
+}
+
+h3{
+  margin-top: 10px !important;
+}
+
+h2{
+  margin-top: 15px !important;
 }
 
 path {
@@ -8,8 +22,18 @@ path {
     fill: black;
 }
 
+span{
+  display: inline-block;
+}
+
 svg {
     font: 10px sans-serif;
+}
+h1{
+  padding:20px; 
+  font-size: 56px;
+  text-align: center;
+  background-color:rgba(186,186,186,1);
 }
 
 canvas {
@@ -19,14 +43,23 @@ canvas {
 }
 
 #barChart{
-    display: block 
-    margin: auto
+    display: block; 
+    margin: auto;
 }
 
 #chart {    
-  width: 90%;
+  width: 100%;
   margin: auto;
 }
+
+#belowChart{
+  padding-left: 16%;
+}
+
+/*#mapScreen{
+  text-align: right;
+  margin-left: 20px;
+}*/
 
 .brush .extent {
     fill-opacity: .3;
@@ -56,6 +89,7 @@ canvas {
     margin:10px 10%;
     height:100%;
     border:solid #000;
+    margin-top: 20px;
 }
 .hidden {
     display: none;
@@ -76,7 +110,7 @@ div.tooltip {
     opacity: 0.9;
     position: absolute;
 }
-.graticule {
+/*.graticule {
     fill: none;
     stroke: #bbb;
     stroke-width: .5px;
@@ -85,7 +119,7 @@ div.tooltip {
 .equator {
     stroke: #ccc;
     stroke-width: 1px;
-}
+}*/
 
 .world {
     top:600px;
@@ -140,7 +174,115 @@ p {
 
 /*Slider area*/
 .slider{
-  width: 70%;
-  margin: 0 auto;
+  width: 100%;
+  margin: auto;
+  padding-top: 40px;
+
 }
+
+.slider h2{
+  padding-top: 40px;
+  padding-left: 35%;
+}
+
+#slider{
+  background-color: black;
+  height: 4px;
+  width: 455px;
+}
+.d3-slider-handle{
+    background: white !important;
+
+}
+#handle-one{
+  border-radius: 50%;
+  width: 20px;
+  border: 2px solid black;
+}
+
+
 /*Slider area end*/
+
+#sidebar {
+    background-color: rgba(238,238,238,1);
+    height: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.row{
+    overflow: hidden;
+    height: 100%;
+}
+
+#selectCountry {
+    margin:auto; text-align:center; font-weight:bold; line-height: 400px;
+}
+
+.top5exports {
+    border:solid 1px #000;
+    width:400px;
+    height:400px;
+}
+
+.compareWorld {
+}
+
+.countrySizePos {
+}
+
+#compare-line-chart {
+    border:solid 1px #000;
+    overflow: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-right: 20px;
+}
+
+#compare-line-chart { font: 12px;}
+
+#compare-line-chart path { 
+    stroke: steelblue;
+    stroke-width: 2;
+    fill: none;
+}
+
+#compare-line-chart .axis path,
+#compare-line-chart .axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+
+
+#country-name p{
+  font-size: 38px;
+}
+
+.charts-view{
+  background-color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left:10px; padding-right: 10px;
+  border: 2px solid rgba(204,204,204,1);
+  height: 100%;
+  padding-bottom:20px; padding-top: 20px;
+}
+
+#multiples{
+  height: 370px;
+}
+
+#additional-countries-hint p{
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+#impExp{
+  margin-top: 20px;
+}
+
+#sidebar p{
+  float: center;
+}
