@@ -1,0 +1,90 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Bermuda,2015,United States,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,6.965928
+Bermuda,2015,United Kingdom,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,1.03993
+Bermuda,2015,Switzerland,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,0.2643
+Bermuda,2015,Canada,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,0.171566
+Bermuda,2015,Denmark,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,0.07123
+Bermuda,2015,United States,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,609.841723
+Bermuda,2015,Canada,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,136.964283
+Bermuda,2015,United Kingdom,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,36.556225
+Bermuda,2015,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,24.746373
+Bermuda,2015,"Bahamas, The",All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,13.796212
+Bermuda,2015,World,Animal,Export,Export(US$ Mil),0.174861
+Bermuda,2015,World,Vegetable,Export,Export(US$ Mil),0.012973
+Bermuda,2015,World,Food Products,Export,Export(US$ Mil),3.678326
+Bermuda,2015,World,Minerals,Export,Export(US$ Mil),0.000279
+Bermuda,2015,World,Fuels,Export,Export(US$ Mil),0.00411
+Bermuda,2015,World,Chemicals,Export,Export(US$ Mil),0.014338
+Bermuda,2015,World,Plastic or Rubber,Export,Export(US$ Mil),0.05525
+Bermuda,2015,World,Hides and Skins,Export,Export(US$ Mil),0.03169
+Bermuda,2015,World,Wood,Export,Export(US$ Mil),0.019586
+Bermuda,2015,World,Textiles and Clothing,Export,Export(US$ Mil),0.123207
+Bermuda,2015,World,Footwear,Export,Export(US$ Mil),0.057894
+Bermuda,2015,World,Stone and Glass,Export,Export(US$ Mil),0.006829
+Bermuda,2015,World,Metals,Export,Export(US$ Mil),0.244983
+Bermuda,2015,World,Mach and Elec,Export,Export(US$ Mil),0.920168
+Bermuda,2015,World,Transportation,Export,Export(US$ Mil),0.192562
+Bermuda,2015,World,Miscellaneous,Export,Export(US$ Mil),3.085375
+Bermuda,2015,World,Raw materials,Export,Export(US$ Mil),0.16352
+Bermuda,2015,World,Intermediate goods,Export,Export(US$ Mil),0.345484
+Bermuda,2015,World,Consumer goods,Export,Export(US$ Mil),5.733067
+Bermuda,2015,World,Capital goods,Export,Export(US$ Mil),1.411051
+Bermuda,2015,World,Raw materials,Import,Import(US$ Mil),64.767287
+Bermuda,2015,World,Intermediate goods,Import,Import(US$ Mil),48.53844
+Bermuda,2015,World,Consumer goods,Import,Import(US$ Mil),570.737649
+Bermuda,2015,World,Capital goods,Import,Import(US$ Mil),121.294467
+Bermuda,2015,World,All Products,Export,Exports (in US$ Mil),8.62243
+Bermuda,2015,World,All Products,Import,Imports (in US$ Mil),928.900937
+Bermuda,2015,World,All Products,Tariff,Duty Free Imports (US$ Thousand),104695.723
+Bermuda,2015,...,...,Tariff,No. Of Tariff Agreement,1
+Bermuda,2015,...,...,Import,No. Of Import partners,169
+Bermuda,2015,...,...,Import,No. Of Import products,3419
+Bermuda,2015,...,...,Export,No. Of Export partners,24
+Bermuda,2015,...,...,Export,No. Of Export products,431
+Bermuda,2015,...,...,Others,Population,65235
+Bermuda,2015,United States,All Products,Export,Partner share(%)-Top 5 Export Partner,80.7885
+Bermuda,2015,United Kingdom,All Products,Export,Partner share(%)-Top 5 Export Partner,12.0608
+Bermuda,2015,Switzerland,All Products,Export,Partner share(%)-Top 5 Export Partner,3.0653
+Bermuda,2015,Canada,All Products,Export,Partner share(%)-Top 5 Export Partner,1.9898
+Bermuda,2015,Denmark,All Products,Export,Partner share(%)-Top 5 Export Partner,0.8261
+Bermuda,2015,United States,All Products,Import,Partner share(%)-Top 5 Import Partner,65.652
+Bermuda,2015,Canada,All Products,Import,Partner share(%)-Top 5 Import Partner,14.7448
+Bermuda,2015,United Kingdom,All Products,Import,Partner share(%)-Top 5 Import Partner,3.9354
+Bermuda,2015,China,All Products,Import,Partner share(%)-Top 5 Import Partner,2.664
+Bermuda,2015,"Bahamas, The",All Products,Import,Partner share(%)-Top 5 Import Partner,1.4852
+Bermuda,2015,World,Animal,Export,Export Product share(%),2.028
+Bermuda,2015,World,Vegetable,Export,Export Product share(%),0.1505
+Bermuda,2015,World,Food Products,Export,Export Product share(%),42.66
+Bermuda,2015,World,Minerals,Export,Export Product share(%),0.0032
+Bermuda,2015,World,Fuels,Export,Export Product share(%),0.0477
+Bermuda,2015,World,Chemicals,Export,Export Product share(%),0.1663
+Bermuda,2015,World,Plastic or Rubber,Export,Export Product share(%),0.6408
+Bermuda,2015,World,Hides and Skins,Export,Export Product share(%),0.3675
+Bermuda,2015,World,Wood,Export,Export Product share(%),0.2272
+Bermuda,2015,World,Textiles and Clothing,Export,Export Product share(%),1.4289
+Bermuda,2015,World,Footwear,Export,Export Product share(%),0.6714
+Bermuda,2015,World,Stone and Glass,Export,Export Product share(%),0.0792
+Bermuda,2015,World,Metals,Export,Export Product share(%),2.8412
+Bermuda,2015,World,Mach and Elec,Export,Export Product share(%),10.6718
+Bermuda,2015,World,Transportation,Export,Export Product share(%),2.2333
+Bermuda,2015,World,Miscellaneous,Export,Export Product share(%),35.7831
+Bermuda,2015,World,Raw materials,Export,Export Product share(%),1.8964
+Bermuda,2015,World,Intermediate goods,Export,Export Product share(%),4.0068
+Bermuda,2015,World,Consumer goods,Export,Export Product share(%),66.4902
+Bermuda,2015,World,Capital goods,Export,Export Product share(%),16.3649
+Bermuda,2015,World,Raw materials,Import,Import Product share(%),6.9725
+Bermuda,2015,World,Intermediate goods,Import,Import Product share(%),5.2254
+Bermuda,2015,World,Consumer goods,Import,Import Product share(%),61.4423
+Bermuda,2015,World,Capital goods,Import,Import Product share(%),13.0578
+Bermuda,2015,World,Raw materials,Tariff,Weighted Average (%),7.024262397018
+Bermuda,2015,World,Intermediate goods,Tariff,Weighted Average (%),12.7652608067118
+Bermuda,2015,World,Consumer goods,Tariff,Weighted Average (%),19.6835687223276
+Bermuda,2015,World,Capital goods,Tariff,Weighted Average (%),23.4101362192475
+Bermuda,2015,World,All Products,Trade Indicator,World Growth (%),-7.8698674978916
+Bermuda,2015,World,All Products,Trade Indicator,Country Growth (%),74.7806236645861
+Bermuda,2015,World,All Products,Tariff,Simple Average (%),18.695115535763
+Bermuda,2015,World,All Products,Tariff,Weighted Average (%),18.666706388785
+Bermuda,2015,World,All Products,Tariff,Maximum Rate (%),1449.54296875
+Bermuda,2015,World,All Products,Tariff,Duty Free Tariff Lines Share (%),6.87633262260128
+Bermuda,2015,...,...,Trade Indicator,Index of export market penetration,1.3195016603001
+Bermuda,2015,...,...,Trade Indicator,HH Market concentration index,0.23898092807091

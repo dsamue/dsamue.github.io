@@ -1,0 +1,101 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Hungary,2015,Germany,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,27340.552047
+Hungary,2015,Romania,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,5355.448751
+Hungary,2015,Slovak Republic,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,4992.122167
+Hungary,2015,Austria,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,4793.650721
+Hungary,2015,Italy,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,4665.013923
+Hungary,2015,Germany,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,23774.536609
+Hungary,2015,Austria,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,5997.545589
+Hungary,2015,Poland,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,5007.158557
+Hungary,2015,Slovak Republic,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,4794.848317
+Hungary,2015,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,4776.87686
+Hungary,2015,World,Animal,Export,Export(US$ Mil),1836.570214
+Hungary,2015,World,Vegetable,Export,Export(US$ Mil),3166.216377
+Hungary,2015,World,Food Products,Export,Export(US$ Mil),3415.926534
+Hungary,2015,World,Minerals,Export,Export(US$ Mil),66.538436
+Hungary,2015,World,Fuels,Export,Export(US$ Mil),2302.117787
+Hungary,2015,World,Chemicals,Export,Export(US$ Mil),8410.099797
+Hungary,2015,World,Plastic or Rubber,Export,Export(US$ Mil),6373.526902
+Hungary,2015,World,Hides and Skins,Export,Export(US$ Mil),465.870337
+Hungary,2015,World,Wood,Export,Export(US$ Mil),2130.060363
+Hungary,2015,World,Textiles and Clothing,Export,Export(US$ Mil),1350.667829
+Hungary,2015,World,Footwear,Export,Export(US$ Mil),437.444108
+Hungary,2015,World,Stone and Glass,Export,Export(US$ Mil),1615.186615
+Hungary,2015,World,Metals,Export,Export(US$ Mil),4395.188067
+Hungary,2015,World,Mach and Elec,Export,Export(US$ Mil),38483.938381
+Hungary,2015,World,Transportation,Export,Export(US$ Mil),18220.39495
+Hungary,2015,World,Miscellaneous,Export,Export(US$ Mil),7627.100626
+Hungary,2015,World,Raw materials,Export,Export(US$ Mil),4918.989831
+Hungary,2015,World,Intermediate goods,Export,Export(US$ Mil),13635.768072
+Hungary,2015,World,Consumer goods,Export,Export(US$ Mil),35661.6570040001
+Hungary,2015,World,Capital goods,Export,Export(US$ Mil),41265.730428
+Hungary,2015,World,Raw materials,Import,Import(US$ Mil),4538.076886
+Hungary,2015,World,Intermediate goods,Import,Import(US$ Mil),17102.844057
+Hungary,2015,World,Consumer goods,Import,Import(US$ Mil),25486.911439
+Hungary,2015,World,Capital goods,Import,Import(US$ Mil),37810.743486
+Hungary,2015,World,All Products,Export,Exports (in US$ Mil),100296.847323
+Hungary,2015,World,All Products,Import,Imports (in US$ Mil),90760.850877
+Hungary,2002,World,All Products,Tariff,Duty Free Imports (US$ Thousand),7140691
+Hungary,2015,...,...,Development,Trade Balance (current US$ Mil),10845.418992
+Hungary,2015,...,...,Development,GDP (current US$ Mil),121715.20321
+Hungary,2002,...,...,Tariff,No. Of Tariff Agreement,1
+Hungary,2015,...,...,Import,No. Of Import partners,171
+Hungary,2015,...,...,Import,No. Of Import products,4394
+Hungary,2015,...,...,Export,No. Of Export partners,207
+Hungary,2015,...,...,Export,No. Of Export products,4010
+Hungary,2015,...,...,Others,Population,9844686
+Hungary,2016,...,...,Others,Ease of Doing Business Rank,41
+Hungary,2016,...,...,Others,Trading Across Borders Rank,1
+Hungary,2014,...,...,Others,LPI Rank,33
+Hungary,2014,...,...,Others,LPI Score,3.464438
+Hungary,,...,...,Others,Services Trade Restrictions Index - Over All,17.5
+Hungary,2015,Germany,All Products,Export,Partner share(%)-Top 5 Export Partner,27.2596
+Hungary,2015,Romania,All Products,Export,Partner share(%)-Top 5 Export Partner,5.3396
+Hungary,2015,Slovak Republic,All Products,Export,Partner share(%)-Top 5 Export Partner,4.9773
+Hungary,2015,Austria,All Products,Export,Partner share(%)-Top 5 Export Partner,4.7795
+Hungary,2015,Italy,All Products,Export,Partner share(%)-Top 5 Export Partner,4.6512
+Hungary,2015,Germany,All Products,Import,Partner share(%)-Top 5 Import Partner,26.1947
+Hungary,2015,Austria,All Products,Import,Partner share(%)-Top 5 Import Partner,6.6081
+Hungary,2015,Poland,All Products,Import,Partner share(%)-Top 5 Import Partner,5.5169
+Hungary,2015,Slovak Republic,All Products,Import,Partner share(%)-Top 5 Import Partner,5.2829
+Hungary,2015,China,All Products,Import,Partner share(%)-Top 5 Import Partner,5.2631
+Hungary,2015,World,Animal,Export,Export Product share(%),1.8311
+Hungary,2015,World,Vegetable,Export,Export Product share(%),3.1568
+Hungary,2015,World,Food Products,Export,Export Product share(%),3.4058
+Hungary,2015,World,Minerals,Export,Export Product share(%),0.0663
+Hungary,2015,World,Fuels,Export,Export Product share(%),2.2953
+Hungary,2015,World,Chemicals,Export,Export Product share(%),8.3852
+Hungary,2015,World,Plastic or Rubber,Export,Export Product share(%),6.3547
+Hungary,2015,World,Hides and Skins,Export,Export Product share(%),0.4645
+Hungary,2015,World,Wood,Export,Export Product share(%),2.1238
+Hungary,2015,World,Textiles and Clothing,Export,Export Product share(%),1.3467
+Hungary,2015,World,Footwear,Export,Export Product share(%),0.4361
+Hungary,2015,World,Stone and Glass,Export,Export Product share(%),1.6104
+Hungary,2015,World,Metals,Export,Export Product share(%),4.3822
+Hungary,2015,World,Mach and Elec,Export,Export Product share(%),38.37
+Hungary,2015,World,Transportation,Export,Export Product share(%),18.1665
+Hungary,2015,World,Miscellaneous,Export,Export Product share(%),7.6045
+Hungary,2015,World,Raw materials,Export,Export Product share(%),4.9044
+Hungary,2015,World,Intermediate goods,Export,Export Product share(%),13.5954
+Hungary,2015,World,Consumer goods,Export,Export Product share(%),35.5561
+Hungary,2015,World,Capital goods,Export,Export Product share(%),41.1436
+Hungary,2015,World,Raw materials,Import,Import Product share(%),5
+Hungary,2015,World,Intermediate goods,Import,Import Product share(%),18.8439
+Hungary,2015,World,Consumer goods,Import,Import Product share(%),28.0814
+Hungary,2015,World,Capital goods,Import,Import Product share(%),41.6597
+Hungary,2002,World,Raw materials,Tariff,Weighted Average (%),7.68645213521128
+Hungary,2002,World,Intermediate goods,Tariff,Weighted Average (%),5.19592979451637
+Hungary,2002,World,Consumer goods,Tariff,Weighted Average (%),10.2630543872542
+Hungary,2002,World,Capital goods,Tariff,Weighted Average (%),7.55471035679066
+Hungary,2015,World,All Products,Trade Indicator,World Growth (%),-7.8698674978916
+Hungary,2015,World,All Products,Trade Indicator,Country Growth (%),-3.89718943766503
+Hungary,2002,World,All Products,Tariff,Simple Average (%),8.8929599932166
+Hungary,2002,World,All Products,Tariff,Weighted Average (%),7.90857087101399
+Hungary,2002,World,All Products,Tariff,Maximum Rate (%),127.5
+Hungary,2002,World,All Products,Tariff,Duty Free Tariff Lines Share (%),8.23041340411747
+Hungary,2015,...,...,Trade Indicator,Index of export market penetration,12.1373162586447
+Hungary,2015,...,...,Trade Indicator,HH Market concentration index,0.0893561108496601
+Hungary,2015,...,...,Development,Trade Balance (% of GDP),8.91048834
+Hungary,2015,...,...,Development,Trade in services (% of GDP),31.358870222
+Hungary,2015,...,...,Development,Trade (% of GDP),172.54291978
+Hungary,2015,...,...,Development,"GNI per capita, Atlas method (current US$)",12980

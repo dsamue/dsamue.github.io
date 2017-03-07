@@ -1,0 +1,91 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Netherlands,2015,Germany,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,110035.671358
+Netherlands,2015,Belgium,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,49441.459129
+Netherlands,2015,United Kingdom,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,42261.731956
+Netherlands,2015,France,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,38171.946215
+Netherlands,2015,United States,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,20046.255307
+Netherlands,2015,Germany,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,73079.380733
+Netherlands,2015,Belgium,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,42272.299315
+Netherlands,2015,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,38433.062481
+Netherlands,2015,United States,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,36110.603894
+Netherlands,2015,United Kingdom,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,23571.123146
+Netherlands,2015,World,Animal,Export,Export(US$ Mil),21685.882864
+Netherlands,2015,World,Vegetable,Export,Export(US$ Mil),31103.610447
+Netherlands,2015,World,Food Products,Export,Export(US$ Mil),34622.251402
+Netherlands,2015,World,Minerals,Export,Export(US$ Mil),2077.797816
+Netherlands,2015,World,Fuels,Export,Export(US$ Mil),62488.085746
+Netherlands,2015,World,Chemicals,Export,Export(US$ Mil),68282.690081
+Netherlands,2015,World,Plastic or Rubber,Export,Export(US$ Mil),26238.184151
+Netherlands,2015,World,Hides and Skins,Export,Export(US$ Mil),2099.493229
+Netherlands,2015,World,Wood,Export,Export(US$ Mil),9132.553723
+Netherlands,2015,World,Textiles and Clothing,Export,Export(US$ Mil),12276.099337
+Netherlands,2015,World,Footwear,Export,Export(US$ Mil),3369.408807
+Netherlands,2015,World,Stone and Glass,Export,Export(US$ Mil),4029.876706
+Netherlands,2015,World,Metals,Export,Export(US$ Mil),27903.0636
+Netherlands,2015,World,Mach and Elec,Export,Export(US$ Mil),103253.299151
+Netherlands,2015,World,Transportation,Export,Export(US$ Mil),24337.775469
+Netherlands,2015,World,Miscellaneous,Export,Export(US$ Mil),40934.211643
+Netherlands,2015,World,Raw materials,Export,Export(US$ Mil),43440.343195
+Netherlands,2015,World,Intermediate goods,Export,Export(US$ Mil),105683.754265
+Netherlands,2015,World,Consumer goods,Export,Export(US$ Mil),177996.475158
+Netherlands,2015,World,Capital goods,Export,Export(US$ Mil),133063.389762
+Netherlands,2015,World,Raw materials,Import,Import(US$ Mil),59853.770426
+Netherlands,2015,World,Intermediate goods,Import,Import(US$ Mil),82079.582203
+Netherlands,2015,World,Consumer goods,Import,Import(US$ Mil),144686.705031
+Netherlands,2015,World,Capital goods,Import,Import(US$ Mil),123054.078579
+Netherlands,2015,World,All Products,Export,Exports (in US$ Mil),473834.284173
+Netherlands,2015,World,All Products,Import,Imports (in US$ Mil),424851.377731
+Netherlands,2015,...,...,Development,Trade Balance (current US$ Mil),80877.23189
+Netherlands,2015,...,...,Development,GDP (current US$ Mil),750283.90817
+Netherlands,2015,...,...,Import,No. Of Import partners,226
+Netherlands,2015,...,...,Import,No. Of Import products,4521
+Netherlands,2015,...,...,Export,No. Of Export partners,233
+Netherlands,2015,...,...,Export,No. Of Export products,4485
+Netherlands,2015,...,...,Others,Population,16936520
+Netherlands,2016,...,...,Others,Ease of Doing Business Rank,28
+Netherlands,2016,...,...,Others,Trading Across Borders Rank,1
+Netherlands,2014,...,...,Others,LPI Rank,2
+Netherlands,2014,...,...,Others,LPI Score,4.047782
+Netherlands,,...,...,Others,Services Trade Restrictions Index - Over All,12.2
+Netherlands,2015,Germany,All Products,Export,Partner share(%)-Top 5 Export Partner,23.2224
+Netherlands,2015,Belgium,All Products,Export,Partner share(%)-Top 5 Export Partner,10.4343
+Netherlands,2015,United Kingdom,All Products,Export,Partner share(%)-Top 5 Export Partner,8.9191
+Netherlands,2015,France,All Products,Export,Partner share(%)-Top 5 Export Partner,8.056
+Netherlands,2015,United States,All Products,Export,Partner share(%)-Top 5 Export Partner,4.2306
+Netherlands,2015,Germany,All Products,Import,Partner share(%)-Top 5 Import Partner,17.2012
+Netherlands,2015,Belgium,All Products,Import,Partner share(%)-Top 5 Import Partner,9.9499
+Netherlands,2015,China,All Products,Import,Partner share(%)-Top 5 Import Partner,9.0462
+Netherlands,2015,United States,All Products,Import,Partner share(%)-Top 5 Import Partner,8.4996
+Netherlands,2015,United Kingdom,All Products,Import,Partner share(%)-Top 5 Import Partner,5.5481
+Netherlands,2015,World,Animal,Export,Export Product share(%),4.5767
+Netherlands,2015,World,Vegetable,Export,Export Product share(%),6.5642
+Netherlands,2015,World,Food Products,Export,Export Product share(%),7.3068
+Netherlands,2015,World,Minerals,Export,Export Product share(%),0.4385
+Netherlands,2015,World,Fuels,Export,Export Product share(%),13.1878
+Netherlands,2015,World,Chemicals,Export,Export Product share(%),14.4107
+Netherlands,2015,World,Plastic or Rubber,Export,Export Product share(%),5.5374
+Netherlands,2015,World,Hides and Skins,Export,Export Product share(%),0.4431
+Netherlands,2015,World,Wood,Export,Export Product share(%),1.9274
+Netherlands,2015,World,Textiles and Clothing,Export,Export Product share(%),2.5908
+Netherlands,2015,World,Footwear,Export,Export Product share(%),0.7111
+Netherlands,2015,World,Stone and Glass,Export,Export Product share(%),0.8505
+Netherlands,2015,World,Metals,Export,Export Product share(%),5.8888
+Netherlands,2015,World,Mach and Elec,Export,Export Product share(%),21.791
+Netherlands,2015,World,Transportation,Export,Export Product share(%),5.1363
+Netherlands,2015,World,Miscellaneous,Export,Export Product share(%),8.6389
+Netherlands,2015,World,Raw materials,Export,Export Product share(%),9.1678
+Netherlands,2015,World,Intermediate goods,Export,Export Product share(%),22.3039
+Netherlands,2015,World,Consumer goods,Export,Export Product share(%),37.5651
+Netherlands,2015,World,Capital goods,Export,Export Product share(%),28.0823
+Netherlands,2015,World,Raw materials,Import,Import Product share(%),14.0882
+Netherlands,2015,World,Intermediate goods,Import,Import Product share(%),19.3196
+Netherlands,2015,World,Consumer goods,Import,Import Product share(%),34.0558
+Netherlands,2015,World,Capital goods,Import,Import Product share(%),28.964
+Netherlands,2015,World,All Products,Trade Indicator,World Growth (%),-7.8698674978916
+Netherlands,2015,World,All Products,Trade Indicator,Country Growth (%),-9.8910185060348
+Netherlands,2015,...,...,Trade Indicator,Index of export market penetration,26.4165581845657
+Netherlands,2015,...,...,Trade Indicator,HH Market concentration index,0.094705805482036
+Netherlands,2015,...,...,Development,Trade Balance (% of GDP),10.779550383
+Netherlands,2015,...,...,Development,Trade in services (% of GDP),39.03225123
+Netherlands,2015,...,...,Development,Trade (% of GDP),154.14711225
+Netherlands,2015,...,...,Development,"GNI per capita, Atlas method (current US$)",48860

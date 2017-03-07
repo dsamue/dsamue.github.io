@@ -1,0 +1,101 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Lithuania,2015,Russian Federation,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,3479.312242
+Lithuania,2015,Latvia,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,2522.96772
+Lithuania,2015,Poland,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,2469.19544
+Lithuania,2015,Germany,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,1993.981475
+Lithuania,2015,Estonia,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,1337.138229
+Lithuania,2015,Russian Federation,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,4596.899345
+Lithuania,2015,Germany,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,3236.027009
+Lithuania,2015,Poland,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,2901.974066
+Lithuania,2015,Latvia,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,2326.271593
+Lithuania,2015,Netherlands,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,1447.113418
+Lithuania,2015,World,Animal,Export,Export(US$ Mil),1190.363953
+Lithuania,2015,World,Vegetable,Export,Export(US$ Mil),2017.342815
+Lithuania,2015,World,Food Products,Export,Export(US$ Mil),1700.17638
+Lithuania,2015,World,Minerals,Export,Export(US$ Mil),44.747573
+Lithuania,2015,World,Fuels,Export,Export(US$ Mil),4143.381912
+Lithuania,2015,World,Chemicals,Export,Export(US$ Mil),2716.927815
+Lithuania,2015,World,Plastic or Rubber,Export,Export(US$ Mil),1531.389868
+Lithuania,2015,World,Hides and Skins,Export,Export(US$ Mil),146.52417
+Lithuania,2015,World,Wood,Export,Export(US$ Mil),1313.409659
+Lithuania,2015,World,Textiles and Clothing,Export,Export(US$ Mil),1279.206282
+Lithuania,2015,World,Footwear,Export,Export(US$ Mil),86.665194
+Lithuania,2015,World,Stone and Glass,Export,Export(US$ Mil),343.983495
+Lithuania,2015,World,Metals,Export,Export(US$ Mil),1200.338884
+Lithuania,2015,World,Mach and Elec,Export,Export(US$ Mil),3694.248551
+Lithuania,2015,World,Transportation,Export,Export(US$ Mil),966.869554
+Lithuania,2015,World,Miscellaneous,Export,Export(US$ Mil),3035.446139
+Lithuania,2015,World,Raw materials,Export,Export(US$ Mil),2800.615383
+Lithuania,2015,World,Intermediate goods,Export,Export(US$ Mil),4960.75144300001
+Lithuania,2015,World,Consumer goods,Export,Export(US$ Mil),12448.063796
+Lithuania,2015,World,Capital goods,Export,Export(US$ Mil),4361.838905
+Lithuania,2015,World,Raw materials,Import,Import(US$ Mil),5654.51451700001
+Lithuania,2015,World,Intermediate goods,Import,Import(US$ Mil),5669.67231700001
+Lithuania,2015,World,Consumer goods,Import,Import(US$ Mil),9657.66781900001
+Lithuania,2015,World,Capital goods,Import,Import(US$ Mil),5824.898887
+Lithuania,2015,World,All Products,Export,Exports (in US$ Mil),25411.022244
+Lithuania,2015,World,All Products,Import,Imports (in US$ Mil),28176.441602
+Lithuania,2003,World,All Products,Tariff,Duty Free Imports (US$ Thousand),9043251.11800001
+Lithuania,2015,...,...,Development,Trade Balance (current US$ Mil),-137.251858
+Lithuania,2015,...,...,Development,GDP (current US$ Mil),41170.728956
+Lithuania,2003,...,...,Tariff,No. Of Tariff Agreement,19
+Lithuania,2015,...,...,Import,No. Of Import partners,157
+Lithuania,2015,...,...,Import,No. Of Import products,4349
+Lithuania,2015,...,...,Export,No. Of Export partners,191
+Lithuania,2015,...,...,Export,No. Of Export products,4101
+Lithuania,2015,...,...,Others,Population,2910199
+Lithuania,2016,...,...,Others,Ease of Doing Business Rank,21
+Lithuania,2016,...,...,Others,Trading Across Borders Rank,19
+Lithuania,2014,...,...,Others,LPI Rank,46
+Lithuania,2014,...,...,Others,LPI Score,3.178416
+Lithuania,,...,...,Others,Services Trade Restrictions Index - Over All,12.6
+Lithuania,2015,Russian Federation,All Products,Export,Partner share(%)-Top 5 Export Partner,13.6921
+Lithuania,2015,Latvia,All Products,Export,Partner share(%)-Top 5 Export Partner,9.9286
+Lithuania,2015,Poland,All Products,Export,Partner share(%)-Top 5 Export Partner,9.717
+Lithuania,2015,Germany,All Products,Export,Partner share(%)-Top 5 Export Partner,7.8469
+Lithuania,2015,Estonia,All Products,Export,Partner share(%)-Top 5 Export Partner,5.262
+Lithuania,2015,Russian Federation,All Products,Import,Partner share(%)-Top 5 Import Partner,16.3147
+Lithuania,2015,Germany,All Products,Import,Partner share(%)-Top 5 Import Partner,11.4849
+Lithuania,2015,Poland,All Products,Import,Partner share(%)-Top 5 Import Partner,10.2993
+Lithuania,2015,Latvia,All Products,Import,Partner share(%)-Top 5 Import Partner,8.2561
+Lithuania,2015,Netherlands,All Products,Import,Partner share(%)-Top 5 Import Partner,5.1359
+Lithuania,2015,World,Animal,Export,Export Product share(%),4.6844
+Lithuania,2015,World,Vegetable,Export,Export Product share(%),7.9388
+Lithuania,2015,World,Food Products,Export,Export Product share(%),6.6907
+Lithuania,2015,World,Minerals,Export,Export Product share(%),0.1761
+Lithuania,2015,World,Fuels,Export,Export Product share(%),16.3055
+Lithuania,2015,World,Chemicals,Export,Export Product share(%),10.6919
+Lithuania,2015,World,Plastic or Rubber,Export,Export Product share(%),6.0265
+Lithuania,2015,World,Hides and Skins,Export,Export Product share(%),0.5766
+Lithuania,2015,World,Wood,Export,Export Product share(%),5.1687
+Lithuania,2015,World,Textiles and Clothing,Export,Export Product share(%),5.0341
+Lithuania,2015,World,Footwear,Export,Export Product share(%),0.3411
+Lithuania,2015,World,Stone and Glass,Export,Export Product share(%),1.3537
+Lithuania,2015,World,Metals,Export,Export Product share(%),4.7237
+Lithuania,2015,World,Mach and Elec,Export,Export Product share(%),14.538
+Lithuania,2015,World,Transportation,Export,Export Product share(%),3.8049
+Lithuania,2015,World,Miscellaneous,Export,Export Product share(%),11.9454
+Lithuania,2015,World,Raw materials,Export,Export Product share(%),11.0213
+Lithuania,2015,World,Intermediate goods,Export,Export Product share(%),19.522
+Lithuania,2015,World,Consumer goods,Export,Export Product share(%),48.9869
+Lithuania,2015,World,Capital goods,Export,Export Product share(%),17.1651
+Lithuania,2015,World,Raw materials,Import,Import Product share(%),20.0682
+Lithuania,2015,World,Intermediate goods,Import,Import Product share(%),20.122
+Lithuania,2015,World,Consumer goods,Import,Import Product share(%),34.2757
+Lithuania,2015,World,Capital goods,Import,Import Product share(%),20.6729
+Lithuania,2003,World,Raw materials,Tariff,Weighted Average (%),0.649676826406136
+Lithuania,2003,World,Intermediate goods,Tariff,Weighted Average (%),0.817106953726862
+Lithuania,2003,World,Consumer goods,Tariff,Weighted Average (%),1.1055472964717
+Lithuania,2003,World,Capital goods,Tariff,Weighted Average (%),0.0186543500852864
+Lithuania,2015,World,All Products,Trade Indicator,World Growth (%),-7.8698674978916
+Lithuania,2015,World,All Products,Trade Indicator,Country Growth (%),-13.8033121775316
+Lithuania,2003,World,All Products,Tariff,Simple Average (%),1.27280965276243
+Lithuania,2003,World,All Products,Tariff,Weighted Average (%),0.660107112096998
+Lithuania,2003,World,All Products,Tariff,Maximum Rate (%),123.00309753418
+Lithuania,2003,World,All Products,Tariff,Duty Free Tariff Lines Share (%),87.0467702360041
+Lithuania,2015,...,...,Trade Indicator,Index of export market penetration,7.11016795453432
+Lithuania,2015,...,...,Trade Indicator,HH Market concentration index,0.0461587753619405
+Lithuania,2015,...,...,Development,Trade Balance (% of GDP),-0.333372424999993
+Lithuania,2015,...,...,Development,Trade in services (% of GDP),27.526569241
+Lithuania,2015,...,...,Development,Trade (% of GDP),153.23812629
+Lithuania,2015,...,...,Development,"GNI per capita, Atlas method (current US$)",14940

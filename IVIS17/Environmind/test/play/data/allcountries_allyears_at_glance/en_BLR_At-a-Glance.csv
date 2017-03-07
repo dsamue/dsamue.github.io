@@ -1,0 +1,103 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Belarus,2015,Russian Federation,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,10301.1099
+Belarus,2015,United Kingdom,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,2928.8792
+Belarus,2015,Ukraine,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,2512.1798
+Belarus,2015,Netherlands,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,1149.4764
+Belarus,2015,Germany,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,1073.7373
+Belarus,2015,Russian Federation,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,16894.2897
+Belarus,2015,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,2321.4062
+Belarus,2015,Germany,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,1384.3952
+Belarus,2015,Poland,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,1083.5326
+Belarus,2015,Ukraine,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,949.0146
+Belarus,2015,World,Animal,Export,Export(US$ Mil),2587.5329
+Belarus,2015,World,Vegetable,Export,Export(US$ Mil),686.9908
+Belarus,2015,World,Food Products,Export,Export(US$ Mil),925.4182
+Belarus,2015,World,Minerals,Export,Export(US$ Mil),166.4729
+Belarus,2015,World,Fuels,Export,Export(US$ Mil),7768.4942
+Belarus,2015,World,Chemicals,Export,Export(US$ Mil),4202.3785
+Belarus,2015,World,Plastic or Rubber,Export,Export(US$ Mil),1189.9736
+Belarus,2015,World,Hides and Skins,Export,Export(US$ Mil),77.0517
+Belarus,2015,World,Wood,Export,Export(US$ Mil),871.4441
+Belarus,2015,World,Textiles and Clothing,Export,Export(US$ Mil),922.7224
+Belarus,2015,World,Footwear,Export,Export(US$ Mil),48.6966
+Belarus,2015,World,Stone and Glass,Export,Export(US$ Mil),395.1376
+Belarus,2015,World,Metals,Export,Export(US$ Mil),1736.937
+Belarus,2015,World,Mach and Elec,Export,Export(US$ Mil),1676.034
+Belarus,2015,World,Transportation,Export,Export(US$ Mil),1607.8328
+Belarus,2015,World,Miscellaneous,Export,Export(US$ Mil),1797.2773
+Belarus,2015,World,Raw materials,Export,Export(US$ Mil),2299.4948
+Belarus,2015,World,Intermediate goods,Export,Export(US$ Mil),7922.0822
+Belarus,2015,World,Consumer goods,Export,Export(US$ Mil),11861.156
+Belarus,2015,World,Capital goods,Export,Export(US$ Mil),3207.3646
+Belarus,2015,World,Raw materials,Import,Import(US$ Mil),8780.3125
+Belarus,2015,World,Intermediate goods,Import,Import(US$ Mil),5570.1996
+Belarus,2015,World,Consumer goods,Import,Import(US$ Mil),8894.98259999999
+Belarus,2015,World,Capital goods,Import,Import(US$ Mil),5535.4804
+Belarus,2015,World,All Products,Export,Exports (in US$ Mil),26660.3946
+Belarus,2015,World,All Products,Import,Imports (in US$ Mil),30291.4928
+Belarus,2015,World,All Products,Tariff,Duty Free Imports (US$ Thousand),20079175.1
+Belarus,2015,...,...,Development,Trade Balance (current US$ Mil),106.084469
+Belarus,2015,...,...,Development,GDP (current US$ Mil),54608.962635
+Belarus,2015,...,...,Tariff,No. Of Tariff Agreement,7
+Belarus,2015,...,...,Import,No. Of Import partners,175
+Belarus,2015,...,...,Import,No. Of Import products,4217
+Belarus,2015,...,...,Export,No. Of Export partners,160
+Belarus,2015,...,...,Export,No. Of Export products,3504
+Belarus,2015,...,...,Others,Population,9513000
+Belarus,2016,...,...,Others,Ease of Doing Business Rank,37
+Belarus,2016,...,...,Others,Trading Across Borders Rank,30
+Belarus,2014,...,...,Others,LPI Rank,99
+Belarus,2014,...,...,Others,LPI Score,2.638168
+Belarus,2009,...,...,Others,Overall Trade Restrictiveness Index -  Applied Tariff,0.0801941
+Belarus,2009,...,...,Others,Overall Trade Restrictiveness Index - MFN Tariff,0.111352
+Belarus,,...,...,Others,Services Trade Restrictions Index - Over All,35.1
+Belarus,2015,Russian Federation,All Products,Export,Partner share(%)-Top 5 Export Partner,38.6382
+Belarus,2015,United Kingdom,All Products,Export,Partner share(%)-Top 5 Export Partner,10.9859
+Belarus,2015,Ukraine,All Products,Export,Partner share(%)-Top 5 Export Partner,9.4229
+Belarus,2015,Netherlands,All Products,Export,Partner share(%)-Top 5 Export Partner,4.3116
+Belarus,2015,Germany,All Products,Export,Partner share(%)-Top 5 Export Partner,4.0275
+Belarus,2015,Russian Federation,All Products,Import,Partner share(%)-Top 5 Import Partner,55.7724
+Belarus,2015,China,All Products,Import,Partner share(%)-Top 5 Import Partner,7.6636
+Belarus,2015,Germany,All Products,Import,Partner share(%)-Top 5 Import Partner,4.5702
+Belarus,2015,Poland,All Products,Import,Partner share(%)-Top 5 Import Partner,3.577
+Belarus,2015,Ukraine,All Products,Import,Partner share(%)-Top 5 Import Partner,3.1329
+Belarus,2015,World,Animal,Export,Export Product share(%),9.7055
+Belarus,2015,World,Vegetable,Export,Export Product share(%),2.5768
+Belarus,2015,World,Food Products,Export,Export Product share(%),3.4711
+Belarus,2015,World,Minerals,Export,Export Product share(%),0.6244
+Belarus,2015,World,Fuels,Export,Export Product share(%),29.1387
+Belarus,2015,World,Chemicals,Export,Export Product share(%),15.7626
+Belarus,2015,World,Plastic or Rubber,Export,Export Product share(%),4.4635
+Belarus,2015,World,Hides and Skins,Export,Export Product share(%),0.289
+Belarus,2015,World,Wood,Export,Export Product share(%),3.2687
+Belarus,2015,World,Textiles and Clothing,Export,Export Product share(%),3.461
+Belarus,2015,World,Footwear,Export,Export Product share(%),0.1827
+Belarus,2015,World,Stone and Glass,Export,Export Product share(%),1.4821
+Belarus,2015,World,Metals,Export,Export Product share(%),6.515
+Belarus,2015,World,Mach and Elec,Export,Export Product share(%),6.2866
+Belarus,2015,World,Transportation,Export,Export Product share(%),6.0308
+Belarus,2015,World,Miscellaneous,Export,Export Product share(%),6.7414
+Belarus,2015,World,Raw materials,Export,Export Product share(%),8.6251
+Belarus,2015,World,Intermediate goods,Export,Export Product share(%),29.7148
+Belarus,2015,World,Consumer goods,Export,Export Product share(%),44.4898
+Belarus,2015,World,Capital goods,Export,Export Product share(%),12.0304
+Belarus,2015,World,Raw materials,Import,Import Product share(%),28.9861
+Belarus,2015,World,Intermediate goods,Import,Import Product share(%),18.3887
+Belarus,2015,World,Consumer goods,Import,Import Product share(%),29.3646
+Belarus,2015,World,Capital goods,Import,Import Product share(%),18.274
+Belarus,2015,World,Raw materials,Tariff,Weighted Average (%),1.13520580560398
+Belarus,2015,World,Intermediate goods,Tariff,Weighted Average (%),2.32777501971264
+Belarus,2015,World,Consumer goods,Tariff,Weighted Average (%),2.49487708762648
+Belarus,2015,World,Capital goods,Tariff,Weighted Average (%),1.82200109553912
+Belarus,2015,World,All Products,Trade Indicator,World Growth (%),-7.8698674978916
+Belarus,2015,World,All Products,Trade Indicator,Country Growth (%),-14.912087845985
+Belarus,2015,World,All Products,Tariff,Simple Average (%),6.01523663399061
+Belarus,2015,World,All Products,Tariff,Weighted Average (%),1.96547823908885
+Belarus,2015,World,All Products,Tariff,Maximum Rate (%),100
+Belarus,2015,World,All Products,Tariff,Duty Free Tariff Lines Share (%),30.7671116067036
+Belarus,2015,...,...,Trade Indicator,Index of export market penetration,4.0629697744449
+Belarus,2015,...,...,Trade Indicator,HH Market concentration index,0.205558631261669
+Belarus,2015,...,...,Development,Trade Balance (% of GDP),0.194262009999996
+Belarus,2015,...,...,Development,Trade in services (% of GDP),20.108420798
+Belarus,2015,...,...,Development,Trade (% of GDP),119.85020841
+Belarus,2015,...,...,Development,"GNI per capita, Atlas method (current US$)",6460

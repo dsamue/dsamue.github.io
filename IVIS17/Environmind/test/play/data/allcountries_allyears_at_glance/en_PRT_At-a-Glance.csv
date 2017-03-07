@@ -1,0 +1,91 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Portugal,2015,Spain,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,13831.306251
+Portugal,2015,France,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,6707.013922
+Portugal,2015,Germany,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,6531.705717
+Portugal,2015,United Kingdom,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,3715.361865
+Portugal,2015,United States,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,2848.251045
+Portugal,2015,Spain,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,21959.117026
+Portugal,2015,Germany,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,8594.81148
+Portugal,2015,France,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,4930.309769
+Portugal,2015,Italy,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,3604.32319
+Portugal,2015,Netherlands,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,3394.088381
+Portugal,2015,World,Animal,Export,Export(US$ Mil),1710.051816
+Portugal,2015,World,Vegetable,Export,Export(US$ Mil),1824.708135
+Portugal,2015,World,Food Products,Export,Export(US$ Mil),3519.376783
+Portugal,2015,World,Minerals,Export,Export(US$ Mil),877.452417
+Portugal,2015,World,Fuels,Export,Export(US$ Mil),4228.58856
+Portugal,2015,World,Chemicals,Export,Export(US$ Mil),2879.517375
+Portugal,2015,World,Plastic or Rubber,Export,Export(US$ Mil),4081.275719
+Portugal,2015,World,Hides and Skins,Export,Export(US$ Mil),292.262693
+Portugal,2015,World,Wood,Export,Export(US$ Mil),4522.395115
+Portugal,2015,World,Textiles and Clothing,Export,Export(US$ Mil),5368.721622
+Portugal,2015,World,Footwear,Export,Export(US$ Mil),2177.580945
+Portugal,2015,World,Stone and Glass,Export,Export(US$ Mil),2121.837183
+Portugal,2015,World,Metals,Export,Export(US$ Mil),4209.844988
+Portugal,2015,World,Mach and Elec,Export,Export(US$ Mil),8065.457703
+Portugal,2015,World,Transportation,Export,Export(US$ Mil),6311.340181
+Portugal,2015,World,Miscellaneous,Export,Export(US$ Mil),3117.850928
+Portugal,2015,World,Raw materials,Export,Export(US$ Mil),3767.217631
+Portugal,2015,World,Intermediate goods,Export,Export(US$ Mil),12590.218228
+Portugal,2015,World,Consumer goods,Export,Export(US$ Mil),27790.308249
+Portugal,2015,World,Capital goods,Export,Export(US$ Mil),10849.907209
+Portugal,2015,World,Raw materials,Import,Import(US$ Mil),12215.207509
+Portugal,2015,World,Intermediate goods,Import,Import(US$ Mil),16049.775628
+Portugal,2015,World,Consumer goods,Import,Import(US$ Mil),23907.907224
+Portugal,2015,World,Capital goods,Import,Import(US$ Mil),14031.981868
+Portugal,2015,World,All Products,Export,Exports (in US$ Mil),55308.262162
+Portugal,2015,World,All Products,Import,Imports (in US$ Mil),66795.029144
+Portugal,2015,...,...,Development,Trade Balance (current US$ Mil),1541.039148
+Portugal,2015,...,...,Development,GDP (current US$ Mil),198923.26494
+Portugal,2015,...,...,Import,No. Of Import partners,189
+Portugal,2015,...,...,Import,No. Of Import products,4486
+Portugal,2015,...,...,Export,No. Of Export partners,206
+Portugal,2015,...,...,Export,No. Of Export products,4225
+Portugal,2015,...,...,Others,Population,10348648
+Portugal,2016,...,...,Others,Ease of Doing Business Rank,25
+Portugal,2016,...,...,Others,Trading Across Borders Rank,1
+Portugal,2014,...,...,Others,LPI Rank,26
+Portugal,2014,...,...,Others,LPI Score,3.560284
+Portugal,,...,...,Others,Services Trade Restrictions Index - Over All,21.8
+Portugal,2015,Spain,All Products,Export,Partner share(%)-Top 5 Export Partner,25.0077
+Portugal,2015,France,All Products,Export,Partner share(%)-Top 5 Export Partner,12.1266
+Portugal,2015,Germany,All Products,Export,Partner share(%)-Top 5 Export Partner,11.8096
+Portugal,2015,United Kingdom,All Products,Export,Partner share(%)-Top 5 Export Partner,6.7176
+Portugal,2015,United States,All Products,Export,Partner share(%)-Top 5 Export Partner,5.1498
+Portugal,2015,Spain,All Products,Import,Partner share(%)-Top 5 Import Partner,32.8754
+Portugal,2015,Germany,All Products,Import,Partner share(%)-Top 5 Import Partner,12.8674
+Portugal,2015,France,All Products,Import,Partner share(%)-Top 5 Import Partner,7.3813
+Portugal,2015,Italy,All Products,Import,Partner share(%)-Top 5 Import Partner,5.3961
+Portugal,2015,Netherlands,All Products,Import,Partner share(%)-Top 5 Import Partner,5.0813
+Portugal,2015,World,Animal,Export,Export Product share(%),3.0919
+Portugal,2015,World,Vegetable,Export,Export Product share(%),3.2992
+Portugal,2015,World,Food Products,Export,Export Product share(%),6.3632
+Portugal,2015,World,Minerals,Export,Export Product share(%),1.5865
+Portugal,2015,World,Fuels,Export,Export Product share(%),7.6455
+Portugal,2015,World,Chemicals,Export,Export Product share(%),5.2063
+Portugal,2015,World,Plastic or Rubber,Export,Export Product share(%),7.3791
+Portugal,2015,World,Hides and Skins,Export,Export Product share(%),0.5284
+Portugal,2015,World,Wood,Export,Export Product share(%),8.1767
+Portugal,2015,World,Textiles and Clothing,Export,Export Product share(%),9.7069
+Portugal,2015,World,Footwear,Export,Export Product share(%),3.9372
+Portugal,2015,World,Stone and Glass,Export,Export Product share(%),3.8364
+Portugal,2015,World,Metals,Export,Export Product share(%),7.6116
+Portugal,2015,World,Mach and Elec,Export,Export Product share(%),14.5827
+Portugal,2015,World,Transportation,Export,Export Product share(%),11.4112
+Portugal,2015,World,Miscellaneous,Export,Export Product share(%),5.6372
+Portugal,2015,World,Raw materials,Export,Export Product share(%),6.8113
+Portugal,2015,World,Intermediate goods,Export,Export Product share(%),22.7637
+Portugal,2015,World,Consumer goods,Export,Export Product share(%),50.2462
+Portugal,2015,World,Capital goods,Export,Export Product share(%),19.6172
+Portugal,2015,World,Raw materials,Import,Import Product share(%),18.2876
+Portugal,2015,World,Intermediate goods,Import,Import Product share(%),24.0284
+Portugal,2015,World,Consumer goods,Import,Import Product share(%),35.7929
+Portugal,2015,World,Capital goods,Import,Import Product share(%),21.0075
+Portugal,2015,World,All Products,Trade Indicator,World Growth (%),-7.8698674978916
+Portugal,2015,World,All Products,Trade Indicator,Country Growth (%),-7.10303177752829
+Portugal,2015,...,...,Trade Indicator,Index of export market penetration,13.0150045702522
+Portugal,2015,...,...,Trade Indicator,HH Market concentration index,0.0836389085629935
+Portugal,2015,...,...,Development,Trade Balance (% of GDP),0.774690254999996
+Portugal,2015,...,...,Development,Trade in services (% of GDP),21.25833268
+Portugal,2015,...,...,Development,Trade (% of GDP),79.899838159
+Portugal,2015,...,...,Development,"GNI per capita, Atlas method (current US$)",20530

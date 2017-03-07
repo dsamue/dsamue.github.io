@@ -1,0 +1,103 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Zambia,2015,Switzerland,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,3091.089976
+Zambia,2015,China,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,1009.327547
+Zambia,2015,Singapore,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,545.489255
+Zambia,2015,South Africa,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,534.313274
+Zambia,2015,"Congo, Dem. Rep.",All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,522.617844
+Zambia,2015,South Africa,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,2603.735049
+Zambia,2015,"Congo, Dem. Rep.",All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,946.564142
+Zambia,2015,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,689.077667
+Zambia,2015,Mauritius,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,474.507303
+Zambia,2015,Kenya,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,411.892451
+Zambia,2015,World,Animal,Export,Export(US$ Mil),8.425667
+Zambia,2015,World,Vegetable,Export,Export(US$ Mil),303.670412
+Zambia,2015,World,Food Products,Export,Export(US$ Mil),316.264061
+Zambia,2015,World,Minerals,Export,Export(US$ Mil),131.498931
+Zambia,2015,World,Fuels,Export,Export(US$ Mil),110.86824
+Zambia,2015,World,Chemicals,Export,Export(US$ Mil),186.351782
+Zambia,2015,World,Plastic or Rubber,Export,Export(US$ Mil),20.740883
+Zambia,2015,World,Hides and Skins,Export,Export(US$ Mil),12.88695
+Zambia,2015,World,Wood,Export,Export(US$ Mil),72.748984
+Zambia,2015,World,Textiles and Clothing,Export,Export(US$ Mil),59.515286
+Zambia,2015,World,Footwear,Export,Export(US$ Mil),0.879202
+Zambia,2015,World,Stone and Glass,Export,Export(US$ Mil),202.382894
+Zambia,2015,World,Metals,Export,Export(US$ Mil),5333.680474
+Zambia,2015,World,Mach and Elec,Export,Export(US$ Mil),156.646331
+Zambia,2015,World,Transportation,Export,Export(US$ Mil),38.5573
+Zambia,2015,World,Miscellaneous,Export,Export(US$ Mil),28.066976
+Zambia,2015,World,Raw materials,Export,Export(US$ Mil),504.684361
+Zambia,2015,World,Intermediate goods,Export,Export(US$ Mil),5880.589254
+Zambia,2015,World,Consumer goods,Export,Export(US$ Mil),419.902415
+Zambia,2015,World,Capital goods,Export,Export(US$ Mil),168.654154
+Zambia,2015,World,Raw materials,Import,Import(US$ Mil),1340.835629
+Zambia,2015,World,Intermediate goods,Import,Import(US$ Mil),2078.661869
+Zambia,2015,World,Consumer goods,Import,Import(US$ Mil),2721.420826
+Zambia,2015,World,Capital goods,Import,Import(US$ Mil),2223.273289
+Zambia,2015,World,All Products,Export,Exports (in US$ Mil),6983.184373
+Zambia,2015,World,All Products,Import,Imports (in US$ Mil),8419.753552
+Zambia,2013,World,All Products,Tariff,Duty Free Imports (US$ Thousand),7867460.409
+Zambia,2015,...,...,Development,Trade Balance (current US$ Mil),-2123.0865066
+Zambia,2015,...,...,Development,GDP (current US$ Mil),21154.394546
+Zambia,2013,...,...,Tariff,No. Of Tariff Agreement,7
+Zambia,2015,...,...,Import,No. Of Import partners,168
+Zambia,2015,...,...,Import,No. Of Import products,3940
+Zambia,2015,...,...,Export,No. Of Export partners,104
+Zambia,2015,...,...,Export,No. Of Export products,1810
+Zambia,2015,...,...,Others,Population,16211767
+Zambia,2016,...,...,Others,Ease of Doing Business Rank,98
+Zambia,2016,...,...,Others,Trading Across Borders Rank,161
+Zambia,2015,...,...,Others,CPIA Trade Ratings,4
+Zambia,2014,...,...,Others,LPI Rank,123
+Zambia,2014,...,...,Others,LPI Score,2.462674
+Zambia,2009,...,...,Others,Overall Trade Restrictiveness Index -  Applied Tariff,0.0455071
+Zambia,2009,...,...,Others,Overall Trade Restrictiveness Index - MFN Tariff,0.1184496
+Zambia,,...,...,Others,Services Trade Restrictions Index - Over All,21
+Zambia,2015,Switzerland,All Products,Export,Partner share(%)-Top 5 Export Partner,44.2648
+Zambia,2015,China,All Products,Export,Partner share(%)-Top 5 Export Partner,14.4537
+Zambia,2015,Singapore,All Products,Export,Partner share(%)-Top 5 Export Partner,7.8115
+Zambia,2015,South Africa,All Products,Export,Partner share(%)-Top 5 Export Partner,7.6514
+Zambia,2015,"Congo, Dem. Rep.",All Products,Export,Partner share(%)-Top 5 Export Partner,7.4839
+Zambia,2015,South Africa,All Products,Import,Partner share(%)-Top 5 Import Partner,30.9241
+Zambia,2015,"Congo, Dem. Rep.",All Products,Import,Partner share(%)-Top 5 Import Partner,11.2422
+Zambia,2015,China,All Products,Import,Partner share(%)-Top 5 Import Partner,8.1841
+Zambia,2015,Mauritius,All Products,Import,Partner share(%)-Top 5 Import Partner,5.6356
+Zambia,2015,Kenya,All Products,Import,Partner share(%)-Top 5 Import Partner,4.892
+Zambia,2015,World,Animal,Export,Export Product share(%),0.1207
+Zambia,2015,World,Vegetable,Export,Export Product share(%),4.3486
+Zambia,2015,World,Food Products,Export,Export Product share(%),4.5289
+Zambia,2015,World,Minerals,Export,Export Product share(%),1.8831
+Zambia,2015,World,Fuels,Export,Export Product share(%),1.5876
+Zambia,2015,World,Chemicals,Export,Export Product share(%),2.6686
+Zambia,2015,World,Plastic or Rubber,Export,Export Product share(%),0.297
+Zambia,2015,World,Hides and Skins,Export,Export Product share(%),0.1845
+Zambia,2015,World,Wood,Export,Export Product share(%),1.0418
+Zambia,2015,World,Textiles and Clothing,Export,Export Product share(%),0.8523
+Zambia,2015,World,Footwear,Export,Export Product share(%),0.0126
+Zambia,2015,World,Stone and Glass,Export,Export Product share(%),2.8981
+Zambia,2015,World,Metals,Export,Export Product share(%),76.3789
+Zambia,2015,World,Mach and Elec,Export,Export Product share(%),2.2432
+Zambia,2015,World,Transportation,Export,Export Product share(%),0.5521
+Zambia,2015,World,Miscellaneous,Export,Export Product share(%),0.4019
+Zambia,2015,World,Raw materials,Export,Export Product share(%),7.2271
+Zambia,2015,World,Intermediate goods,Export,Export Product share(%),84.2107
+Zambia,2015,World,Consumer goods,Export,Export Product share(%),6.0131
+Zambia,2015,World,Capital goods,Export,Export Product share(%),2.4151
+Zambia,2015,World,Raw materials,Import,Import Product share(%),15.9249
+Zambia,2015,World,Intermediate goods,Import,Import Product share(%),24.6879
+Zambia,2015,World,Consumer goods,Import,Import Product share(%),32.3219
+Zambia,2015,World,Capital goods,Import,Import Product share(%),26.4054
+Zambia,2013,World,Raw materials,Tariff,Weighted Average (%),0.394549495954554
+Zambia,2013,World,Intermediate goods,Tariff,Weighted Average (%),2.77089440958159
+Zambia,2013,World,Consumer goods,Tariff,Weighted Average (%),6.07956813109279
+Zambia,2013,World,Capital goods,Tariff,Weighted Average (%),3.10552559709101
+Zambia,2015,World,All Products,Trade Indicator,World Growth (%),-7.8698674978916
+Zambia,2015,World,All Products,Trade Indicator,Country Growth (%),-17.1481136161559
+Zambia,2013,World,All Products,Tariff,Simple Average (%),10.3018072281426
+Zambia,2013,World,All Products,Tariff,Weighted Average (%),3.35040824373998
+Zambia,2013,World,All Products,Tariff,Maximum Rate (%),25
+Zambia,2013,World,All Products,Tariff,Duty Free Tariff Lines Share (%),45.4681667630514
+Zambia,2015,...,...,Trade Indicator,Index of export market penetration,1.69491525423729
+Zambia,2015,...,...,Trade Indicator,HH Market concentration index,0.158634055670387
+Zambia,2015,...,...,Development,Trade Balance (% of GDP),-10.036148763
+Zambia,2015,...,...,Development,Trade (% of GDP),84.315559237
+Zambia,2015,...,...,Development,"GNI per capita, Atlas method (current US$)",1490

@@ -1,0 +1,80 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Greenland,2015,Denmark,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,322.437793
+Greenland,2015,Portugal,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,28.436286
+Greenland,2015,Unspecified,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,25.087961
+Greenland,2015,Iceland,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,11.834318
+Greenland,2015,Norway,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,2.923482
+Greenland,2015,Denmark,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,429.184757
+Greenland,2015,Sweden,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,53.257354
+Greenland,2015,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,16.019183
+Greenland,2015,Germany,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,13.435585
+Greenland,2015,Canada,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,11.552236
+Greenland,2015,World,Animal,Export,Export(US$ Mil),281.406904
+Greenland,2015,World,Vegetable,Export,Export(US$ Mil),8.9E-05
+Greenland,2015,World,Food Products,Export,Export(US$ Mil),72.777258
+Greenland,2015,World,Minerals,Export,Export(US$ Mil),0.001835
+Greenland,2015,World,Fuels,Export,Export(US$ Mil),0.00087
+Greenland,2015,World,Chemicals,Export,Export(US$ Mil),0.015202
+Greenland,2015,World,Plastic or Rubber,Export,Export(US$ Mil),0.013536
+Greenland,2015,World,Hides and Skins,Export,Export(US$ Mil),0.687004
+Greenland,2015,World,Wood,Export,Export(US$ Mil),0.033651
+Greenland,2015,World,Textiles and Clothing,Export,Export(US$ Mil),0.187694
+Greenland,2015,World,Footwear,Export,Export(US$ Mil),0.002324
+Greenland,2015,World,Stone and Glass,Export,Export(US$ Mil),0.006495
+Greenland,2015,World,Metals,Export,Export(US$ Mil),0.644205
+Greenland,2015,World,Mach and Elec,Export,Export(US$ Mil),0.780837
+Greenland,2015,World,Transportation,Export,Export(US$ Mil),0.589711
+Greenland,2015,World,Miscellaneous,Export,Export(US$ Mil),37.797449
+Greenland,2015,World,Raw materials,Export,Export(US$ Mil),273.703696
+Greenland,2015,World,Intermediate goods,Export,Export(US$ Mil),5.871349
+Greenland,2015,World,Consumer goods,Export,Export(US$ Mil),78.103253
+Greenland,2015,World,Capital goods,Export,Export(US$ Mil),1.343375
+Greenland,2015,World,Raw materials,Import,Import(US$ Mil),42.26186
+Greenland,2015,World,Intermediate goods,Import,Import(US$ Mil),65.838456
+Greenland,2015,World,Consumer goods,Import,Import(US$ Mil),335.926019
+Greenland,2015,World,Capital goods,Import,Import(US$ Mil),115.575344
+Greenland,2015,World,All Products,Export,Exports (in US$ Mil),394.945064
+Greenland,2015,World,All Products,Import,Imports (in US$ Mil),586.223824
+Greenland,2015,...,...,Import,No. Of Import partners,125
+Greenland,2015,...,...,Import,No. Of Import products,2718
+Greenland,2015,...,...,Export,No. Of Export partners,13
+Greenland,2015,...,...,Export,No. Of Export products,264
+Greenland,2015,...,...,Others,Population,56114
+Greenland,2015,Denmark,All Products,Export,Partner share(%)-Top 5 Export Partner,81.6412
+Greenland,2015,Portugal,All Products,Export,Partner share(%)-Top 5 Export Partner,7.2001
+Greenland,2015,Unspecified,All Products,Export,Partner share(%)-Top 5 Export Partner,6.3523
+Greenland,2015,Iceland,All Products,Export,Partner share(%)-Top 5 Export Partner,2.9964
+Greenland,2015,Norway,All Products,Export,Partner share(%)-Top 5 Export Partner,0.7402
+Greenland,2015,Denmark,All Products,Import,Partner share(%)-Top 5 Import Partner,73.2118
+Greenland,2015,Sweden,All Products,Import,Partner share(%)-Top 5 Import Partner,9.0848
+Greenland,2015,China,All Products,Import,Partner share(%)-Top 5 Import Partner,2.7326
+Greenland,2015,Germany,All Products,Import,Partner share(%)-Top 5 Import Partner,2.2919
+Greenland,2015,Canada,All Products,Import,Partner share(%)-Top 5 Import Partner,1.9706
+Greenland,2015,World,Animal,Export,Export Product share(%),71.2522
+Greenland,2015,World,Vegetable,Export,Export Product share(%),0
+Greenland,2015,World,Food Products,Export,Export Product share(%),18.4272
+Greenland,2015,World,Minerals,Export,Export Product share(%),0.0005
+Greenland,2015,World,Fuels,Export,Export Product share(%),0.0002
+Greenland,2015,World,Chemicals,Export,Export Product share(%),0.0038
+Greenland,2015,World,Plastic or Rubber,Export,Export Product share(%),0.0034
+Greenland,2015,World,Hides and Skins,Export,Export Product share(%),0.1739
+Greenland,2015,World,Wood,Export,Export Product share(%),0.0085
+Greenland,2015,World,Textiles and Clothing,Export,Export Product share(%),0.0475
+Greenland,2015,World,Footwear,Export,Export Product share(%),0.0006
+Greenland,2015,World,Stone and Glass,Export,Export Product share(%),0.0016
+Greenland,2015,World,Metals,Export,Export Product share(%),0.1631
+Greenland,2015,World,Mach and Elec,Export,Export Product share(%),0.1977
+Greenland,2015,World,Transportation,Export,Export Product share(%),0.1493
+Greenland,2015,World,Miscellaneous,Export,Export Product share(%),9.5703
+Greenland,2015,World,Raw materials,Export,Export Product share(%),69.3017
+Greenland,2015,World,Intermediate goods,Export,Export Product share(%),1.4866
+Greenland,2015,World,Consumer goods,Export,Export Product share(%),19.7757
+Greenland,2015,World,Capital goods,Export,Export Product share(%),0.3401
+Greenland,2015,World,Raw materials,Import,Import Product share(%),7.2092
+Greenland,2015,World,Intermediate goods,Import,Import Product share(%),11.2309
+Greenland,2015,World,Consumer goods,Import,Import Product share(%),57.3034
+Greenland,2015,World,Capital goods,Import,Import Product share(%),19.7152
+Greenland,2015,World,All Products,Trade Indicator,World Growth (%),-7.8698674978916
+Greenland,2015,World,All Products,Trade Indicator,Country Growth (%),0.649845558068285
+Greenland,2015,...,...,Trade Indicator,Index of export market penetration,1.39882762458106
+Greenland,2015,...,...,Trade Indicator,HH Market concentration index,0.294825022979473

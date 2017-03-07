@@ -1,0 +1,100 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Latvia,2015,Lithuania,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,2205.510848
+Latvia,2015,Estonia,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,1338.944638
+Latvia,2015,Russian Federation,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,927.838577
+Latvia,2015,Germany,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,730.617202
+Latvia,2015,Poland,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,682.980226
+Latvia,2015,Lithuania,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,2401.941346
+Latvia,2015,Germany,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,1557.052647
+Latvia,2015,Poland,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,1528.556093
+Latvia,2015,Russian Federation,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,1192.0813
+Latvia,2015,Estonia,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,1035.147909
+Latvia,2015,World,Animal,Export,Export(US$ Mil),403.86012
+Latvia,2015,World,Vegetable,Export,Export(US$ Mil),815.228731
+Latvia,2015,World,Food Products,Export,Export(US$ Mil),856.973179
+Latvia,2015,World,Minerals,Export,Export(US$ Mil),52.705197
+Latvia,2015,World,Fuels,Export,Export(US$ Mil),711.830781
+Latvia,2015,World,Chemicals,Export,Export(US$ Mil),781.815411
+Latvia,2015,World,Plastic or Rubber,Export,Export(US$ Mil),333.499448
+Latvia,2015,World,Hides and Skins,Export,Export(US$ Mil),37.719672
+Latvia,2015,World,Wood,Export,Export(US$ Mil),2071.863595
+Latvia,2015,World,Textiles and Clothing,Export,Export(US$ Mil),400.647978
+Latvia,2015,World,Footwear,Export,Export(US$ Mil),22.29592
+Latvia,2015,World,Stone and Glass,Export,Export(US$ Mil),344.700014
+Latvia,2015,World,Metals,Export,Export(US$ Mil),950.319581
+Latvia,2015,World,Mach and Elec,Export,Export(US$ Mil),2138.498574
+Latvia,2015,World,Transportation,Export,Export(US$ Mil),578.226231
+Latvia,2015,World,Miscellaneous,Export,Export(US$ Mil),990.972286
+Latvia,2015,World,Raw materials,Export,Export(US$ Mil),1808.437146
+Latvia,2015,World,Intermediate goods,Export,Export(US$ Mil),2534.476721
+Latvia,2015,World,Consumer goods,Export,Export(US$ Mil),4064.01927200001
+Latvia,2015,World,Capital goods,Export,Export(US$ Mil),2328.122733
+Latvia,2015,World,Raw materials,Import,Import(US$ Mil),1025.377287
+Latvia,2015,World,Intermediate goods,Import,Import(US$ Mil),2360.485389
+Latvia,2015,World,Consumer goods,Import,Import(US$ Mil),6030.224396
+Latvia,2015,World,Capital goods,Import,Import(US$ Mil),3334.114426
+Latvia,2015,World,All Products,Export,Exports (in US$ Mil),11491.156721
+Latvia,2015,World,All Products,Import,Imports (in US$ Mil),13850.03944
+Latvia,2001,World,All Products,Tariff,Duty Free Imports (US$ Thousand),1895185.775
+Latvia,2015,...,...,Development,Trade Balance (current US$ Mil),-305.643784
+Latvia,2015,...,...,Development,GDP (current US$ Mil),27002.832428
+Latvia,2001,...,...,Tariff,No. Of Tariff Agreement,2
+Latvia,2015,...,...,Import,No. Of Import partners,140
+Latvia,2015,...,...,Import,No. Of Import products,4264
+Latvia,2015,...,...,Export,No. Of Export partners,195
+Latvia,2015,...,...,Export,No. Of Export products,3626
+Latvia,2015,...,...,Others,Population,1978440
+Latvia,2016,...,...,Others,Ease of Doing Business Rank,14
+Latvia,2016,...,...,Others,Trading Across Borders Rank,25
+Latvia,2014,...,...,Others,LPI Rank,36
+Latvia,2014,...,...,Others,LPI Score,3.402789
+Latvia,2015,Lithuania,All Products,Export,Partner share(%)-Top 5 Export Partner,19.1931
+Latvia,2015,Estonia,All Products,Export,Partner share(%)-Top 5 Export Partner,11.652
+Latvia,2015,Russian Federation,All Products,Export,Partner share(%)-Top 5 Export Partner,8.0744
+Latvia,2015,Germany,All Products,Export,Partner share(%)-Top 5 Export Partner,6.3581
+Latvia,2015,Poland,All Products,Export,Partner share(%)-Top 5 Export Partner,5.9435
+Latvia,2015,Lithuania,All Products,Import,Partner share(%)-Top 5 Import Partner,17.3425
+Latvia,2015,Germany,All Products,Import,Partner share(%)-Top 5 Import Partner,11.2422
+Latvia,2015,Poland,All Products,Import,Partner share(%)-Top 5 Import Partner,11.0365
+Latvia,2015,Russian Federation,All Products,Import,Partner share(%)-Top 5 Import Partner,8.6071
+Latvia,2015,Estonia,All Products,Import,Partner share(%)-Top 5 Import Partner,7.474
+Latvia,2015,World,Animal,Export,Export Product share(%),3.5145
+Latvia,2015,World,Vegetable,Export,Export Product share(%),7.0944
+Latvia,2015,World,Food Products,Export,Export Product share(%),7.4577
+Latvia,2015,World,Minerals,Export,Export Product share(%),0.4587
+Latvia,2015,World,Fuels,Export,Export Product share(%),6.1946
+Latvia,2015,World,Chemicals,Export,Export Product share(%),6.8036
+Latvia,2015,World,Plastic or Rubber,Export,Export Product share(%),2.9022
+Latvia,2015,World,Hides and Skins,Export,Export Product share(%),0.3282
+Latvia,2015,World,Wood,Export,Export Product share(%),18.0301
+Latvia,2015,World,Textiles and Clothing,Export,Export Product share(%),3.4866
+Latvia,2015,World,Footwear,Export,Export Product share(%),0.194
+Latvia,2015,World,Stone and Glass,Export,Export Product share(%),2.9997
+Latvia,2015,World,Metals,Export,Export Product share(%),8.27
+Latvia,2015,World,Mach and Elec,Export,Export Product share(%),18.61
+Latvia,2015,World,Transportation,Export,Export Product share(%),5.0319
+Latvia,2015,World,Miscellaneous,Export,Export Product share(%),8.6238
+Latvia,2015,World,Raw materials,Export,Export Product share(%),15.7376
+Latvia,2015,World,Intermediate goods,Export,Export Product share(%),22.0559
+Latvia,2015,World,Consumer goods,Export,Export Product share(%),35.3665
+Latvia,2015,World,Capital goods,Export,Export Product share(%),20.2601
+Latvia,2015,World,Raw materials,Import,Import Product share(%),7.4034
+Latvia,2015,World,Intermediate goods,Import,Import Product share(%),17.0432
+Latvia,2015,World,Consumer goods,Import,Import Product share(%),43.5394
+Latvia,2015,World,Capital goods,Import,Import Product share(%),24.073
+Latvia,2001,World,Raw materials,Tariff,Weighted Average (%),9.0381984312292
+Latvia,2001,World,Intermediate goods,Tariff,Weighted Average (%),1.60801250002564
+Latvia,2001,World,Consumer goods,Tariff,Weighted Average (%),3.41193038376366
+Latvia,2001,World,Capital goods,Tariff,Weighted Average (%),0.161331141172953
+Latvia,2015,World,All Products,Trade Indicator,World Growth (%),-7.8698674978916
+Latvia,2015,World,All Products,Trade Indicator,Country Growth (%),-14.4207104164256
+Latvia,2001,World,All Products,Tariff,Simple Average (%),3.25937581499363
+Latvia,2001,World,All Products,Tariff,Weighted Average (%),2.56314409342277
+Latvia,2001,World,All Products,Tariff,Maximum Rate (%),87.8000030517578
+Latvia,2001,World,All Products,Tariff,Duty Free Tariff Lines Share (%),40.3900715882828
+Latvia,2015,...,...,Trade Indicator,Index of export market penetration,5.25263960292149
+Latvia,2015,...,...,Trade Indicator,HH Market concentration index,0.0751810356209355
+Latvia,2015,...,...,Development,Trade Balance (% of GDP),-1.131895273
+Latvia,2015,...,...,Development,Trade in services (% of GDP),25.933071985
+Latvia,2015,...,...,Development,Trade (% of GDP),119.0913764
+Latvia,2015,...,...,Development,"GNI per capita, Atlas method (current US$)",14980

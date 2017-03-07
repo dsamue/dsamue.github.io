@@ -1,0 +1,107 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+"Korea, Rep.",2015,China,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,137140.475711
+"Korea, Rep.",2015,United States,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,70130.052444
+"Korea, Rep.",2015,"Hong Kong, China",All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,30420.918784
+"Korea, Rep.",2015,Vietnam,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,27773.261473
+"Korea, Rep.",2015,Japan,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,25596.215333
+"Korea, Rep.",2015,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,90235.421574
+"Korea, Rep.",2015,Japan,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,45853.947243
+"Korea, Rep.",2015,United States,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,44213.113845
+"Korea, Rep.",2015,Germany,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,20951.550632
+"Korea, Rep.",2015,Saudi Arabia,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,19572.876008
+"Korea, Rep.",2015,World,Animal,Export,Export(US$ Mil),1514.893499
+"Korea, Rep.",2015,World,Vegetable,Export,Export(US$ Mil),903.319713
+"Korea, Rep.",2015,World,Food Products,Export,Export(US$ Mil),4609.626578
+"Korea, Rep.",2015,World,Minerals,Export,Export(US$ Mil),642.894969
+"Korea, Rep.",2015,World,Fuels,Export,Export(US$ Mil),33179.993812
+"Korea, Rep.",2015,World,Chemicals,Export,Export(US$ Mil),34486.431656
+"Korea, Rep.",2015,World,Plastic or Rubber,Export,Export(US$ Mil),35100.545634
+"Korea, Rep.",2015,World,Hides and Skins,Export,Export(US$ Mil),1221.097359
+"Korea, Rep.",2015,World,Wood,Export,Export(US$ Mil),3416.70031
+"Korea, Rep.",2015,World,Textiles and Clothing,Export,Export(US$ Mil),14042.658961
+"Korea, Rep.",2015,World,Footwear,Export,Export(US$ Mil),660.944606
+"Korea, Rep.",2015,World,Stone and Glass,Export,Export(US$ Mil),5824.013711
+"Korea, Rep.",2015,World,Metals,Export,Export(US$ Mil),44100.863394
+"Korea, Rep.",2015,World,Mach and Elec,Export,Export(US$ Mil),198345.282235
+"Korea, Rep.",2015,World,Transportation,Export,Export(US$ Mil),110153.170038
+"Korea, Rep.",2015,World,Miscellaneous,Export,Export(US$ Mil),38694.799503
+"Korea, Rep.",2015,World,Raw materials,Export,Export(US$ Mil),3357.681156
+"Korea, Rep.",2015,World,Intermediate goods,Export,Export(US$ Mil),116401.441592
+"Korea, Rep.",2015,World,Consumer goods,Export,Export(US$ Mil),116486.045444
+"Korea, Rep.",2015,World,Capital goods,Export,Export(US$ Mil),287645.194505
+"Korea, Rep.",2015,World,Raw materials,Import,Import(US$ Mil),101905.116572
+"Korea, Rep.",2015,World,Intermediate goods,Import,Import(US$ Mil),87187.959045
+"Korea, Rep.",2015,World,Consumer goods,Import,Import(US$ Mil),103394.295649
+"Korea, Rep.",2015,World,Capital goods,Import,Import(US$ Mil),142487.668546
+"Korea, Rep.",2015,World,All Products,Export,Exports (in US$ Mil),526897.235978
+"Korea, Rep.",2015,World,All Products,Import,Imports (in US$ Mil),436535.682866
+"Korea, Rep.",2015,World,All Products,Tariff,Duty Free Imports (US$ Thousand),242668878.577
+"Korea, Rep.",2015,...,...,Development,Trade Balance (current US$ Mil),95892.30501
+"Korea, Rep.",2015,...,...,Development,GDP (current US$ Mil),1377873.1079
+"Korea, Rep.",2015,...,...,Tariff,No. Of Tariff Agreement,28
+"Korea, Rep.",2015,...,...,Import,No. Of Import partners,228
+"Korea, Rep.",2015,...,...,Import,No. Of Import products,4507
+"Korea, Rep.",2015,...,...,Export,No. Of Export partners,220
+"Korea, Rep.",2015,...,...,Export,No. Of Export products,4286
+"Korea, Rep.",2015,...,...,Others,Population,50617045
+"Korea, Rep.",2016,...,...,Others,Ease of Doing Business Rank,5
+"Korea, Rep.",2016,...,...,Others,Trading Across Borders Rank,32
+"Korea, Rep.",2014,...,...,Others,LPI Rank,21
+"Korea, Rep.",2014,...,...,Others,LPI Score,3.666238
+"Korea, Rep.",2013,...,...,Others,No Of NTM Affected Products (HS 6 Digit),30
+"Korea, Rep.",2013,...,...,Others,No Of NTM Measures,3
+"Korea, Rep.",2009,...,...,Others,Overall Trade Restrictiveness Index -  Applied Tariff,0.0900861
+"Korea, Rep.",2009,...,...,Others,Overall Trade Restrictiveness Index - MFN Tariff,0.0910329
+"Korea, Rep.",,...,...,Others,Services Trade Restrictions Index - Over All,23.1
+"Korea, Rep.",2013,...,...,Others,Temporary Trade Barriers in Effect - Simple Average,0.52305305
+"Korea, Rep.",2013,...,...,Others,Temporary Trade Barriers in Effect - Weighted Average,0.3962549865
+"Korea, Rep.",2015,China,All Products,Export,Partner share(%)-Top 5 Export Partner,26.0279
+"Korea, Rep.",2015,United States,All Products,Export,Partner share(%)-Top 5 Export Partner,13.31
+"Korea, Rep.",2015,"Hong Kong, China",All Products,Export,Partner share(%)-Top 5 Export Partner,5.7736
+"Korea, Rep.",2015,Vietnam,All Products,Export,Partner share(%)-Top 5 Export Partner,5.2711
+"Korea, Rep.",2015,Japan,All Products,Export,Partner share(%)-Top 5 Export Partner,4.8579
+"Korea, Rep.",2015,China,All Products,Import,Partner share(%)-Top 5 Import Partner,20.6708
+"Korea, Rep.",2015,Japan,All Products,Import,Partner share(%)-Top 5 Import Partner,10.5041
+"Korea, Rep.",2015,United States,All Products,Import,Partner share(%)-Top 5 Import Partner,10.1282
+"Korea, Rep.",2015,Germany,All Products,Import,Partner share(%)-Top 5 Import Partner,4.7995
+"Korea, Rep.",2015,Saudi Arabia,All Products,Import,Partner share(%)-Top 5 Import Partner,4.4837
+"Korea, Rep.",2015,World,Animal,Export,Export Product share(%),0.2875
+"Korea, Rep.",2015,World,Vegetable,Export,Export Product share(%),0.1714
+"Korea, Rep.",2015,World,Food Products,Export,Export Product share(%),0.8749
+"Korea, Rep.",2015,World,Minerals,Export,Export Product share(%),0.122
+"Korea, Rep.",2015,World,Fuels,Export,Export Product share(%),6.2972
+"Korea, Rep.",2015,World,Chemicals,Export,Export Product share(%),6.5452
+"Korea, Rep.",2015,World,Plastic or Rubber,Export,Export Product share(%),6.6617
+"Korea, Rep.",2015,World,Hides and Skins,Export,Export Product share(%),0.2318
+"Korea, Rep.",2015,World,Wood,Export,Export Product share(%),0.6485
+"Korea, Rep.",2015,World,Textiles and Clothing,Export,Export Product share(%),2.6652
+"Korea, Rep.",2015,World,Footwear,Export,Export Product share(%),0.1254
+"Korea, Rep.",2015,World,Stone and Glass,Export,Export Product share(%),1.1053
+"Korea, Rep.",2015,World,Metals,Export,Export Product share(%),8.3699
+"Korea, Rep.",2015,World,Mach and Elec,Export,Export Product share(%),37.644
+"Korea, Rep.",2015,World,Transportation,Export,Export Product share(%),20.906
+"Korea, Rep.",2015,World,Miscellaneous,Export,Export Product share(%),7.3439
+"Korea, Rep.",2015,World,Raw materials,Export,Export Product share(%),0.6373
+"Korea, Rep.",2015,World,Intermediate goods,Export,Export Product share(%),22.0919
+"Korea, Rep.",2015,World,Consumer goods,Export,Export Product share(%),22.1079
+"Korea, Rep.",2015,World,Capital goods,Export,Export Product share(%),54.5923
+"Korea, Rep.",2015,World,Raw materials,Import,Import Product share(%),23.3441
+"Korea, Rep.",2015,World,Intermediate goods,Import,Import Product share(%),19.9727
+"Korea, Rep.",2015,World,Consumer goods,Import,Import Product share(%),23.6852
+"Korea, Rep.",2015,World,Capital goods,Import,Import Product share(%),32.6406
+"Korea, Rep.",2015,World,Raw materials,Tariff,Weighted Average (%),10.0825448262537
+"Korea, Rep.",2015,World,Intermediate goods,Tariff,Weighted Average (%),3.74832833109225
+"Korea, Rep.",2015,World,Consumer goods,Tariff,Weighted Average (%),4.58520818098305
+"Korea, Rep.",2015,World,Capital goods,Tariff,Weighted Average (%),1.44927583260221
+"Korea, Rep.",2015,World,All Products,Trade Indicator,World Growth (%),-7.8698674978916
+"Korea, Rep.",2015,World,All Products,Trade Indicator,Country Growth (%),-5.6781940711641
+"Korea, Rep.",2015,World,All Products,Tariff,Simple Average (%),6.05391743923073
+"Korea, Rep.",2015,World,All Products,Tariff,Weighted Average (%),5.71725398224636
+"Korea, Rep.",2015,World,All Products,Tariff,Maximum Rate (%),887.400024414063
+"Korea, Rep.",2015,World,All Products,Tariff,Duty Free Tariff Lines Share (%),64.819549398498
+"Korea, Rep.",2015,...,...,Trade Indicator,Index of export market penetration,20.2533611365148
+"Korea, Rep.",2015,...,...,Trade Indicator,HH Market concentration index,0.134789043587708
+"Korea, Rep.",2015,...,...,Development,Trade Balance (% of GDP),6.959443831
+"Korea, Rep.",2015,...,...,Development,Trade in services (% of GDP),15.346993768
+"Korea, Rep.",2015,...,...,Development,Trade (% of GDP),84.842840475
+"Korea, Rep.",2015,...,...,Development,"GNI per capita, Atlas method (current US$)",27450
