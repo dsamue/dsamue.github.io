@@ -20,14 +20,21 @@
 
 </head>
 <body>
+
+<div id="loading" style="text-align:center; background-color:black";>
+    <h1>Laddddddddddar</h1>
+</div>
+
+<div id="maincontent" class="vishidden">
 <div class="row">
     <div id="mapScreen" class="col-lg-6 col-md-6">
         <div id="container"></div>
         <div id="belowChart">
             <div id="chart"></div>
             <div class="slider">
-                <div id="slider"></div>
-                <h2><span id="slider4text">1960</span></h2>
+<!--                 <div id="slider"></div>
+                <h2><span id="slider4text">1960</span></h2> -->
+                <div class="chroniton" id="slider2"></div>
             </div>
         </div>
     </div>
@@ -59,7 +66,7 @@
    
             <div class="charts-view">
                 <div class="row">
-                    <div id="line-chart-container" class="col-lg-6 col-md-6">Line chart here</div>
+                    <div id="line-chart-container" class="col-lg-6 col-md-6"></div>
                     <div id="pie-chart-container" class="col-lg-6 col-md-6"></div>
                 </div>
                 <div class="row" id="impExp">
@@ -106,20 +113,27 @@
         </div>
     </div>
 </div><!-- End of row --> 
-
+</div>
 
 
 </body>
 
     <!-- SCRIPT -->
-    <script type="text/javascript" src="js/Worldmap.js" ></script>
+
+    <script type="text/javascript" src="js/chroniton-only.js"></script>
     <script type="text/javascript" src="js/pie-chart.js"></script>
     <script type="text/javascript" src="js/sidebardata.js"></script>
     <script type="text/javascript" src="js/topojson.v1.min.js" ></script>
-    <script type="text/javascript" src="js/fetch_data.js" ></script>
-    <script type="text/javascript" src="js/draw_chart.js" defer ></script>
+    <script type="text/javascript" src="js/draw_chart.js"></script>
+    <script type="text/javascript" src="js/loading.js"></script>
     <script type="text/javascript" src="js/linechart.js"></script>
-    <script type="text/javascript" src="js/slider.js" ></script>
+    <script type="text/javascript" src="js/linechart-tradingbalance.js"></script>
+<!--     <script type="text/javascript" src="js/slider.js" ></script> -->  
+    <script type="text/javascript" src="js/Worldmap.js" ></script>
+    <script type="text/javascript" src="js/fetch_data.js" ></script>
     <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+    <script type="text/javascript" src="js/slider.js" ></script>
+
+
     <!--     <script src="js/name2code.js"></script> -->
 </html>

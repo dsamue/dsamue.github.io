@@ -7,6 +7,7 @@ var zoom = d3.behavior.zoom()
     .scaleExtent([1, 9])
     .on("zoom", move);
 
+
 var width = document.getElementById('container').offsetWidth;
 var height = width / 1.9;
 var topo,projection,worldPath,worldSvg,worldG;
@@ -14,13 +15,15 @@ var graticule = d3.geo.graticule();
 var tooltip = d3.select("#container").append("div").attr("class", "tooltip hidden");
 var landETT;
 var landTwo; 
+var clickState = 0;
+var mapDone = false;
 
 //Calling setup-function to start setting up map
-setup(width,height, "#container", "world");
+setup(width, height, "#container");
 
 //Setting up countries
 //variables 'container' and 'theclass' changes depending on large or small map-view
-function setup(width,height, container, theclass){
+function setup(width, height, container){
   projection = d3.geo.mercator()
     .translate([(width/2), (height/2)])
     .scale( width / 2 / Math.PI)
@@ -29,7 +32,7 @@ function setup(width,height, container, theclass){
   worldPath = d3.geo.path().projection(projection);
 
   worldSvg = d3.select(container).append("svg")
-      .attr("class", theclass)
+      .attr("class", "world")
       .attr("width", width)
       .attr("height", height)
       .append("g");;
@@ -43,17 +46,14 @@ function setup(width,height, container, theclass){
   			worldSvg.attr("class", "countrySizePos");
   		}
 
-
   worldG = worldSvg.append("g");
-
 }
 
 //Drawing large map
-d3.json("world-topo-min.json", function(error, world) {
-  var countries = topojson.feature(world, world.objects.countries).features;
-  topo = countries;
-  draw(topo);
-});
+//d3.json("world-topo-min.json", function(error, world) {
+//  var countries = topojson.feature(world, world.objects.countries).features;
+//  topo = countries;
+//});
 
 
 //Drawing map and/or small country depending on mapType
@@ -80,10 +80,11 @@ function draw(topo) {
       .attr("title", function(d,i) { return d.properties.name; });
   		
 
-  		//Setting colors for the map
-      	updateMapColors();
+  //Setting colors for the map
+  updateMapColors();
+  countryInteraction();
 
-        countryInteraction();
+  mapDone = true;
 }
 
 //Function that holds all interaction functionality with a country
@@ -92,7 +93,7 @@ function countryInteraction(){
   	var offsetL = document.getElementById('container').offsetLeft+20;
   	var offsetT = document.getElementById('container').offsetTop+10;
   	//tooltips
-	var clickState = 0;
+	//var clickState = 0;  //clickstate needs to be a gobal variable to fix the handle bug. //David
 	var sidebarDiv = document.getElementById('sidebar');
 	var mapScreen = document.getElementById('mapScreen');
 	d3.select("#compareLineChart").classed("hidden", true);
@@ -153,10 +154,15 @@ function countryInteraction(){
 
 			//Clear multiple lineChart if we have one
 			clearLineChart();
+			clearTradeLineChart();
 
-			// Update sidebar values and draw piechart
+			//Create code for country
+			var kod = name2code(landETT.properties.name);
+			
+			// Update sidebar values and draw pie chart and line chart
 	        updateSideBar();
   			drawPieChart();
+			drawLineTradeBalance(countries[kod].tradingBalance);
 
 			clickState++;
         
@@ -262,7 +268,6 @@ function click() {
   var latlon = projection.invert(d3.mouse(this));
 }
 
-
 //Updating map-values
 function updateMapColors(){
 	    d3.selectAll("path.country")
@@ -280,9 +285,7 @@ function updateMapColors(){
       		var tradingBalance = countries[kod].tradingBalance[year];
 
       		//Generera färg beroende på co2-utsläpp	
-      		var color = d3.scale.linear().domain([-20,0,20]).range(["#7860B9", "#EAE8E6", "#5AA9EC"]); 
+      		var color = d3.scale.linear().domain([-30,0,30]).range(["#5AA9EC", "#EAE8E6", "#F3C14B"]); 
           	return color(tradingBalance); 
-
         });
-
 }
