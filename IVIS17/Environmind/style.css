@@ -142,9 +142,9 @@ p {
   fill: orange ;
 }
 
-.x.axis path {
+/*.x.axis path {
   display: none;
-}
+}*/
 
 .d3-tip {
   line-height: 1;
@@ -215,6 +215,10 @@ p {
     height: 100%;
     padding-left: 40px;
     padding-right: 40px;
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 0px;
+    right: 0px;
 }
 
 .row{
@@ -239,7 +243,6 @@ p {
 }
 
 #compare-line-chart {
-    border:solid 1px #000;
     overflow: auto;
     margin-left: 10px;
     margin-right: 10px;
@@ -249,7 +252,7 @@ p {
 #compare-line-chart { font: 12px;}
 
 #compare-line-chart path { 
-    stroke: steelblue;
+    stroke: black;
     stroke-width: 2;
     fill: none;
 }
@@ -298,6 +301,104 @@ p {
   float: center;
 }
 
+.anchor{
+  font-size: 16px;
+}
+
+#multipleCountries {
+    height:100%;
+}
+
+
+/*!*Sätter höjden på alla kolumner likadan i varje row i bootstrap*!*/
+/*.row{*/
+    /*overflow: hidden;*/
+/*}*/
+
+/*[class*="col-"]{*/
+    /*margin-bottom: -99999px;*/
+    /*padding-bottom: 99999px;*/
+/*}*/
+
+.leftTriangle {
+    cursor:pointer;
+    position: absolute;
+    top:300px;
+    left:-90px;
+    width: 0px;
+    height: 0px;
+    border-style: inset;
+    border-width: 0 60px 60px 60px;
+    border-color: transparent transparent rgba(238,238,238,1) transparent;
+    float: left;
+    transform:rotate(-90deg);
+    -ms-transform:rotate(-90deg);
+    -moz-transform:rotate(-90deg);
+    -webkit-transform:rotate(-90deg);
+    -o-transform:rotate(-90deg);
+}
+
+.streck1 {
+     z-index: 4000;
+     font-size:60px;
+     text-align: center;
+     top: -7px;
+     left: -45px;
+     position: relative;
+     width: 93px;
+     height: 93px;
+     margin: 0px;
+ }
+
+.streck2 {
+    z-index: 99999;
+    font-size:60px;
+    text-align: center;
+    top: -99px;
+    left: -45px;
+    position: relative;
+    width: 93px;
+    height: 93px;
+    margin: 0px;
+    transform:rotate(90deg);
+    -ms-transform:rotate(90deg);
+    -moz-transform:rotate(90deg);
+    -webkit-transform:rotate(90deg);
+    -o-transform:rotate(90deg);
+}
+
+.rotate {
+    transform:rotate(90deg);
+    -ms-transform:rotate(90deg);
+    -moz-transform:rotate(90deg);
+    -webkit-transform:rotate(90deg);
+    -o-transform:rotate(90deg);
+}
+
+.rotate_transition {
+    -webkit-transition: all 1s ease-out;  /* Chrome 1-25, Safari 3.2+ */
+    -moz-transition: all 1s ease-out;  /* Firefox 4-15 */
+    -o-transition: all 1s ease-out;  /* Opera 10.50–12.00 */
+    transition: all 1s ease-out;  /* Chrome 26, Firefox 16+, IE 10+, Opera 12.50+ */
+}
+
+.equator {
+    stroke:#000000;
+    stroke-dasharray: 2;
+}
+
+#sidebarMultipleCountries {
+    width:200%;
+    height:100%;
+    position: absolute;
+    left:100%;
+    top:0;
+    background-color: rgba(238,238,238,1);
+}
+
+#pie-chart g{
+  font-size: 10px;
+}
 
 /* ny slider */
 .chroniton {
@@ -355,3 +456,35 @@ p {
   font:bold 12px sans-serif;
 }
 /* ny slider end*/
+
+<<<<<<< HEAD
+
+/*Nedsänkt 2a på CO2. alltså:  <p>This text contains <sub>subscript</sub> text.</p>*/
+#sup,
+#sub {
+    height: 0;
+    line-height: 1;
+    vertical-align: baseline;
+    _vertical-align: bottom;
+    position: relative;
+
+}
+
+#sup {
+bottom: 1ex;
+}
+
+sub {
+top: .5ex;
+}
+/*Nedsänkt 2a end*/
+=======
+#deselectCountries {
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+.unfocus {
+    opacity:0.3;
+}
+>>>>>>> master

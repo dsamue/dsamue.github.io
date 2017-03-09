@@ -2,6 +2,7 @@
 var handleRadius = 6,
   handleHeight = 8,
   caretHeight = 5,
+  play = false,
   handleD = 'M' + [
     -handleRadius, -handleHeight,
     handleRadius, -handleHeight,
@@ -36,10 +37,9 @@ function chroniton() {
     // configurable options
     keybindings = true,
     playButton = false,
-    play = false,
     noLabel = false,
     loop = false,
-    playbackRate = 0.5,      //Change the speed for the playback /David
+    playbackRate = 1,      //Change the speed for the playback /David
 
     // internal state
     playLastTick = null,

@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <title>Enviromind</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="d3.slider.css" />  
+    <link rel="stylesheet" href="d3.slider.css" />
     <script src="d3/d3.js"></script>
+    <script src="//d3js.org/d3.geo.projection.v0.min.js"></script>
     <script src="d3-queue/d3-queue.js"></script>
     <script src="js/d3.slider.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-
+    <script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js'></script>
     <!--  <script src="http://d3js.org/topojson.v0.min.js"></script> -->
 
     <!-- Latest compiled and minified CSS -->
@@ -27,20 +28,21 @@
 
 <div id="maincontent" class="vishidden">
 <div class="row">
-    <div id="mapScreen" class="col-lg-6 col-md-6">
+    <div id="mapScreen" class="col-lg-9 col-md-9">
+        <input type="checkbox" name="mc" id="multipleCountriesCheckbox" value="false"> Select multiple countries<br>
         <div id="container"></div>
         <div id="belowChart">
             <div id="chart"></div>
             <div class="slider">
-<!--                 <div id="slider"></div>
-                <h2><span id="slider4text">1960</span></h2> -->
                 <div class="chroniton" id="slider2"></div>
+                <button type="button" class="btn btn-primary" onclick="co2val='capita', drawBarChart()">CO<sub>2</sub> per capita</button>
+                <button type="button" class="btn btn-primary" onclick="co2val='total', drawBarChart()">CO<sub>2</sub> total</button>
             </div>
         </div>
     </div>
 
 <!--  Details on demand sidebar--> 
-    <div id="sidebar" class="col-lg-6 col-md-6">
+    <div id="sidebar" out="false" class="col-lg-3 col-md-3">
         <!--put cool graphics here-->
         <h1>ENVIROMIND</h1>
         <!-- Displayed if no country is selected -->
@@ -63,32 +65,25 @@
             
             <h3> Annual CO2 per capita: <span class="infoText" id="co2-label"></span></h3>
             <h3> Trade balance: <span class="infoText" id="trade-label"></span> </h3>
-   
+
             <div class="charts-view">
                 <div class="row">
-                    <div id="line-chart-container" class="col-lg-6 col-md-6"></div>
-                    <div id="pie-chart-container" class="col-lg-6 col-md-6"></div>
+                    <div class="col-lg-6 col-md-6">
+						<div class="row text-center"><h4>Trade Balance over the years</h4></div>
+						<div class="row text-center"><p>(% of GDP)</p></div>
+						<div class="row" id="line-chart-container"></div>
+					</div>
+                    <div class="col-lg-6 col-md-6">
+						<div class="row"><h4>Energy distribution</h4></div>
+						<div id="pie-chart-container" class="row"></div>
+					</div>
                 </div>
                 <div class="row" id="impExp">
                     <div id="top-export-container" class="col-lg-6 col-md-6">
-                        <h4>TOP 5 EXPORT</h4>
-                        <ol>
-                            <li>Country 1</li>
-                            <li>Country 2</li>
-                            <li>Country 3</li>
-                            <li>Country 4</li>
-                            <li>Country 5</li>
-                        </ol>
+                        <ol id="top-5-export"></ol>
                     </div>
                     <div id="top-import-container" class="col-lg-6 col-md-6">
-                        <h4>TOP 5 IMPORT</h4>
-                        <ol>
-                            <li>Country 1</li>
-                            <li>Country 2</li>
-                            <li>Country 3</li>
-                            <li>Country 4</li>
-                            <li>Country 5</li>
-                        </ol>
+                        <ol id="top-5-import"></ol>
                     </div>
                 </div>
             </div>
@@ -104,13 +99,30 @@
 
         </div>
 
+        <div id="multipleCountries" class="hidden">
+            <div class="leftTriangle">
+                <p class="streck1">-</p>
+                <p class="streck2">-</p>
+            </div>
+            <h2>SELECTED COUNTRIES:</h2>
+            <ul id="selectedCountriesDiv">
+            </ul>
+            <span id="deselectCountries">Deselect all</span>
+        </div>
+              
+        <div id="sidebarMultipleCountries">
+            <div id="compare-line-chart"></div>
+            <div id="sideLineChartContainer">Insert pretty TIMELINE here</div>
+        </div>
+
          <!-- Displayed if several countries are selected --> 
         <div id="sidebarMultipleCountries" class="hidden">
             <div id="compareContainer"></div>
             <div class="charts-view" id="multiples">
-                <div id="compare-line-chart"></div>
+<!--               <div id="compare-line-chart"></div>-->
             </div>
         </div>
+
     </div>
 </div><!-- End of row --> 
 </div>
@@ -130,6 +142,7 @@
     <script type="text/javascript" src="js/linechart-tradingbalance.js"></script>
 <!--     <script type="text/javascript" src="js/slider.js" ></script> -->  
     <script type="text/javascript" src="js/Worldmap.js" ></script>
+    <script type="text/javascript" src="js/sidebardata.js"></script>
     <script type="text/javascript" src="js/fetch_data.js" ></script>
     <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
     <script type="text/javascript" src="js/slider.js" ></script>

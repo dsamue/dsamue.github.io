@@ -17,6 +17,7 @@ var landETT;
 var landTwo; 
 var clickState = 0;
 var mapDone = false;
+var selectedCountries = [];
 
 //Calling setup-function to start setting up map
 setup(width, height, "#container");
@@ -24,7 +25,7 @@ setup(width, height, "#container");
 //Setting up countries
 //variables 'container' and 'theclass' changes depending on large or small map-view
 function setup(width, height, container){
-  projection = d3.geo.mercator()
+  projection = d3.geo.robinson()
     .translate([(width/2), (height/2)])
     .scale( width / 2 / Math.PI)
     .center( [ 0 , 20] );
@@ -64,12 +65,11 @@ function draw(topo) {
 	 //     .attr("class", "graticule")
 	 //     .attr("d", worldPath);
 
-	 //  worldG.append("path")
-	 //   .datum({type: "LineString", coordinates: [[-180, 0], [-90, 0], [0, 0], [90, 0], [180, 0]]})
-	 //   .attr("class", "equator")
-	 //   .attr("d", worldPath);
-	//}
-	country = worldG.selectAll(".country").data(topo);
+	worldG.append("path")
+	   .datum({type: "LineString", coordinates: [[-180, 0], [-90, 0], [0, 0], [90, 0], [180, 0]]})
+	   .attr("class", "equator")
+	   .attr("d", worldPath);
+	   country = worldG.selectAll(".country").data(topo);
 
 	//check id attrubite here (d.properties.name for large, d.id for small???)
 	//With d.properties.name for both the info-box shows up on hover for both
@@ -143,79 +143,102 @@ function countryInteraction(){
       })
 
       //Clicking a country
-	  .on("click", function(d, i) {
-	  	//If first country to be clicked
-		  if (clickState == 0) {
-		  	d3.select("#sidebarNoCountry").classed("hidden", true);
-		  	d3.select("#sidebarOneCountry").classed("hidden", false);
-		  	d3.select("#sidebarMultipleCountries").classed("hidden", true);
-		  	console.log("i IF " + clickState);
-			landETT = d;
+	.on("click", function(d, i) {
+    	/*var clicked = d3.select(this);
 
-			//Clear multiple lineChart if we have one
-			clearLineChart();
-			clearTradeLineChart();
+		  if (clicked.classed("selected")) {
+			  d3.selectAll(".country").classed("unfocus", false);
+			  clicked.classed("unfocus", true);
+			  clicked.classed("selected", false);
+		  } else {
+			  d3.selectAll(".country").classed("unfocus", true);
+			  clicked.classed("unfocus", false);
+			  clicked.classed("selected", true);
+		  }*/
+    
+    
+		var code = name2code(d.properties.name);
+		if(multipleCountriesCheckbox.val() == "true"){
+			if(!(deselectCountry() == true)){
+				selectedCountries.push(d);
+			 	d3.select(".bar#" + code)
+	  				.attr('fill', 'orange');
+			}
+			updateSideBarSelected();				
+		}else{
+			if(selectedCountries.length == 0){
+				landETT = d;
+				selectedCountries[0] = d;		
 
-			//Create code for country
-			var kod = name2code(landETT.properties.name);
+			 	d3.selectAll(".bar")
+	  				.attr('fill', 'black');
+
+			  	//Highlighta ny stapel i bar chart
+		 	 	d3.select(".bar#" + code)
+	  				.attr('fill', 'orange');
+
+			  	d3.select("#sidebarNoCountry").classed("hidden", true);
+			  		
+ 		  		d3.select("#sidebarOneCountry").classed("hidden", false);
+	
+				clearLineChart();	
+				clearTradeLineChart();
+ 			    updateSideBar();
+  				drawPieChart();
+				drawLineTradeBalance(countries[code].tradingBalance);
+
+			}else{
+				if(deselectCountry() == true){
+					landETT = "";
+			  		d3.select("#sidebarNoCountry").classed("hidden", false);
+
+ 		  			d3.select("#sidebarOneCountry").classed("hidden", true);
+				}else{
+				selectedCountries[0] = d;	
+				landETT = d;
+			 	
+			 	d3.selectAll(".bar")
+	  				.attr('fill', 'black');
+
+			  	//Highlighta ny stapel i bar chart
+		 	 	d3.select(".bar#" + code)
+	  				.attr('fill', 'orange');
+
+				clearLineChart();
+				clearTradeLineChart();
+		        updateSideBar();
+  				drawPieChart();
+				drawLineTradeBalance(countries[code].tradingBalance);						
+				}
+		
+			}
+		}
+
+		function deselectCountry(){
+			if(selectedCountries[0] != undefined){
+				for(j in selectedCountries){
+					if(selectedCountries[j].id == i){
+						selectedCountries.splice(j, 1);
+					  	d3.select(".bar#" + code)
+	  						.attr('fill', 'black');
+						return true;
+					}		
+				}			
+			}
+		}
+		
+
+		console.log("selectedCountries:", selectedCountries);
+
+		var mouse = d3.mouse(worldSvg.node()).map( function(d) { return parseInt(d); } );
 			
-			// Update sidebar values and draw pie chart and line chart
-	        updateSideBar();
-  			drawPieChart();
-			drawLineTradeBalance(countries[kod].tradingBalance);
+		//Call multiple line chart 
+		//drawLine(countries[kod1].co2, countries[kod2].co2);
 
-			clickState++;
-        
-		} 
-		//If second country to be clicked
-		else if (clickState == 1) {
-			d3.selectAll(".compareWorld").remove();
-			d3.select("#sidebarOneCountry").classed("hidden", true);
-			d3.select("#sidebarMultipleCountries").classed("hidden", false);
-
-			landTwo = d;
-
-			//var mouse = d3.mouse(worldSvg.node()).map( function(d) { return parseInt(d); } );
-
-			var width = document.getElementById('compareContainer').offsetWidth/2;
-			var height = width / 1.9;
-
-			//Kan eventuell kolla hur man väljer fler länder här.
-			setup(width,height, "#compareContainer", "compareWorld");
-			draw([landETT]);
-			setup(width,height, "#compareContainer", "compareWorld");
-			draw([landTwo]);
-			
-			//Create code for each country
-			var kod1 = name2code(landETT.properties.name);
-			var kod2 = name2code(landTwo.properties.name);
-
-			//Call multiple line chart 
-			drawLine(countries[kod1].co2, countries[kod2].co2);
-			clickState = 0;
-		  }
-
-
-	  //Nollställ eventuell  highlightad stapel
-	  d3.selectAll(".bar")
-	  	.attr('fill', 'black');
-
-
-	  //Hämtar landskod så kan fylla i rätt land 
-	  var code = name2code(d.properties.name);
-
-	  //Highlighta ny stapel i bar chart
-	  d3.select(".bar#" + code)
-	  	.attr('fill', 'orange');
-
-
-      var mouse = d3.mouse(worldSvg.node()).map( function(d) { return parseInt(d); } );
-
-      tooltip.classed("hidden", false)
-             .attr("style", "left:"+(mouse[0]+ offsetL)+"px;top:"+(mouse[1]+offsetT)+"px")
-             .html(d.properties.name);
+	    tooltip.classed("hidden", false)
+            .attr("style", "left:"+(mouse[0]+ offsetL)+"px;top:"+(mouse[1]+offsetT)+"px")
+            .html(d.properties.name);
 	  });
-
 }
 
 
@@ -276,16 +299,86 @@ function updateMapColors(){
       		//Hämta landskod	
       		var kod = this.id;
 
-      		//Om nåt är knas
+      		//Om landet från kartan inte inte finns i iso-listan
       		if(kod==''){
-	      		return "#000"
+            return "black"
 	      	}
 
-	      	//Hämta co2 för rätt år och land
+	      	//Hämta trading balance för rätt år och land
       		var tradingBalance = countries[kod].tradingBalance[year];
 
-      		//Generera färg beroende på co2-utsläpp	
+      		//Fixa färgskala 
       		var color = d3.scale.linear().domain([-30,0,30]).range(["#5AA9EC", "#EAE8E6", "#F3C14B"]); 
-          	return color(tradingBalance); 
+
+          //Returnera svart om data saknas
+            if (tradingBalance == ".." || tradingBalance == undefined){
+              return "black";
+            }
+
+            //Generera annars färg beroende på trading balance 
+            else{
+              return color(tradingBalance); 
+            }
         });
 }
+
+var multipleCountriesCheckbox = $('#multipleCountriesCheckbox');
+var sidebar = $("#sidebar");
+
+multipleCountriesCheckbox.change(function(){
+	cb = $(this);
+	cb.val(cb.prop('checked'));
+
+	//Object for storing selected countries RESET on toggle
+	if(landETT!= undefined){
+		selectedCountries = [landETT]
+	}else{
+		selectedCountries = [];
+	}
+
+	if (multipleCountriesCheckbox.val() == "true") {
+
+		createSideBarSelected();
+		d3.select("#sidebarOneCountry").classed("hidden", true);
+		d3.select("#sidebarNoCountry").classed("hidden", true);
+
+		d3.select("#multipleCountries").classed("hidden", false);
+		d3.select("#sidebarCompareCountries").classed("hidden", false);
+	} else {
+
+		d3.selectAll(".bar")
+	  		.attr('fill', 'black');
+
+		d3.select("#sidebarNoCountry").classed("hidden", false);
+
+		d3.select("#sidebarCompareCountries").classed("hidden", true);
+		d3.select("#multipleCountries").classed("hidden", true);
+	}
+});
+
+
+// DEN HÄR BORDE KALLA PÅ COMPARE-LINE-CHARTET
+$('.leftTriangle').click(function() {
+	if (sidebar.attr("out") == "false") {
+		drawLine(selectedCountries)
+		sidebar.attr("out", "true");
+		$(".streck1").addClass("rotate rotate_transition");
+		sidebar
+			.animate({
+				right: "50%"
+			}, 600 );
+	} else {
+		clearLineChart();
+		$(".streck1").removeClass("rotate rotate_transition");
+		sidebar.attr("out", "false");
+		sidebar
+			.animate({
+				right: 0
+			}, 600 );
+	}
+
+});
+
+$('#deselectCountries').click(function() {
+	multipleCountries = [];
+});

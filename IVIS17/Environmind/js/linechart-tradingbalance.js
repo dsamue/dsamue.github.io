@@ -7,7 +7,7 @@ var data = d3.entries(data);
 
 //Get the dimensions of the div
 var divDims = d3.select("#line-chart-container").node().getBoundingClientRect();
-console.log(divDims);
+//console.log(divDims);
 
 // Set the dimensions of the canvas / graph
 var margin = {top: 30, right: 30, bottom: 30, left: 30},
@@ -21,10 +21,11 @@ var y = d3.scale.linear().range([height, 0]);
 // Define the axes
 var xAxis = d3.svg.axis().scale(x)
     .orient("bottom")
-	.ticks(4);
+	.ticks(6)
+	.tickFormat(d3.format('.0f'));
 
 var yAxis = d3.svg.axis().scale(y)
-    .orient("left").ticks(5);
+    .orient("left").ticks(7);
 
 // Define the line
 var valueline = d3.svg.line()

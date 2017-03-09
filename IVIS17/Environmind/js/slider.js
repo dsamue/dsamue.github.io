@@ -23,9 +23,9 @@ d3.select('#slider').call(d3.slider()
 var dateFormat = d3.time.format("%Y");
 
 d3.select("#slider2").call(chroniton()
-      .domain([dateFormat.parse("1960"),dateFormat.parse("2010")])
+      .domain([dateFormat.parse("1960"),dateFormat.parse("2015")])
       .labelFormat(d3.time.format('%Y'))
-      .width(500)
+      .width(1000)
       .height(50)
       .playButton(true) // can also be set to loop
       .on("change", function(d) {

@@ -8,6 +8,17 @@ var svg = d3.select( "#chart")
             .attr( "margin", "auto");
 
 
+
+//Kolla om musknappen är nedtryckt (för att dra i slidern)
+var mouseDown = 0;
+document.body.onmousedown = function() { 
+  ++mouseDown;
+}
+document.body.onmouseup = function() {
+  --mouseDown;
+}
+
+
 function drawBarChart(){
 
   console.log("in chart");
@@ -18,9 +29,14 @@ function drawBarChart(){
   .attr('class', 'd3-tip')
   .offset([-10, 0])
   .html(function(d) {
-    return d.value.name + "</br>Co2: " + Math.round(d.value.co2[year] * 100) / 100;
-  })
+    if(co2val == 'capita'){
+      return d.value.name + "</br>" + Math.round(d.value.co2[year] * 10) / 10 + " tons CO<sub>2</sub> per caipta";
+    }
 
+    else{
+      return d.value.name + "</br>" + Math.round(d.value.co2total[year]/1000 * 10) / 10 + " million tons CO<sub>2</sub>";
+    }
+  })
 
 
   //Make selection and connect to data              
@@ -36,6 +52,9 @@ function drawBarChart(){
 
   svg.call(tip);
 
+        selection.exit()
+        .remove();
+
     //Create new bars
     selection.enter()
       .append( "rect" )
@@ -44,24 +63,41 @@ function drawBarChart(){
         return d.value.code
       })
       .attr( "x", function(d,i){
-        return i*2;
+        return i*5;
       })
-      .attr( "width", 1 )
+      .attr( "width", 4 )
       .attr( "fill", "black" )
 
     //Set bar heights based on data
     selection
       .attr( "height", function(d){
-        return d.value.co2[year]*5
+        if (co2val =="capita"){
+          return d.value.co2[year]*2;
+        }
+
+        else if(co2val = "total"){
+          return d.value.co2total[year]/50000;
+          // return 40;
+        }
+
       })
 
       //Set y position to get bars in right orientation
       .attr( "y", function(d){
-        return 220 - d.value.co2[year]*5;
+        if (co2val =="capita"){
+          return 220 - d.value.co2[year]*2;
+        }
+
+        else if(co2val == "total"){
+          return 220 - d.value.co2total[year]/50000;
+          // return 220-40;
+        }
       })
 
-      //Show tooltip on hover
-      .on('mouseover', tip.show)
+      //Show tooltip on hover if neither mousekey is pressed nor play-funtion active
+      .on('mouseover', function(d){
+        if(play == false && mouseDown == false){tip.show(d)} 
+      })
       .on('mouseout', tip.hide);
 
       // remove any unused bars

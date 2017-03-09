@@ -47,6 +47,7 @@ var year = 1960;
 var topo;
 var imports = [];
 var exports = [];
+var co2val = "capita"  //vs. "total" för att kunna switcha mellan
 
 // These countries are missing for export and import data
 var exceptCountries = [	'AGO', 'ASM', 'VGB', 'CHI', 'ZAR', 'CUW', 'GNQ', 'GUM', 'GIB', 
@@ -72,7 +73,7 @@ function readCountries(callback){
 		for(i in data){
 			console.log('i loop')
 			// Adding country object to list object
-			countries[data[i]['ISO 3166-1 3 Letter Code']] = {'code': data[i]['ISO 3166-1 3 Letter Code'], 'name': data[i]['Common Name'], 'exports': {}, 'imports': {}, 'co2':{}, 'tradingBalance': {}, 'twoLetterCode': data[i]['ISO 3166-1 2 Letter Code'], 'continent': {}, 'continentID': {}, 'renewables': {} }
+			countries[data[i]['ISO 3166-1 3 Letter Code']] = {'code': data[i]['ISO 3166-1 3 Letter Code'], 'name': data[i]['Common Name'], 'exports': {}, 'imports': {}, 'co2':{}, 'co2total':{}, 'tradingBalance': {}, 'twoLetterCode': data[i]['ISO 3166-1 2 Letter Code'], 'continent': {}, 'continentID': {}, 'renewables': {} }
 			
 			for (y=1988;y<2016;y++){
 				countries[data[i]['ISO 3166-1 3 Letter Code']].exports[y] = {};
@@ -93,8 +94,10 @@ function readData(){
 	d3.queue()
 		//reads all export and import data and sorting it (this takes time) 
 		.defer(readImportExport)
-		//Adds CO2
+		//Adds CO2 per capita
 		.defer(readCo2)
+		//Add Total CO2 per country
+		.defer(readCo2Total)
 		//Continues with adding continents
 		.defer(addContinent)
 		//Adding renewable data
@@ -131,8 +134,30 @@ function readImportExport(){
 	q2.awaitAll(getTop5ExportImport)
 }
 
-
-// ************** NOT USED RIGHT NOW (EXPORT/IMPORT) ****************
+//Sorts the top 5 export/import countries by the amount of money in decreasing order.
+function sortTopList(type) {
+	console.log(type);
+	//Loop through the countries
+	for (i in countries) {
+		//Loop through the years
+		for (j in countries[i][type]) {
+			//Delete empty years
+			if (isEmpty(countries[i][type][j])) {
+				delete countries[i][type][j];
+			//Sort the partners based on the sum. Note that the partners now are in an array.
+			} else {
+				sortedTop5 = [];
+				for (k in countries[i][type][j]) {
+						sortedTop5.push(countries[i][type][j][k]);
+				}
+				sortedTop5.sort(function(a,b) {
+					return parseFloat(b.mDollars) - parseFloat(a.mDollars);
+				});
+				countries[i][type][j] = sortedTop5;
+			}
+		}
+	}
+}
 
 
 // Takes out all data for top 5 export and top 5 import
@@ -154,34 +179,37 @@ function getTop5ExportImport(error, files){
 	}
 	sortTop5ExportImport(imports, 'imports')
 	sortTop5ExportImport(exports, 'exports')
+	sortTopList('exports');
+	sortTopList('imports');
 }
 
 
 // Sorts all the top 5 export and import data by country 
 // Adding the whole object(indicator, partner, category, reporter, year) to the export/import-list with the country code as key
 function sortTop5ExportImport(list, type){
-	// loops through list of export data 
-	for(i in list){
-		// loops all countries in code-name list and compares name to reporting country name in export-list
-		for(j in countries){
-			if(countries[j].name == list[i].Reporter){
-				// compares export partner with names in countries code-name list and adds partner country to 
-				// reporting countries topExport. Adds partner as an object with partner country code as key and data as value. 
-				for(k in countries){
-
-					for(y=1988;y<2016;y++){
-						if(countries[k].name == list[i].Partner && list[i][y] != ""){
-							countries[j][type][y][countries[k].code] = {
-							  'mDollars' :list[i][y].replace(/\s+/g, ''),
-							  'partner' :list[i].Partner
-							  };
-						}
-					
-					}
+	// Läser igenom varje csv-fils-rad 
+    for(i in list){
+	// Hämtar ut kod för reporter och partner-land
+		var reporter = name2code(list[i].Reporter);
+		var partner = name2code(list[i].Partner);
+		// Kollar så de inte är undefined
+		if(!(countries[reporter] == undefined || countries[partner] == undefined)){
+		// Går igenom varje år
+			for(y=1988;y<2016;y++){
+			// Kolla så att data för det året finns
+				if(list[i][y] != ""){
+				// Går till countries-objektet för det landet och till export/importlistan beroende på type
+				// Går till rätt år i listan och lägger där in nytt objekt med partner-landets kod som id 
+				// Och partner-landets namn + mDollars som värden
+					countries[reporter][type][y][partner] = {
+						'partnerCode':partner,
+						'mDollars' :list[i][y].replace(/\s+/g, ''),
+						'partner' :list[i].Partner
+					};          
 				}
 			}
-		}
-	}
+        }
+    }
 	console.log(countries);
 }
 
@@ -196,8 +224,9 @@ function readTradingBalance(callback){
 		//Loops through the csv getting the country code
 		for(i in data){
 			countryCode = data[i].Country_Code;
+
 			//Excludes empty rows in the csv
-			if (countryCode != "") {
+			if (countryCode != undefined) {
 				//For every year, add to the object countries
 				for(j=1960 ; j<2017; j++ ){
 					countries[countryCode].tradingBalance[j] = data[i][j];
@@ -210,18 +239,36 @@ function readTradingBalance(callback){
 	})
 }
 
-//Add co2 to countries
+//Add co2 per capita to countries
 function readCo2(){
-	// Create dictionary of co2 emissions where key = year (1960-2010) and  value = co2 per capita
-		d3.csv('data/co2_capita.csv', function(data){
+	// Create dictionary of co2 emissions where key = year (1960-2015) and value = co2 per capita
+		d3.csv('data/API_co2_capita.csv', function(data){
 			
 			for(i in data){
-				var countryCode = name2code(data[i].country);
+				var countryCode = name2code(data[i]['Country Name']);
 
 				//Only if name is correct: 
 				if(countryCode != undefined){
-					for(j=0 ; j<=50; j++ ){
+					for(j=0 ; j<=55; j++ ){
 						countries[countryCode].co2[1960+j] = data[i][1960+j];
+					}	
+				}
+			}
+		})
+}
+
+//Add total co2 per country to countries
+function readCo2Total(){
+	// key = year (1960-2015) and  value = co2 per country in kt (kiloton?)
+		d3.csv('data/API_co2_total.csv', function(data){
+			
+			for(i in data){
+				var countryCode = name2code(data[i]['Country Name']);
+
+				//Only if name is correct: 
+				if(countryCode != undefined){
+					for(j=0 ; j<=55; j++ ){
+						countries[countryCode].co2total[1960+j] = data[i][1960+j];
 					}	
 				}
 			}
@@ -310,7 +357,6 @@ function addRenewables(){
 
 //Returns country code for country name. i.e. Sweden->SWE
 function name2code(name){
-
 	if(codeList[name]==undefined){
 		// console.log(name + " stämmer ej med namn i land/kod-lista")
 	}
@@ -318,3 +364,54 @@ function name2code(name){
 }
 
 
+//Utility function to check if object is empty
+function isEmpty(obj) {
+    for(var key in obj) {
+        if(obj.hasOwnProperty(key))
+            return false;
+    }
+    return true;
+}
+
+var removeMe = []; 
+function loopCountries(){
+	for(i in countries){
+		if(isEmpty(countries[i].co2)){
+			console.log(countries[i].co2);
+			removeMe.push(countries[i].name)
+		}
+		else{
+			console.log("HAR DATA");
+		}
+
+	}
+}
+
+var removeTrading = [];
+function checkTrading(){
+	for(i in countries){
+		
+		if(isEmpty(countries[i].tradingBalance)){
+			console.log(countries[i].tradingBalance);
+			removeMe.push(countries[i].name)
+
+		}
+		else{
+			console.log("HAR DATA");
+		}
+	}
+}
+
+function checkTotal(){
+	for(i in countries){
+		
+		if(isEmpty(countries[i].co2_capita)){
+			console.log(countries[i].tradingBalance);
+			removeMe.push(countries[i].name)
+
+		}
+		else{
+			console.log("HAR DATA");
+		}
+	}
+}
