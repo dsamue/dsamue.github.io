@@ -5,16 +5,31 @@ html,body
   padding: 0;
 }
 body {
-    font-family: "Helvetica Neue";
+    font-family: "Roboto";
 }
 
-h3{
-  margin-top: 10px !important;
+/* FONTS */
+
+body, p, h1, h2, h3, h4{
+  font-family: "Roboto";
 }
 
 h2{
-  margin-top: 15px !important;
+  margin-top:10px;
+  font-weight:bold;
+  font-size: 35px;
 }
+
+p {
+    font-size:12px;
+    margin:0;
+}
+
+span{
+  display: inline-block;
+}
+
+/* END OF FONTS */
 
 path {
     stroke: white;
@@ -22,18 +37,9 @@ path {
     fill: black;
 }
 
-span{
-  display: inline-block;
-}
 
 svg {
     font: 10px sans-serif;
-}
-h1{
-  padding:20px; 
-  font-size: 56px;
-  text-align: center;
-  background-color:rgba(186,186,186,1);
 }
 
 canvas {
@@ -45,7 +51,12 @@ canvas {
 #barChart{
     display: block; 
     margin: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 5%;
+
     /*padding: 20px;*/
+
 }
 
 #chart {    
@@ -55,6 +66,10 @@ canvas {
 
 #belowChart{
   padding-left: 16%;
+}
+
+.charts-view{
+  margin:0px;
 }
 
 /*#mapScreen{
@@ -86,11 +101,19 @@ canvas {
     font-size:10px;
     text-transform:capitalize;
 }
+
 #container {
     margin:10px 10%;
     height:100%;
     border:solid #000;
     margin-top: 20px;
+}
+
+#sidebar{
+  height:100%;
+  margin:0px;
+  text-align:center;
+  overflow:auto;
 }
 
 .hidden {
@@ -130,11 +153,6 @@ div.tooltip {
 
 .world {
     top:600px;
-}
-
-p {
-    font-size:12px;
-    margin:0;
 }
 
 
@@ -212,7 +230,8 @@ p {
 /*Slider area end*/
 
 #sidebar {
-    background-color: rgba(238,238,238,1);
+    background-color: white;
+    border: 1px solid grey;
     height: 100%;
     padding-left: 40px;
     padding-right: 40px;
@@ -276,19 +295,6 @@ p {
 	stroke: black;
 }
 
-#country-name p{
-  font-size: 38px;
-}
-
-.charts-view{
-  background-color: white;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding-left:10px; padding-right: 10px;
-  border: 2px solid rgba(204,204,204,1);
-  height: 100%;
-  padding-bottom:20px; padding-top: 20px;
-}
 
 #multiples{
   height: 370px;
@@ -463,8 +469,6 @@ p {
 }
 /* ny slider end*/
 
-<<<<<<< HEAD
-
 /*Nedsänkt 2a på CO2. alltså:  <p>This text contains <sub>subscript</sub> text.</p>*/
 #sup,
 #sub {
@@ -484,7 +488,6 @@ sub {
 top: .5ex;
 }
 /*Nedsänkt 2a end*/
-=======
 #deselectCountries {
     text-decoration: underline;
     cursor:pointer;
@@ -493,4 +496,19 @@ top: .5ex;
 .unfocus {
     opacity:0.3;
 }
->>>>>>> master
+
+
+/*Bar chart continent labeling */
+
+.myaxis text {
+  font: 10px sans-serif;
+}
+
+.myaxis path,
+.myaxis line {
+  fill: grey;
+  stroke: #000;
+  shape-rendering: crispEdges;
+  margin: 10px;
+}
+/*End of continent labeling style*/

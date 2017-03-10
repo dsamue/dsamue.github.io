@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <title>Enviromind</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="d3.slider.css" />
     <script src="d3/d3.js"></script>
     <script src="//d3js.org/d3.geo.projection.v0.min.js"></script>
@@ -18,11 +17,13 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
 <body>
 
-<div id="loading" style="text-align:center; background-color:black";>
+<div id="loading" style="text-align:center;">
     <h1>Laddddddddddar</h1>
 </div>
 
@@ -40,11 +41,9 @@
             </div>
         </div>
     </div>
-
+    
 <!--  Details on demand sidebar--> 
     <div id="sidebar" out="false" class="col-lg-3 col-md-3">
-        <!--put cool graphics here-->
-        <h1>ENVIROMIND</h1>
         <!-- Displayed if no country is selected -->
         <div id="sidebarNoCountry" class="display">
             <p id="selectCountry">Select a country on the map for additional information...</p>
@@ -52,40 +51,27 @@
 
         <!-- Displayed if one country is selected --> 
         <div id="sidebarOneCountry" class="hidden">
-            <div id="headings" class="row">
-                <div class="col-md-3">
-                    <span id="country-name"></span>
+            <span id="country-name"></span>
+            <p>by the year</p>
+            <div id="year-info"><span id="year-label"></span></div>
+            
+            <p><b>Annual CO2 per capita:  </b><span id="co2-label"></span></p>
+            <p><b>Trade balance:  </b><span id="trade-label"></span> </p>
+
+            <div class="row" id="impExp">
+                <div id="top-export-container" class="col-lg-6 col-md-6">
+                    <ol id="top-5-export"></ol>
                 </div>
-                <div class="col-md-9">
-                    <div id="year-info">
-                        <h3> BY THE YEAR OF <span id="year-label"></span><h3>
-                    </div> <!-- Lägg till data här -->
+                <div id="top-import-container" class="col-lg-6 col-md-6">
+                    <ol id="top-5-import"></ol>
                 </div>
             </div>
-            
-            <h3> Annual CO2 per capita: <span class="infoText" id="co2-label"></span></h3>
-            <h3> Trade balance: <span class="infoText" id="trade-label"></span> </h3>
 
             <div class="charts-view">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6">
-						<div class="row text-center"><h4>Trade Balance over the years</h4></div>
-						<div class="row text-center"><p>(% of GDP)</p></div>
-						<div class="row" id="line-chart-container"></div>
-					</div>
-                    <div class="col-lg-6 col-md-6">
-						<div class="row"><h4>Energy distribution</h4></div>
-						<div id="pie-chart-container" class="row"></div>
-					</div>
-                </div>
-                <div class="row" id="impExp">
-                    <div id="top-export-container" class="col-lg-6 col-md-6">
-                        <ol id="top-5-export"></ol>
-                    </div>
-                    <div id="top-import-container" class="col-lg-6 col-md-6">
-                        <ol id="top-5-import"></ol>
-                    </div>
-                </div>
+                <h4>Energy sources</h4>
+                    <div id="pie-chart-container"></div>
+				<h4>Trade Balance</h4>
+				    <div id="line-chart-container"></div>
             </div>
 
             <!-- On view 2 append text 'Select two countries to compare them' -->
@@ -124,7 +110,7 @@
         </div>
 
     </div>
-</div><!-- End of row --> 
+    </div><!-- End of row --> 
 </div>
 
 

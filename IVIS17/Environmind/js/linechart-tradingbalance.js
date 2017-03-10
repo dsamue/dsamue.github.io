@@ -10,9 +10,9 @@ var divDims = d3.select("#line-chart-container").node().getBoundingClientRect();
 //console.log(divDims);
 
 // Set the dimensions of the canvas / graph
-var margin = {top: 30, right: 30, bottom: 30, left: 30},
+var margin = {top: 5, right: 5, bottom: 5, left: 5},
     width = divDims.width - margin.left - margin.right,
-    height = 320 - margin.top - margin.bottom;
+    height = 200 - margin.top - margin.bottom;
 
 // Set the ranges
 var x = d3.scale.linear().range([0, width]);

@@ -3,10 +3,37 @@ var svg = d3.select( "#chart")
             .append( "svg" )
             .attr('id', 'barChart')
             .attr( "width", 1200 )
-            .attr( "height", 220 )
+            .attr( "height", 260 )
             .attr( "display", "block")
             .attr( "margin", "auto");
 
+var labels = ["The Americas", "Europe", "Africa", "Asia", "Ociania"];
+  
+  var x = d3.scale.ordinal()
+    .domain(labels)
+    .rangePoints([30, 1180]);
+
+
+
+  var xAxis = d3.svg.axis()
+    .scale(x)
+    .orient("bottom");
+
+
+  svg.append("g")
+    .attr("class", "myaxis")
+    .attr("transform","translate(0,240)")
+    .call(xAxis);
+
+
+// text label for the axis
+  svg.append("text")
+  .attr("class","anchor")
+      .attr("y", 0)
+      .attr("x", -20 )
+      .attr("dy", "1em")
+      .style("text-anchor", "middle")
+      .text("CO2");   
 
 
 //Kolla om musknappen är nedtryckt (för att dra i slidern)
@@ -38,17 +65,43 @@ function drawBarChart(){
     }
   })
 
-
-  //Make selection and connect to data              
-  var selection = svg.selectAll( "rect" )
-                    //Fetching countries data and sorts it before creating bars
-                     .data(d3.entries(countries).sort(
+//Creating data
+var data = d3.entries(countries).sort(
                                         function(a,b){
                                           //sorting from 1-8 of continentID to get 
                                           //order of data for the bars to match the map
                                           return d3.ascending(a.value.continentID, b.value.continentID);
                                         })
-                     );
+
+  //Make selection and connect to data              
+  var selection = svg.selectAll( "rect" )
+                     .data(data);
+
+
+var y = d3.scale.linear().domain([0,100])
+    .range([220, 10]);
+
+var yAxis = d3.svg.axis()
+    .scale(y)
+    .ticks(2)
+    .orient("right");
+
+
+svg.append("g")
+      .attr("class", "myaxis")
+      .call(yAxis);
+  // var nestedData=d3.nest()
+  // .key(function(d) {return d.value.continentID;})
+  // .sortKeys(d3.ascending)
+  // .entries(data);
+
+  // var xScale = d3.scale.ordinal()
+  //           .domain(nestedData.map(function (d) { console.log(d.values);return d.value; }))
+  
+  // var xAxis = d3.svg.axis().scale(xScale).orient("bottom");
+
+
+//ar xAxis = d3.svg.axis().scale(xScale).orient("bottom");
 
   svg.call(tip);
 
@@ -97,6 +150,8 @@ function drawBarChart(){
           return 220 - d.value.co2total[year]/50000;
         }
       })
+
+      
 
       //Show tooltip on hover if neither mousekey is pressed nor play-funtion active
       .on('mouseover', function(d){

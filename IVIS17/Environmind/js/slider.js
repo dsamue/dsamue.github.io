@@ -5,10 +5,10 @@ d3.select('#slider').call(d3.slider()
 	      year = value;
 	      
 	      drawBarChart();
-          updateMapColors();
+        updateMapColors();
   	      
   	      //Only update detailview if avaliable   
-          if (clickState != 0){
+        if (multipleCountriesCheckbox.val() != "true"){
 	          drawPieChart();
 	          updateSideBar();
           }
@@ -36,7 +36,7 @@ d3.select("#slider2").call(chroniton()
           updateMapColors();
   	      
   	      //Only update detailview if avaliable   
-          if (clickState != 0){
+          if(multipleCountriesCheckbox.val() == "false"){
 	          drawPieChart();
 	          updateSideBar();
           }
