@@ -43,7 +43,7 @@ countries =
 var countries;
 var codeList;
 var test = [1,2,3];
-var year = 1960; 
+var year = 1968; 
 var topo;
 var imports = [];
 var exports = [];

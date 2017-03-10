@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Enviromind</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="d3.slider.css" />
+    <script src="d3/d3.js"></script>
+    <script src="//d3js.org/d3.geo.projection.v0.min.js"></script>
+    <script src="d3-queue/d3-queue.js"></script>
+    <script src="js/d3.slider.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js'></script>
+    <!--  <script src="http://d3js.org/topojson.v0.min.js"></script> -->
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+
+<div id="loading" style="text-align:center; background-color:black";>
+    <h1>Laddddddddddar</h1>
+</div>
+
+<div id="maincontent" class="vishidden">
+<div class="row">
+    <div id="mapScreen" class="col-lg-9 col-md-9">
+        <input type="checkbox" name="mc" id="multipleCountriesCheckbox" value="false"> Select multiple countries<br>
+        <div id="container"></div>
+        <div id="belowChart">
+            <div id="chart"></div>
+            <div class="slider">
+                <div class="chroniton" id="slider2"></div>
+                <button type="button" class="btn btn-primary" onclick="co2val='capita', drawBarChart()">CO<sub>2</sub> per capita</button>
+                <button type="button" class="btn btn-primary" onclick="co2val='total', drawBarChart()">CO<sub>2</sub> total</button>
+            </div>
+        </div>
+    </div>
+
+<!--  Details on demand sidebar--> 
+    <div id="sidebar" out="false" class="col-lg-3 col-md-3">
+        <!--put cool graphics here-->
+        <h1>ENVIROMIND</h1>
+        <!-- Displayed if no country is selected -->
+        <div id="sidebarNoCountry" class="display">
+            <p id="selectCountry">Select a country on the map for additional information...</p>
+        </div>
+
+        <!-- Displayed if one country is selected --> 
+        <div id="sidebarOneCountry" class="hidden">
+            <div id="headings" class="row">
+                <div class="col-md-3">
+                    <span id="country-name"></span>
+                </div>
+                <div class="col-md-9">
+                    <div id="year-info">
+                        <h3> BY THE YEAR OF <span id="year-label"></span><h3>
+                    </div> <!-- Lägg till data här -->
+                </div>
+            </div>
+            
+            <h3> Annual CO2 per capita: <span class="infoText" id="co2-label"></span></h3>
+            <h3> Trade balance: <span class="infoText" id="trade-label"></span> </h3>
+
+            <div class="charts-view">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+						<div class="row text-center"><h4>Trade Balance over the years</h4></div>
+						<div class="row text-center"><p>(% of GDP)</p></div>
+						<div class="row" id="line-chart-container"></div>
+					</div>
+                    <div class="col-lg-6 col-md-6">
+						<div class="row"><h4>Energy distribution</h4></div>
+						<div id="pie-chart-container" class="row"></div>
+					</div>
+                </div>
+                <div class="row" id="impExp">
+                    <div id="top-export-container" class="col-lg-6 col-md-6">
+                        <ol id="top-5-export"></ol>
+                    </div>
+                    <div id="top-import-container" class="col-lg-6 col-md-6">
+                        <ol id="top-5-import"></ol>
+                    </div>
+                </div>
+            </div>
+
+            <!-- On view 2 append text 'Select two countries to compare them' -->
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                    <span id="additional-countries-hint"></span>
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+
+        </div>
+
+        <div id="multipleCountries" class="hidden">
+            <div class="leftTriangle">
+                <p class="streck1">-</p>
+                <p class="streck2">-</p>
+            </div>
+            <h2>SELECTED COUNTRIES:</h2>
+            <ul id="selectedCountriesDiv">
+            </ul>
+            <span id="deselectCountries">Deselect all</span>
+        </div>
+              
+        <div id="sidebarMultipleCountries">
+            <div id="compare-line-chart"></div>
+            <div id="sideLineChartContainer">Insert pretty TIMELINE here</div>
+        </div>
+
+         <!-- Displayed if several countries are selected --> 
+        <div id="sidebarMultipleCountries" class="hidden">
+            <div id="compareContainer"></div>
+            <div class="charts-view" id="multiples">
+<!--               <div id="compare-line-chart"></div>-->
+            </div>
+        </div>
+
+    </div>
+</div><!-- End of row --> 
+</div>
+
+
+</body>
+
+    <!-- SCRIPT -->
+
+    <script type="text/javascript" src="js/chroniton-only.js"></script>
+    <script type="text/javascript" src="js/pie-chart.js"></script>
+    <script type="text/javascript" src="js/sidebardata.js"></script>
+    <script type="text/javascript" src="js/topojson.v1.min.js" ></script>
+    <script type="text/javascript" src="js/draw_chart.js"></script>
+    <script type="text/javascript" src="js/loading.js"></script>
+    <script type="text/javascript" src="js/linechart.js"></script>
+    <script type="text/javascript" src="js/linechart-tradingbalance.js"></script>
+<!--     <script type="text/javascript" src="js/slider.js" ></script> -->  
+    <script type="text/javascript" src="js/Worldmap.js" ></script>
+    <script type="text/javascript" src="js/sidebardata.js"></script>
+    <script type="text/javascript" src="js/fetch_data.js" ></script>
+    <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+    <script type="text/javascript" src="js/slider.js" ></script>
+
+
+    <!--     <script src="js/name2code.js"></script> -->
+</html>

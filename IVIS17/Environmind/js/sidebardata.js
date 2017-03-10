@@ -16,7 +16,7 @@ updateSideBar = function(){
 		d3.select('#top-5-export').insert("h4").attr("class", "value").html("TOP 5 EXPORT");
 		for (i in countries[code].exports[year]) {
 			d3.select('#top-5-export').insert("li").attr("class", "value").html(countries[code].exports[year][i].partner+
-			  " ("+countries[code].exports[year][i].mDollars+" m $)"
+			  "<br/>("+countries[code].exports[year][i].mDollars+" m $)"
 			);
 		}
 	}
@@ -26,7 +26,7 @@ updateSideBar = function(){
 		d3.select('#top-5-import').insert("h4").attr("class", "value").html("TOP 5 IMPORT");
 		for (i in countries[code].imports[year]) {
 			d3.select('#top-5-import').insert("li").attr("class", "value").html(countries[code].imports[year][i].partner+
-			  " ("+countries[code].imports[year][i].mDollars+" m $)"
+			  "<br/>("+countries[code].imports[year][i].mDollars+" m $)"
 			);
 		}
 	}

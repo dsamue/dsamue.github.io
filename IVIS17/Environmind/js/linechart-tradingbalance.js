@@ -50,7 +50,9 @@ var mySVG = d3.select("#line-chart-container")
     // Scale the range of the data
     x.domain(d3.extent(data, function(d) {return parseInt(d.key); }));
     
-    y.domain(d3.extent(data, function(d) {return parseFloat(d.value); }));
+    y.domain([-d3.max(data, function(d) { return Math.abs(parseFloat(d.value)); }),
+	  d3.max(data, function(d) { return Math.abs(parseFloat(d.value)); })
+	]);
 	
     // Add the valueline path.
     mySVG.append("path")

@@ -30,7 +30,7 @@ function drawBarChart(){
   .offset([-10, 0])
   .html(function(d) {
     if(co2val == 'capita'){
-      return d.value.name + "</br>" + Math.round(d.value.co2[year] * 10) / 10 + " tons CO<sub>2</sub> per caipta";
+      return d.value.name + "</br>" + Math.round(d.value.co2[year] * 10) / 10 + " tons CO<sub>2</sub> per capita";
     }
 
     else{
@@ -52,8 +52,6 @@ function drawBarChart(){
 
   svg.call(tip);
 
-        selection.exit()
-        .remove();
 
     //Create new bars
     selection.enter()
@@ -71,27 +69,33 @@ function drawBarChart(){
     //Set bar heights based on data
     selection
       .attr( "height", function(d){
-        if (co2val =="capita"){
+        if (isNaN(d.value.co2[year])){
+          return 0;
+        }
+        else if (co2val =="capita"){
           return d.value.co2[year]*2;
         }
 
         else if(co2val = "total"){
           return d.value.co2total[year]/50000;
-          // return 40;
         }
 
       })
 
       //Set y position to get bars in right orientation
       .attr( "y", function(d){
-        if (co2val =="capita"){
-          return 220 - d.value.co2[year]*2;
-        }
+        return 0  //Quickfix för flipped barchart. Ta bort och lägg till bortkommenterar nedan om vi vill ändra tillbaka 
+        
+        // if (isNaN(d.value.co2[year])){
+        //   return 0;
+        // }
+        // else if (co2val =="capita"){
+        //   return 220 - d.value.co2[year]*2;
+        // }
 
-        else if(co2val == "total"){
-          return 220 - d.value.co2total[year]/50000;
-          // return 220-40;
-        }
+        // else if(co2val == "total"){
+        //   return 220 - d.value.co2total[year]/50000;
+        // }
       })
 
       //Show tooltip on hover if neither mousekey is pressed nor play-funtion active

@@ -45,6 +45,7 @@ canvas {
 #barChart{
     display: block; 
     margin: auto;
+    padding: 20px;
 }
 
 #chart {    
@@ -268,6 +269,11 @@ p {
 #line-chart-container path {
 	fill: none;
 	stroke: teal;
+}
+
+#lineChart-tradeBalance path.domain {
+	stroke-width: 1;
+	stroke: black;
 }
 
 #country-name p{
