@@ -45,7 +45,7 @@ canvas {
 #barChart{
     display: block; 
     margin: auto;
-    padding: 20px;
+    /*padding: 20px;*/
 }
 
 #chart {    

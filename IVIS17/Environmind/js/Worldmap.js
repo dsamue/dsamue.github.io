@@ -1,4 +1,4 @@
-//d3.select(window).on("resize", throttle);
+d3.select(window).on("resize", throttle);
 
 //Declaring initial variables
 var country; 
@@ -11,7 +11,8 @@ var legendFullWidth = 50;
 var legendMargin = { top: 20, bottom: 20, left: 5, right: 35 };
 var legendWidth = legendFullWidth - legendMargin.left - legendMargin.right;
 
-var width = document.getElementById('container').offsetWidth-legendFullWidth-10;
+// var width = document.getElementById('container').offsetWidth-legendFullWidth-30;
+var width = d3.select("#container").node().getBoundingClientRect().width-legendFullWidth-30;
 var height = width / 1.9;
 var topo,projection,worldPath,worldSvg,worldG;
 var graticule = d3.geo.graticule();
@@ -137,6 +138,7 @@ function setup(width, height, container){
 
   worldSvg = d3.select(container).append("svg")
       .attr("class", "world")
+	  .attr('id', 'world-map')
       .attr("width", width)
       .attr("height", height)
       .append("g");;
@@ -341,10 +343,10 @@ function countryInteraction(){
 
 
 function redraw() {
-  width = document.getElementById('container').offsetWidth;
+  width = d3.select("#container").node().getBoundingClientRect().width-legendFullWidth-30;
   height = width / 2;
-  d3.select('svg').remove();
-  setup(width,height, "#container", "world");
+  d3.select('#world-map').remove();
+  setup(width,height, "#container");
   draw(topo);
 }
 
