@@ -108,15 +108,6 @@ function CenterControl(controlDiv, map) {
 
 
 function initMap() {
-
-  if (window.navigator.standalone) {
-    // document.getElementById("prompt").addClass("hide")
-  } else {
-    alert('install');
-    // document.getElementById("prompt").addClass("alert")
-  } 
-
-
   map = new google.maps.Map(document.getElementById('map'), {
     center: kth, 
     zoom: 16,

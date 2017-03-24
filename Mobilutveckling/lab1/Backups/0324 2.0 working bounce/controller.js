@@ -1,8 +1,7 @@
 var map;
-var marker;
 var chicago = {lat: 41.85, lng: -87.65};
-var kth = {lat: 59.347540, lng: 18.0738};
-var pos2 = {lat: 59.347340, lng: 18.073044};
+var kth = {lat: 59.347340, lng: 18.073044};
+var marker;
 
 
 
@@ -21,36 +20,6 @@ function setTilt(){
   }
 }
 
-
-function moveUp(){
-  map.setCenter({lat:map.getCenter().lat()+0.003, lng:map.getCenter().lng()});
-  //console.log((1/(*map.getZoom())*0.05));
-}
-
-function moveDown(){
-  map.setCenter({lat:map.getCenter().lat()-0.003, lng:map.getCenter().lng()});
-}
-
-function moveLeft(){
-  map.setCenter({lat:map.getCenter().lat(), lng:map.getCenter().lng()-0.003});
-}
-
-function moveRight(){
-  map.setCenter({lat:map.getCenter().lat(), lng:map.getCenter().lng()+0.003});
-}
-
-
-
-function zoomIn(){
-  map.setZoom(map.getZoom() + 1);
-}
-
-function zoomOut(){
-  map.setZoom(map.getZoom() - 1);
-}
-
-
-
 function toggleBounce() {
   // console.log("bounce function running");
   // console.log(marker);
@@ -63,6 +32,9 @@ function toggleBounce() {
   }
 }
 
+function test(){
+  console.log('test funkar');
+}
 
 
 
@@ -108,34 +80,17 @@ function CenterControl(controlDiv, map) {
 
 
 function initMap() {
-
-  if (window.navigator.standalone) {
-    // document.getElementById("prompt").addClass("hide")
-  } else {
-    alert('install');
-    // document.getElementById("prompt").addClass("alert")
-  } 
-
-
   map = new google.maps.Map(document.getElementById('map'), {
     center: kth, 
-    zoom: 16,
-    mapTypeId: 'roadmap',
+    zoom: 18,
+    mapTypeId: 'satellite',
     heading: 90,
     tilt: 45,
     disableDefaultUI: true
   });
 
-
   marker = new google.maps.Marker({
     position: kth,
-    map: map,
-    animation: google.maps.Animation.DROP,
-    title: "I'm stuck here"
-  });
-
-  marker2 = new google.maps.Marker({
-    position: pos2,
     map: map,
     draggable: true,
     animation: google.maps.Animation.DROP,

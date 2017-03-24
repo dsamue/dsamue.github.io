@@ -1,8 +1,6 @@
 var map;
-var marker;
 var chicago = {lat: 41.85, lng: -87.65};
-var kth = {lat: 59.347540, lng: 18.0738};
-var pos2 = {lat: 59.347340, lng: 18.073044};
+var kth = {lat: 59.347340, lng: 18.073044};
 
 
 
@@ -20,50 +18,6 @@ function setTilt(){
     map.setTilt(0);
   }
 }
-
-
-function moveUp(){
-  map.setCenter({lat:map.getCenter().lat()+0.003, lng:map.getCenter().lng()});
-  //console.log((1/(*map.getZoom())*0.05));
-}
-
-function moveDown(){
-  map.setCenter({lat:map.getCenter().lat()-0.003, lng:map.getCenter().lng()});
-}
-
-function moveLeft(){
-  map.setCenter({lat:map.getCenter().lat(), lng:map.getCenter().lng()-0.003});
-}
-
-function moveRight(){
-  map.setCenter({lat:map.getCenter().lat(), lng:map.getCenter().lng()+0.003});
-}
-
-
-
-function zoomIn(){
-  map.setZoom(map.getZoom() + 1);
-}
-
-function zoomOut(){
-  map.setZoom(map.getZoom() - 1);
-}
-
-
-
-function toggleBounce() {
-  // console.log("bounce function running");
-  // console.log(marker);
-  // marker.setAnimation(google.maps.Animation.BOUNCE);
-
-  if (marker.getAnimation() !== null) {
-    marker.setAnimation(null);
-  } else {
-    marker.setAnimation(google.maps.Animation.BOUNCE);
-  }
-}
-
-
 
 
 /**
@@ -108,40 +62,20 @@ function CenterControl(controlDiv, map) {
 
 
 function initMap() {
-
-  if (window.navigator.standalone) {
-    // document.getElementById("prompt").addClass("hide")
-  } else {
-    alert('install');
-    // document.getElementById("prompt").addClass("alert")
-  } 
-
-
   map = new google.maps.Map(document.getElementById('map'), {
     center: kth, 
-    zoom: 16,
-    mapTypeId: 'roadmap',
+    zoom: 18,
+    mapTypeId: 'satellite',
     heading: 90,
     tilt: 45,
     disableDefaultUI: true
   });
 
-
-  marker = new google.maps.Marker({
+  var marker = new google.maps.Marker({
     position: kth,
     map: map,
-    animation: google.maps.Animation.DROP,
-    title: "I'm stuck here"
+    title: 'KTH'
   });
-
-  marker2 = new google.maps.Marker({
-    position: pos2,
-    map: map,
-    draggable: true,
-    animation: google.maps.Animation.DROP,
-    title: 'Drag or Bounce me!'
-  });
-  marker.addListener('click', toggleBounce);
 
 
   // Create the DIV to hold the control and call the CenterControl()
@@ -151,5 +85,4 @@ function initMap() {
 
   centerControlDiv.index = 1;
   map.controls[google.maps.ControlPosition.TOP_CENTER].push(centerControlDiv);
-
 }
