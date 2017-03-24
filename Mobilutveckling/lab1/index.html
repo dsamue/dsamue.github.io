@@ -29,6 +29,15 @@
         map: map,
         title: 'KTH'
       });
+
+      // Create the DIV to hold the control and call the CenterControl()
+      // constructor passing in this DIV.
+      var centerControlDiv = document.createElement('div');
+      var centerControl = new CenterControl(centerControlDiv, map);
+
+      centerControlDiv.index = 1;
+      map.controls[google.maps.ControlPosition.TOP_CENTER].push(centerControlDiv);
+    }
   </script>
 
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAOlm1LNvpqbDRtsaziPqTuVOkjfZW95Wk&callback=initMap" async defer></script>
