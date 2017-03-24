@@ -17,9 +17,10 @@ html, body {
 
 
 #loading{
-  position: relative;
+  padding-top: 45%;
+/*  position: relative;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translateY(-50%);*/
 }
 
 #loadingSymbol{
@@ -37,7 +38,6 @@ html, body {
 }
 
 #mainContent{
-  opacity: 100;
   visibility: hidden;
 }
 
