@@ -10,33 +10,12 @@ html, body {
   padding: 0;
 }
 
-#mainContent{
-  width:100%; 
-  height:100%;
+.hide {
+  display: none;
 }
-
-
-#loading{
-  padding-top: 15%;
-}
-
-#loadingSymbol{
-  text-align: center;
-}
-.logo {
-    display:inline-block;
-    font-family: 'Raleway', sans-serif;
-    font-weight:900;
-    font-size: 30px;
-    color: #FFFFFF;
-    background: -webkit-linear-gradient(right, #FF5252 , #26A1ED );
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-#mainContent{
-  opacity: 100;
-  visibility: hidden;
+ 
+.alert {
+  /*style your alert however you want*/
 }
 
 

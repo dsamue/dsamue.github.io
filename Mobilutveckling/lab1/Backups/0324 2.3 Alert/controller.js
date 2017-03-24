@@ -106,20 +106,15 @@ function CenterControl(controlDiv, map) {
 
 
 
-function displayContent(){ 
-  document.getElementById("loading").remove()
-
-    if (window.navigator.standalone) {
-    // document.getElementById("prompt").addClass("hide")
-  } else {
-    setTimeout(function(){confirm('Consider adding this web app to your homescreen!')}, 3000);
-    // document.getElementById("prompt").addClass("alert")
-  } 
-
-  document.getElementById("mainContent").style.visibility = 'visible';
-}
 
 function initMap() {
+
+  if (window.navigator.standalone) {
+    // document.getElementById("prompt").addClass("hide")
+  } else {
+    confirm('Consider adding this web app to your homescreen!');
+    // document.getElementById("prompt").addClass("alert")
+  } 
 
 
   map = new google.maps.Map(document.getElementById('map'), {
@@ -156,8 +151,5 @@ function initMap() {
 
   centerControlDiv.index = 1;
   map.controls[google.maps.ControlPosition.TOP_CENTER].push(centerControlDiv);
-
-
-  setTimeout(displayContent,2000);
 
 }
