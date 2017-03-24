@@ -10,6 +10,14 @@ html, body {
   padding: 0;
 }
 
+.hide {
+  display: none;
+}
+ 
+.alert {
+  /*style your alert however you want*/
+}
+
 
 .button {
   -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
