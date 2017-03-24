@@ -112,7 +112,7 @@ function displayContent(){ 
     if (window.navigator.standalone) {
     // document.getElementById("prompt").addClass("hide")
   } else {
-    setTimeout(function(){confirm('Consider adding this web app to your homescreen!')}, 3000);
+    setTimeout(function(){confirm('Consider adding this web app to your homescreen!')}, 2000);
     // document.getElementById("prompt").addClass("alert")
   } 
 

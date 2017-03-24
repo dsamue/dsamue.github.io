@@ -17,10 +17,9 @@ html, body {
 
 
 #loading{
-  padding-top: 45%;
-/*  position: relative;
+  position: relative;
   top: 50%;
-  transform: translateY(-50%);*/
+  transform: translateY(-50%);
 }
 
 #loadingSymbol{
