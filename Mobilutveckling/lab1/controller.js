@@ -112,7 +112,7 @@ function initMap() {
   if (window.navigator.standalone) {
     // document.getElementById("prompt").addClass("hide")
   } else {
-    prompt('Consider adding this web app to your homescreen!');
+    confirm('Consider adding this web app to your homescreen!');
     // document.getElementById("prompt").addClass("alert")
   } 
 
