@@ -1,6 +1,7 @@
 var map;
 var chicago = {lat: 41.85, lng: -87.65};
 var kth = {lat: 59.347340, lng: 18.073044};
+var marker;
 
 
 
@@ -18,6 +19,23 @@ function setTilt(){
     map.setTilt(0);
   }
 }
+
+function toggleBounce() {
+  // console.log("bounce function running");
+  // console.log(marker);
+  // marker.setAnimation(google.maps.Animation.BOUNCE);
+
+  if (marker.getAnimation() !== null) {
+    marker.setAnimation(null);
+  } else {
+    marker.setAnimation(google.maps.Animation.BOUNCE);
+  }
+}
+
+function test(){
+  console.log('test funkar');
+}
+
 
 
 /**
@@ -71,11 +89,14 @@ function initMap() {
     disableDefaultUI: true
   });
 
-  var marker = new google.maps.Marker({
+  marker = new google.maps.Marker({
     position: kth,
     map: map,
-    title: 'KTH'
+    draggable: true,
+    animation: google.maps.Animation.DROP,
+    title: 'Drag or Bounce me!'
   });
+  marker.addListener('click', toggleBounce);
 
 
   // Create the DIV to hold the control and call the CenterControl()
@@ -85,4 +106,5 @@ function initMap() {
 
   centerControlDiv.index = 1;
   map.controls[google.maps.ControlPosition.TOP_CENTER].push(centerControlDiv);
+
 }
