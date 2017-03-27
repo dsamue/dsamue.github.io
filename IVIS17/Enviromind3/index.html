@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<svg height="5" width="5" xmlns="http://www.w3.org/2000/svg" version="1.1"> <defs> <pattern id="lightstripe" patternUnits="userSpaceOnUse" width="5" height="5"> <image xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc1JyBoZWlnaHQ9JzUnPgogIDxyZWN0IHdpZHRoPSc1JyBoZWlnaHQ9JzUnIGZpbGw9J3doaXRlJy8+CiAgPHBhdGggZD0nTTAgNUw1IDBaTTYgNEw0IDZaTS0xIDFMMSAtMVonIHN0cm9rZT0nIzg4OCcgc3Ryb2tlLXdpZHRoPScxJy8+Cjwvc3ZnPg==" x="0" y="0" width="5" height="5"> </image> </pattern> </defs> </svg>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Enviromind</title>
+    <link rel="stylesheet" href="d3.slider.css" />
+    <script src="d3/d3.js"></script>
+    <script src="//d3js.org/d3.geo.projection.v0.min.js"></script>
+    <script src="d3-queue/d3-queue.js"></script>
+    <script src="js/d3.slider.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js'></script>
+    <!--  <script src="http://d3js.org/topojson.v0.min.js"></script> -->
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,900" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+<div id="loading" style="text-align:center;">
+    <h1 class="logo">ENVIROMIND</h1>
+    <div id="loadingSymbol">
+        <img src="spin.svg">
+    </div>
+</div>
+
+<div id="maincontent" class="vishidden">
+<div class="row">
+    <div id="mapScreen" class="col-lg-9 col-md-9">
+        <p class="logo">ENVIROMIND</p>
+        
+        <div id="tradebalance-header">
+            <h4>Trade balance <span id="tradebalance-info">
+                    <svg id="info-icon" height="15" width="15" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="margin:-2px;">
+                        <image x="0" y="0" height="15" width="15"  xlink:href="info-icon.svg" />
+                    </svg>
+                </span>
+            </h4>
+        </div>
+        
+        <label id="multipleCountriesCheckboxLabel"><input type="checkbox" name="mc" id="multipleCountriesCheckbox" value="false">Select multiple countries</label>
+        <div id="container"></div>
+        <div id="belowChart">
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-10">
+                    <div class="slider">
+                        <div class="chroniton" id="slider2"></div>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+            <div class="row" id="barchartHeadings">
+                <div class="col-md-1"></div>
+                <div class="col-md-5">
+                    <h4>Annual CO2-emissions per country
+                        <span id="barchart-info">
+                            <svg id="info-icon" height="15" width="15" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="margin:-2px;">
+                                <image x="0" y="0" height="15" width="15"  xlink:href="info-icon.svg" />
+                            </svg>
+                        </span>
+                    </h4>
+                </div>
+                <div class="col-md-3">
+                    <form>
+                        <input id="capita" type="radio" name="co2value" value="capita" onclick="co2val='capita', drawBarChart()" checked> CO2/capita
+                        <input id="total" type="radio" name="co2value" value="total" onclick="co2val='total', drawBarChart()">Total CO2
+                    </form>
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-1"><div id="barchartLabel"></div></div>
+                <div class="col-md-10">
+                    <div id="chart"></div>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        </div>
+    </div>
+
+<!--  Details on demand sidebar--> 
+    <div id="sidebar" out="false" class="col-lg-3 col-md-3">
+        <!-- Displayed if no country is selected -->
+        <div id="sidebarNoCountry" class="display">
+            <p id="selectCountry">Select a country on the map for additional information...</p>
+        </div>
+
+        <!-- Displayed if one country is selected --> 
+        <div id="sidebarOneCountry" class="hidden">
+            <span id="country-name"></span>
+            <p>by the year</p>
+            <div id="year-info"><span id="year-label"></span></div>
+            
+            <p><b>Annual CO2 per capita:  </b><span id="co2-label"></span></p>
+            <p><b>Trade balance:  </b><span id="trade-label"></span> </p>
+
+            <div class="row" id="impExp">
+                <div id="top-export-container" class="col-lg-6 col-md-6">
+                    <ol id="top-5-export"></ol>
+                </div>
+                <div id="top-import-container" class="col-lg-6 col-md-6">
+                    <ol id="top-5-import"></ol>
+                </div>
+            </div>
+            <div class="row">
+                <div class="charts-view">
+                    <h4>Energy sources
+                        <span id="renewable-info">
+                            <svg id="info-icon" height="15" width="15" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="margin:-2px;">
+                                <image x="0" y="0" height="15" width="15"  xlink:href="info-icon.svg" />
+                            </svg>
+                        </span>
+                    </h4>               
+                    <div id="pie-chart-container"></div>
+                    <h4>Trade Balance</h4>
+                    <div id="line-chart-container"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="multipleCountries" class="hidden">
+            <div class="leftTriangleContainer">
+                <div class="leftTriangle">
+                    <span id="openclose" class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                </div>
+            </div>
+            <h2>Selected</br>countries</h2>
+            <div id="selectedCountriesDiv">
+            </div>
+            <div id="deselectCountries"><button class="btn">Deselect all</button></div>
+        </div>
+              
+        <div id="sidebarMultipleCountries" class="hidden">
+            <div id="compare-line-chart"></div>
+            <div id="sideLineChartContainer"></div>
+        </div>
+
+         <!-- Displayed if several countries are selected --> 
+        <div id="sidebarMultipleCountries" class="hidden">
+            <div id="compareContainer"></div>
+            <div class="charts-view" id="multiples">
+<!--               <div id="compare-line-chart"></div>-->
+            </div>
+        </div>
+
+    </div>
+    </div><!-- End of row -->
+</div>
+
+
+</body>
+
+    <!-- SCRIPT -->
+
+    <script type="text/javascript" src="js/chroniton-only.js"></script>
+    <script type="text/javascript" src="js/pie-chart.js"></script>
+    <script type="text/javascript" src="js/sidebardata.js"></script>
+    <script type="text/javascript" src="js/topojson.v1.min.js" ></script>
+    <script type="text/javascript" src="js/draw_chart.js"></script>
+    <script type="text/javascript" src="js/loading.js"></script>
+    <script type="text/javascript" src="js/linechart.js"></script>
+    <script type="text/javascript" src="js/linechart-tradingbalance.js"></script>
+<!--     <script type="text/javascript" src="js/slider.js" ></script> -->  
+    <script type="text/javascript" src="js/Worldmap.js" ></script>
+    <script type="text/javascript" src="js/sidebardata.js"></script>
+    <script type="text/javascript" src="js/fetch_data.js" ></script>
+    <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+    <script type="text/javascript" src="js/slider.js" ></script>
+    <script type="text/javascript" src="js/info-buttons.js" ></script>
+
+
+
+    <!--     <script src="js/name2code.js"></script> -->
+</html>
