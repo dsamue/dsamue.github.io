@@ -106,7 +106,7 @@ var data = d3.entries(countries).sort(
         }
 
         else if($('input[name="co2value"]:checked').val() == "total"){
-          return d.value.co2total[year]/60000;
+          return d.value.co2total[year]/16000;
         }
 
       })
