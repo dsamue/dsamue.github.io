@@ -2,7 +2,6 @@ updateSideBar = function(){
 	d3.select("#sidebarOneCountry").selectAll(".value").remove()
 	hoverExportCountries = [];
 	hoverImportCountries = [];
-	console.log("UPDATE SIDE")
 
 	var code = name2code(landETT.properties.name);
 
@@ -49,8 +48,10 @@ updateSideBar = function(){
 			}
 		}
 
-		d3.select('#top-export-container').on('mouseover', function(d) {
-			highlightInMap();
+		d3.select('#top-export-container')
+			.on('mouseover', function(d) {
+				highlightInMap();
+			
 			function highlightInMap(){
 				if(hoverExportCountries[0] != undefined){
 					d3.selectAll(".country").classed("unfocus", true);
@@ -61,16 +62,15 @@ updateSideBar = function(){
 					}
 				}
 			}
-		});
-		d3.select('#top-export-container').on('mouseout', function(d) {
-					for(i in hoverExportCountries){
-						var hovered = d3.select("#" + hoverExportCountries[i]);
-						hovered.classed("unfocus", true);
-					}
-		});
+			})
+			
+			.on('mouseout', function(d) {
+				d3.selectAll(".unfocus").classed("unfocus", false);
+			});
 
+		d3.select('#top-import-container')
 
-		d3.select('#top-import-container').on('mouseover', function(d) {
+		.on('mouseover', function(d) {
 			highlightInMap();
 			function highlightInMap(){
 				if(hoverImportCountries[0] != undefined){
@@ -82,13 +82,12 @@ updateSideBar = function(){
 					}
 				}
 			}
+		})
+
+		.on('mouseout', function(d) {
+			d3.selectAll(".unfocus").classed("unfocus", false);
 		});
-		d3.select('#top-import-container').on('mouseout', function(d) {
-			for(i in hoverImportCountries){
-				var hovered = d3.select("#" + hoverImportCountries[i]);
-				hovered.classed("unfocus", true);
-			}
-		});
+
 	}
 	else{
 		console.log("country is undefined")

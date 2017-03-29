@@ -79,7 +79,7 @@ function chroniton() {
         .append('svg')
         .attr('class', 'chroniton')
         .attr('id', 'mySlider')
-        .attr('viewBox', "0 0 960 50")
+        .attr('viewBox', "0 0 960 60")
         .attr("preserveAspectRatio","xMidYMid meet")
         .attr('tabindex', 1) // make this element focusable
         .on('keydown', keydown)

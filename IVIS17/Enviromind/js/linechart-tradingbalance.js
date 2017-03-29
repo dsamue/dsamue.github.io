@@ -51,7 +51,7 @@ function drawLineTradeBalance(data){
 		// Scale the range of the data
 		x.domain(d3.extent(data, function(d) {return parseInt(d.key); }));
 		
-		y.domain([-30,30]);
+		y.domain([-100,100]);
 		
 		console.log(data)
 		// Add the valueline path.

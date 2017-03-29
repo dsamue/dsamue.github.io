@@ -172,7 +172,7 @@ function setup(width, height, container){
       if(container == "#container"){
       	worldSvg
       		.call(zoom)
-      		.on("click", click);
+      		.on("dblclick.zoom", null);
   		}
   		else{
   			worldSvg.attr("class", "countrySizePos");
@@ -235,7 +235,6 @@ function countryInteraction(){
 		f = 0;
       	var mouse = d3.mouse(worldSvg.node()).map( function(d) { return parseInt(d); } );
 
-
       	tooltip.classed("hidden", false)
              .attr("style", "left:"+(mouse[0]+ offsetL)+"px;top:"+(mouse[1]+offsetT)+"px")
              .html(d.properties.name);
@@ -256,17 +255,17 @@ function countryInteraction(){
 			if(multipleCountriesCheckbox.val() == "true"){
 				// Testa om det är en deselect eller select
 				// OM det inte är en deselect så lägger vi till landet, highlightar dens bar och landet i kartan
-				if(!(deselectCountry() == true)){
+				if(!(deselectCountry(this) == true)){
 					selectedCountries.push(d);
 					highlightBar();
-					highlightInMap();
+					selectInMap(this);
 				}
 				// Update sidebar med selected country
 					updateSideBarSelected();
 				
 			// Om vi bara får välja ett land åt gången 				
 			}else{
-				if(deselectCountry() == true){
+				if(deselectCountry(this) == true){
 					landETT = "";
 					// göm div för one country och visa för no country
 			  		d3.select("#sidebarNoCountry").classed("hidden", false);
@@ -274,7 +273,9 @@ function countryInteraction(){
 				}else{
 					selectedCountries[0] = d;	
 					landETT = d;
-				 	
+					unselectAllInMap();
+				 	selectInMap(this);
+
 				 	lowlightBarAll();
 			 	 	highlightBar();
 					clearLineChart();
@@ -300,26 +301,58 @@ function countryInteraction(){
 					if(selectedCountries[j].id == i){
 						selectedCountries.splice(j, 1);
 					  	lowlightBar();
+					  	unselectInMap(this);
 						return true;
 					}		
 				}			
 			}
 		}
 		
-		highlightInMap();
+		function selectInMap(selectedC){ 
+			d3.select(selectedC.parentNode.appendChild(selectedC))
+				.attr("class", "country selected")
+		}
 
-		function highlightInMap(){
+		function unselectInMap(selectedC){
+			d3.select("#"+code)
+			 	.classed("selected", false);
+		}
+
+		function unselectAllInMap(){
+			d3.select(".selected")
+				.classed("selected", false)			
+		}
+
+/*		function highlightInMap(){
 			if(selectedCountries[0] != undefined){
-				d3.selectAll(".country").classed("unfocus", true);
+				d3.selectAll(".country").classed("selected", false);
 				for(i in selectedCountries){
-					var clicked = d3.select("#" + name2code(selectedCountries[i].properties.name))
-					clicked.classed("unfocus", false);
-					clicked.classed("selected", true);				
+					var clicked = 
+					d3.select(("#"+code).parentNode.appendChild("#"+code))
+					.attr("class", "country selected")
+			
 				}
 			}else{
-				d3.selectAll(".country").classed("unfocus", false);
+				d3.selectAll(".country").classed("selected", false);
 			}
-		}
+		} */ 
+
+/*		d3.select(this.parentNode.appendChild(this))
+	    	.attr("id", this.id)
+        	.attr("class", function(){
+			if(selectedCountries[0] != undefined || selectedCountries.length != 0){
+        		for(j in selectedCountries){
+					if(selectedCountries[j].id == i){
+						return("country hover selected")
+		        	}else{
+		        		return ("country hover")
+			        }
+			    }
+			}else{
+		        return ("country hover")				
+			}
+		})*/ 
+
 				
 		function highlightBar(){
 			d3.select(".bar#" + code)
@@ -335,8 +368,6 @@ function countryInteraction(){
 			d3.selectAll(".bar")
 	  			.attr('fill', '#424242');			
 		}
-
-		console.log("selectedCountries:", selectedCountries);
 
 		var mouse = d3.mouse(worldSvg.node()).map( function(d) { return parseInt(d); } );
 			
@@ -379,7 +410,7 @@ function move() {
   worldG.attr("transform", "translate(" + t + ")scale(" + s + ")");
 
   //adjust the country hover stroke width based on zoom level
-  //d3.selectAll(".country").style("stroke-width", 1.5 / s);
+  d3.selectAll(".country").style("stroke-width", 1.5 / s);
 
 }
 
@@ -457,7 +488,7 @@ multipleCountriesCheckbox.change(function(){
 		// Rensa valda länder och ta bort fokus från länder och bars
 		selectedCountries = [];
 
-		d3.selectAll(".country").classed("unfocus", false);
+		d3.selectAll(".country").classed("selected", false);
 		d3.selectAll(".bar")
 	  		.attr('fill', 'black');
 
@@ -533,7 +564,6 @@ $('#deselectCountries').click(function() {
 	clearSideBarSelected();
 	
 	d3.selectAll(".country").classed("selected", false);	
-	d3.selectAll(".country").classed("unfocus", false);
 	d3.selectAll(".bar")
 	  	.attr('fill', 'black');
 
