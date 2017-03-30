@@ -1,0 +1,804 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"target",
+				"targetWidth"
+			],
+			[
+				"log",
+				"logHeight"
+			],
+			[
+				"mou",
+				"mouseDown"
+			],
+			[
+				"trading",
+				"tradingBalance"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"cou",
+				"countries"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"politics",
+				"politics"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"wo",
+				"worldButton"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"d",
+				"drawChart"
+			],
+			[
+				"coun",
+				"country"
+			],
+			[
+				"make",
+				"makeList"
+			],
+			[
+				"select",
+				"selectAll"
+			],
+			[
+				"Country",
+				"countryName"
+			],
+			[
+				"country",
+				"countryName"
+			],
+			[
+				"text",
+				"textSelection"
+			],
+			[
+				"sele",
+				"selectAll"
+			],
+			[
+				"Family",
+				"Family"
+			],
+			[
+				"up",
+				"updateMap"
+			],
+			[
+				"var",
+				"variable"
+			],
+			[
+				"get",
+				"getIndex"
+			],
+			[
+				"pro",
+				"properties"
+			],
+			[
+				"data",
+				"dataArray"
+			],
+			[
+				"my",
+				"myData"
+			],
+			[
+				"subs",
+				"substring"
+			],
+			[
+				"sub",
+				"substring"
+			],
+			[
+				"subS",
+				"substring"
+			],
+			[
+				"De",
+				"Dekomprimera"
+			],
+			[
+				"o",
+				"out"
+			],
+			[
+				"string",
+				"String"
+			],
+			[
+				"next",
+				"nextLine"
+			],
+			[
+				"antal",
+				"antalPersoner"
+			],
+			[
+				"ord",
+				"ordArray"
+			],
+			[
+				"kod",
+				"kodArray"
+			],
+			[
+				"total",
+				"totalStracka"
+			],
+			[
+				"tot",
+				"totalStracka"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"padding-",
+				"padding-bottom"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"m",
+				"margin-top"
+			],
+			[
+				"borderr",
+				"border-radius"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"bin",
+				"binId"
+			],
+			[
+				"getDi",
+				"getDishPrice"
+			],
+			[
+				"pre",
+				"preparationView"
+			],
+			[
+				"Pre",
+				"preparationViewController"
+			],
+			[
+				"confirm",
+				"confrimButton"
+			],
+			[
+				"single",
+				"singleDish"
+			],
+			[
+				"getDish",
+				"getDishOverview"
+			],
+			[
+				"de",
+				"dessert"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"po",
+				"padding-top"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"bak",
+				"background-color"
+			],
+			[
+				"men",
+				"menuPreparations"
+			],
+			[
+				"menu",
+				"menuPreparation"
+			],
+			[
+				"p",
+				"preparationView"
+			],
+			[
+				"remo",
+				"removeDishFromMenu"
+			],
+			[
+				"number",
+				"numberOfGuests"
+			],
+			[
+				"add",
+				"addDishToMenu"
+			],
+			[
+				"num",
+				"numberOfGuests"
+			],
+			[
+				"all",
+				"allIngredients"
+			],
+			[
+				"in",
+				"ingredients"
+			],
+			[
+				"numb",
+				"numberOfGuests"
+			],
+			[
+				"backgro",
+				"background-color"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"plus",
+				"plusButton"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1497,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "controller.js",
+			"settings":
+			{
+				"buffer_size": 3952,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "style.css",
+			"settings":
+			{
+				"buffer_size": 2475,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/David/Desktop/KTH/Github/Mobilutveckling/lab1"
+	],
+	"file_history":
+	[
+		"/Users/David/Desktop/IVIS backup/Master1.7 170329 Efter redovisning, innan sqrt-merge/js/draw_chart.js",
+		"/Users/David/Desktop/KTH/Github/Mobilutveckling/lab1/style.css",
+		"/Users/David/Desktop/KTH/Github/Mobilutveckling/lab1/controller.js",
+		"/Users/David/Desktop/KTH/Github/Mobilutveckling/lab1/index.html",
+		"/Users/David/Desktop/KTH/Java/Alla labbar.sublime-workspace",
+		"/Users/David/Desktop/KTH/Github/IVIS17/data/iso_countries.csv",
+		"/Users/David/Desktop/KTH/Github/IVIS17/world-topo-min.json",
+		"/Users/David/Desktop/KTH/Github/IVIS17/js/d3.slider.js",
+		"/Users/David/Desktop/KTH/Github/IVIS17/d3.slider.css",
+		"/Users/David/Desktop/KTH/Github/IVIS17/js/sidebardata.js",
+		"/Users/David/Desktop/KTH/Github/IVIS17/js/pie-chart.js",
+		"/Users/David/Desktop/KTH/Github/IVIS17/js/name2code.js",
+		"/Users/David/Desktop/KTH/Github/IVIS17/js/linechart.js",
+		"/Users/David/Desktop/KTH/Github/IVIS17/data/API_co2_capita.csv",
+		"/Users/David/Desktop/KTH/Github/IVIS17/data/API_co2_total.csv",
+		"/Users/David/Desktop/IVIS backup/3.1 fungerande kart-slider/data/iso_countries.csv",
+		"/Users/David/Desktop/IVIS backup/3.1 fungerande kart-slider/world-topo-min.json",
+		"/Users/David/Desktop/KTH/Github/IVIS17/js/topojson.v1.min.js",
+		"/Users/David/Desktop/KTH/Github/samuelsson87.github.io/IVIS17/Proj2/index.html",
+		"/Users/David/Desktop/KTH/Github/d3-maptime/example2/wave6.csv",
+		"/Users/David/Desktop/KTH/Github/d3-maptime/example2/wave5.csv",
+		"/Users/David/Desktop/KTH/Github/d3-maptime/example2/wave4.csv",
+		"/Users/David/Desktop/KTH/Github/d3-maptime/example2/wave3.csv",
+		"/Users/David/Desktop/KTH/Github/d3-maptime/example2/AllWaves.csv",
+		"/Users/David/Desktop/KTH/Github/d3-maptime/example2/Backups/8.4 tomma rader funkar fint/wave1.csv",
+		"/Users/David/Desktop/KTH/Github/d3-maptime/example2/wave2.csv",
+		"/Users/David/Desktop/KTH/Github/d3-maptime/example2/wave1.csv",
+		"/Users/David/Desktop/KTH/Github/d3-maptime/example2/Backups/Backup8.1 titel ändras men ej world/wave1.csv",
+		"/Users/David/Desktop/KTH/Github/d3-maptime/example2/Backups/index6.1.html",
+		"/Users/David/Desktop/KTH/Github/d3-maptime/example2/Backups/index6.0.html",
+		"/Users/David/Desktop/KTH/Github/d3-maptime/example2/mydata.csv",
+		"/Users/David/Desktop/KTH/Github/d3-maptime/example2/Backups/index5.0.html",
+		"/Users/David/Desktop/KTH/Github/d3-maptime/example3/index.html",
+		"/Users/David/Desktop/KTH/Github/d3-maptime/example5/index.html",
+		"/Users/David/Desktop/KTH/Github/d3-maptime/example3/neighborhoods.js",
+		"/Users/David/Desktop/KTH/Github/d3-maptime/example5/rodents.js",
+		"/Users/David/Desktop/KTH/Github/d3-maptime/example2/Backups/index4.0.html",
+		"/Users/David/Desktop/KTH/Github/d3-maptime/example2/data2.csv",
+		"/Users/David/Desktop/KTH/Github/d3-maptime/example2/Backups/mydata3.0.csv",
+		"/Users/David/Desktop/KTH/Github/d3-maptime/example2/Backups/index2.0.html",
+		"/Users/David/Desktop/KTH/Github/d3-maptime/example2/Backups/index1.0.html",
+		"/Users/David/Desktop/KTH/Github/d3-maptime/example2/index.html",
+		"/Users/David/Desktop/KTH/Github/d3tutorial/exercise6.html",
+		"/Users/David/Desktop/KTH/Github/d3tutorial/exercise1.html",
+		"/Users/David/Desktop/KTH/Github/d3tutorial/solutions/exercise1.html",
+		"/Users/David/Desktop/d3/family_data3.csv",
+		"/Users/David/Desktop/d3/family_data.csv",
+		"/Users/David/Desktop/d3/test/ew/ew.js",
+		"/Users/David/Desktop/d3/test/ew/ew.css",
+		"/Users/David/Desktop/d3/test/ew/ew.html",
+		"/Users/David/Desktop/d3-test/_layouts/default.html",
+		"/Users/David/Desktop/D3/test.html",
+		"/Users/David/Desktop/KTH/Github/samuelsson87.github.io/_layouts 08.31.17/default.html",
+		"/Users/David/Desktop/KTH/Github/samuelsson87.github.io/_layouts/default.html",
+		"/Users/David/Downloads/hejhej.html.svg",
+		"/Users/David/Desktop/Backup på kattass/index.html",
+		"/Users/David/Desktop/KTH/Github/samuelsson87.github.io/index.html",
+		"/Users/David/Desktop/d3test.html",
+		"/Users/David/Desktop/data.csv",
+		"/Users/David/Desktop/Java/Lab6/samples/decompress.3.in",
+		"/Users/David/Desktop/Java/Lab6/samples/decompress.2.ans",
+		"/Users/David/Desktop/Java/Lab6/samples/decompress.2.in",
+		"/Users/David/Desktop/Java/Lab6/samples/decompress.1.in",
+		"/Users/David/Desktop/Java/Lab6/Backups/Dekompression7.0.java",
+		"/Users/David/Desktop/Java/Lab6/Backups/Dekompression5.0.java",
+		"/Users/David/Desktop/Java/Lab6/Backups/Dekompression6.0.java",
+		"/Users/David/Desktop/Java/Lab6/Backups/Dekompression4.0.java",
+		"/Users/David/Desktop/KTH/Github/MR4BusinessCard/Assembly-CSharp-Editor.csproj",
+		"/Users/David/Desktop/threeTest/threetest.html",
+		"/Users/David/Desktop/KTH_Logotyp_RGB_2013-2.svg",
+		"/Users/David/Desktop/KTH/Github/MR4BusinessCard/Assets/smcs.rsp",
+		"/Users/David/Desktop/Java/Lab4/Enigma.java",
+		"/Users/David/Desktop/Java/Lab6/Backups/Dekompression2.0.java",
+		"/Users/David/Desktop/Java/Lab6/Backups/Dekompression3.0.java",
+		"/Users/David/Desktop/Java/Lab6/Backups/Dekompression1.0.java",
+		"/Users/David/Desktop/KTH/Tilda/Lab5/Backup/huvudprogrammlabb5.py",
+		"/Users/David/Desktop/KTH/Tilda/Lab6/lab6.py",
+		"/Users/David/Desktop/KTH/Python/P-uppgift maj/Städad skarp uppgift .py",
+		"/Users/David/Desktop/KTH/Tilda/Lab7/lab7.5.py",
+		"/Users/David/Desktop/Java/Lab5/samples/tidbokning.1.in",
+		"/Users/David/Desktop/Java/Lab5/samples/tidbokning.1.ans",
+		"/Users/David/Desktop/Java/Lab5/Backups/TidsBokning1.0 Final.java",
+		"/Users/David/Desktop/Java/Lab5/Backups/MeetingTime1.0 Final.java",
+		"/Users/David/Desktop/Java/Lab1/LaggIhopOrd.java",
+		"/Users/David/Desktop/Java/Lab4/Backups/Enigma2.0.java",
+		"/Users/David/Desktop/Java/Lab4/Backups/Enigma1.0 final.java",
+		"/Users/David/Desktop/Java/Lab3/samples/aquarium.1.in",
+		"/Users/David/Desktop/Java/Lab3/Backups/Akvariet1.0 final.java",
+		"/Users/David/Desktop/Java/Lab3/samples/aquarium.1.ans",
+		"/Applications/Pd-0.47-1.app/Contents/Resources/doc/1.manual/index.htm",
+		"/Users/David/Desktop/Java/Lab2/Backups/Talfoljd1.0.java",
+		"/Users/David/Desktop/Java/Lab1/backups/LaggIhopOrd 2.0 final.java",
+		"/Users/David/Desktop/Java/Lab1/backups/LaggIhopOrd1.2.java",
+		"/Users/David/Desktop/Java/Lab1/backups/LaggIhopOrd1.1.java",
+		"/Users/David/Desktop/KTH/Java/lab1/test.java",
+		"/Users/David/Desktop/KTH/Github/samuelsson87.github.io/_config.yml",
+		"/Users/David/Desktop/Java/lab2/nextNumber.java",
+		"/Users/David/Desktop/Java/lab1/skrivUt.java",
+		"/Users/David/Desktop/Github/intprog-projekt/projekt.sublime-workspace",
+		"/Users/David/Desktop/Github/intprog-projekt/app/index.html",
+		"/Users/David/Desktop/Github/lab1/test2.html",
+		"/Users/David/Desktop/Github/lab1/style.css",
+		"/Users/David/Desktop/Github/lab1/mapScript.js",
+		"/Users/David/Desktop/Github/lab1/test.html",
+		"/Users/David/Desktop/Github/intprog-projekt/app/partials/finish.html",
+		"/Users/David/Desktop/Github/intprog-projekt/app/js/progressbarCtrl.js",
+		"/Users/David/Desktop/Github/intprog-projekt/app/js/pickSentenceCtrl.js",
+		"/Users/David/Desktop/Github/intprog-projekt/app/partials/pickSentence.html",
+		"/Users/David/Desktop/Github/intprog-projekt/app/ng-sortable/ng-sortable.css",
+		"/Users/David/Desktop/Github/intprog-projekt/app/style.css",
+		"/Users/David/Desktop/Github/intprog-projekt/app/partials/progressbar.html",
+		"/Users/David/Desktop/Github/angular-phonecat/app/phones/phones.json",
+		"/Users/David/Desktop/Github/intprog-projekt/app/dist/ng-sortable.css",
+		"/Users/David/Desktop/Github/intprog-projekt/app/dist/ng-sortable.js",
+		"/Users/David/Desktop/Github/intprog-projekt/app/dist/ng-sortable.style.css",
+		"/Users/David/Desktop/Github/ng-sortable/dist/ng-sortable.js",
+		"/Users/David/Desktop/Github/ng-sortable/Gruntfile.js",
+		"/Users/David/Desktop/Github/intprog-projekt/package.json",
+		"/Users/David/Desktop/Github/intprog-projekt/bower.json",
+		"/Users/David/Desktop/Github/intprog-projekt/Gruntfile.js",
+		"/Users/David/Desktop/Github/ng-sortable/source/sortable.js",
+		"/Users/David/Desktop/Github/ng-sortable/dist/ng-sortable.min.js",
+		"/Users/David/Desktop/Github/ng-sortable/source/ng-sortable.css",
+		"/Users/David/Downloads/Dragger (1)/index.html",
+		"/Users/David/Downloads/Dragger (1)/home.html",
+		"/Users/David/Desktop/Github/intprog-projekt/map.html",
+		"/Users/David/Desktop/Github/intprog-projekt/map-character.html",
+		"/Users/David/Desktop/Github/intprog-projekt/MapView.js"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"style.css",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"chart",
+			"=",
+			"controlUI.style.",
+			"chart",
+			"co2val",
+			"\"co2val\"",
+			"slider",
+			"chart",
+			"clickstate",
+			"clickst",
+			"bar",
+			"-1",
+			"-0",
+			"-",
+			"-0",
+			"-0.040",
+			"ledg",
+			"setup",
+			"redraw",
+			".on('click'",
+			"pause",
+			"play",
+			"var play",
+			"\"var play\"",
+			"var play",
+			"TWN",
+			"guyana",
+			"voire",
+			"syria",
+			"taiwa",
+			"Tai",
+			"taiwan",
+			"taiwa",
+			"korea",
+			"North",
+			"korea",
+			"updateMapColors",
+			"playbackrate",
+			"play",
+			"return colo",
+			"slider",
+			"clicks",
+			"return col",
+			"return",
+			"congo",
+			"swe",
+			"sweden",
+			"swe",
+			"chart",
+			"bar",
+			"world",
+			"length",
+			"no data",
+			"no data ",
+			"no data",
+			"10",
+			"currentindex",
+			"obj2arr",
+			"obj2",
+			";",
+			"leisure",
+			",,",
+			",,,",
+			",,,,,",
+			",,,,,,,,,,",
+			";",
+			",",
+			"friends",
+			"drawChart",
+			";",
+			"{",
+			"bchash",
+			"bchashmultiMap",
+			"con",
+			"dragControlListeners",
+			"drop",
+			"words",
+			"drop",
+			"dropp",
+			"appendChild",
+			"mysentence",
+			");\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			":",
+			" ",
+			",",
+			"parents",
+			"",
+			",",
+			".",
+			","
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1497,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "controller.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3952,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 9.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2475,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "lab1.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 254.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
