@@ -86,7 +86,6 @@ function toggleBounce() {
 }
 
 
-
 //Google API-buttons
 /**
  * The CenterControl adds a control to the map that recenters the map on
@@ -182,7 +181,41 @@ function initMap() {
     title: "Erlands Bar"
   });
 
+  //info for Erlands
+  var contentString1 = '<div id="content">'+
+    '<div id="siteNotice">'+
+    '</div>'+
+    '<div id="bodyContent">'+
+    '<p><b>Erlands Bar</b>, just a really nice place</p>'+
+    '</div>'+
+    '</div>';
+
+  var infowindow1 = new google.maps.InfoWindow({
+    content: contentString1
+  });
+
+  //Info for Humlegården
+  var contentString2 = '<div id="content">'+
+    '<div id="siteNotice">'+
+    '</div>'+
+    '<div id="bodyContent">'+
+    '<p><b>Humlegården</b>, A central park</p>'+
+    '</div>'+
+    '</div>';
+
+  var infowindow2 = new google.maps.InfoWindow({
+    content: contentString2
+  });
+
+  //Marker interactions
   marker.addListener('click', toggleBounce);
+  marker4.addListener('click', function() {
+    infowindow1.open(map, marker4);
+  });
+
+  marker3.addListener('click', function() {
+    infowindow2.open(map, marker3);
+  });
 
   //Google API BUTTONS
   // Create the DIV to hold the control and call the CenterControl()
