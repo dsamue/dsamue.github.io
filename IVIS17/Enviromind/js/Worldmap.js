@@ -256,12 +256,16 @@ function countryInteraction(){
 				// Testa om det är en deselect eller select
 				// OM det inte är en deselect så lägger vi till landet, highlightar dens bar och landet i kartan
 				if(!(deselectCountry(this) == true)){
-					selectedCountries.push(d);
-					highlightBar();
-					selectInMap(this);
+					if (selectedCountries.length >= 8) {
+						alert("Please select a maximum of 8 countries");
+					} else {
+						selectedCountries.push(d);
+						highlightBar();
+						selectInMap(this);
+					}
 				}
 				// Update sidebar med selected country
-					updateSideBarSelected();
+				updateSideBarSelected();
 				
 			// Om vi bara får välja ett land åt gången 				
 			}else{

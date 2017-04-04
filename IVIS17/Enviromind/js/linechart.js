@@ -27,8 +27,8 @@ var valueline = d3.svg.line()
 	  .defined(function(d) {if(type == "trading"){return d.value != "..";}else{return d.value!=""}});
  
  //Setting color scale
-    var colorList = ["#A6D2ED", "#0091EA"];
-    var lineColor = d3.scale.linear().domain([0,5]).range(colorList)
+    var colorList = ["#2D6994", "#805B6B", "#869EB0", "#753C2E", "#557036", "#2293B5", "#96210C", "#9C6421"];
+    var lineColor = d3.scale.ordinal().range(colorList)
 
 // Adds the svg canvas
 var mySVG = d3.select(id)
@@ -74,6 +74,14 @@ legend.append('rect')
     .attr('text-transform', 'capitalize')
     .attr('font-size', '12px')
     .attr('opacity', 0.7)
+	.on("mouseover", function (d) {    
+          d3.select(this).style("opacity", 1);
+		  d3.selectAll(".line" + this.className.animVal.substr(4,7)).style("stroke-width",'4px');
+	})
+	.on("mouseout", function(d) {
+          d3.select(this).style("opacity", 0.7);
+		  d3.selectAll(".line" + this.className.animVal.substr(4,7)).style("stroke-width",'2px')
+	})
 
 
   //Loop through data
@@ -103,17 +111,18 @@ legend.append('rect')
     // Add the valueline path.
     mySVG.append("path")
         .attr("class", "line")
-        .attr('id', code)
+        .attr("class", "lineis-"+code)
+		.attr('id', code)
         .attr("d", valueline(data))
         .attr("stroke", lineColor(i))
-        .on("mouseover", function (d) {    
-          d3.select(this)                          //on mouseover of each line, give it a nice thick stroke
+        .on("mouseover", function (d) {
+          d3.selectAll(".lineis-"+this.id)    //on mouseover of each line, give it a nice thick stroke
           .style("stroke-width",'4px');
           d3.selectAll(".textis-"+this.id).style("opacity", 1)
 
         })
         .on("mouseout", function(d) {        //undo everything on the mouseout
-            d3.select(this)
+            d3.selectAll(".lineis-"+this.id)
               .style("stroke-width",'2px'); 
               d3.selectAll(".textis-"+this.id).style("opacity", 0.7)     
         })
