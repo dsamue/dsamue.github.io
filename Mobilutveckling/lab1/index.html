@@ -13,6 +13,8 @@
     <link rel="apple-touch-icon" href="app-icon-2.png">
     <link rel="apple-touch-icon" sizes="120x120" href="app-icon-small-2.png">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
 
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
@@ -28,17 +30,43 @@
     <div id=mainContent>
         <div id="map"></div>
 
-        <button class='button' onclick="moveUp()">Move Up</button>
-        <button class='button' onclick="moveDown()">Move Down</button>
-        <button class='button' onclick="moveLeft()">Move Left</button>
-        <button class='button' onclick="moveRight()">Move Right</button>
+        <div id="navigation">
+          <button class='navButton' onclick="moveUp()">Up</button>
+          <button class='navButton' onclick="moveDown()">Down</button>
+          <button class='navButton' onclick="moveLeft()">Left</button>
+          <button class='navButton' onclick="moveRight()">Right</button>
+        </div>
 
-        <button class='button' onclick="zoomIn()">Zoom In</button>
-        <button class='button' onclick="zoomOut()">Zoom out</button>
-        <button class='button' onclick="moveCenter(erlands)">Erlands Bar</button>
-        <button class='button' onclick="moveCenter(humle)">Humlegården</button>
-        <button class='button' onclick="showLocation()">Show my position</button>
-        <button class='button' onclick="setTilt()">Toggle tilt</button>
+
+        <div id="placesMenu">
+          <button class='placeButton' onclick="moveCenter(erlands)">Erlands Bar</button>
+          <button class='placeButton' onclick="moveCenter(humle)">Humlegården</button>
+          <button class='placeButton' onclick="showLocation()">My position</button>
+        </div>
+
+
+        <div id="settingsMenu">
+          <button class='settingsButton' onclick="zoomIn()">Zoom In</button>
+          <button class='settingsButton' onclick="zoomOut()">Zoom out</button>
+          <button class='settingsButton' onclick="setTilt()">Toggle tilt</button>
+        </div>
+
+
+
+        <div id="menu">
+          <div class="menuDiv" id="navigate">
+              Navigate
+          </div>
+
+          <div class="menuDiv" id="places">
+              Places
+          </div>
+
+          <div class="menuDiv" id="settings">
+              Settings
+          </div>
+        </div>
+        
     </div>
 
     <script src="controller.js"></script>
