@@ -365,12 +365,24 @@ function countryInteraction(){
 
 		function lowlightBar(){
 			d3.select(".bar#" + code)
-	  			.attr('fill', '#424242');	
+	  			.attr('fill', function(d) {
+				  if (d.value.continentID%2 == 0) {
+					return "#607B8D";
+				  } else {
+					return "#424242";
+				  }
+				});	
 	  	}
 
 		function lowlightBarAll(){
 			d3.selectAll(".bar")
-	  			.attr('fill', '#424242');			
+	  			.attr('fill', function(d) {
+				  if (d.value.continentID%2 == 0) {
+					return "#607B8D";
+				  } else {
+					return "#424242";
+				  }
+				});				
 		}
 
 		var mouse = d3.mouse(worldSvg.node()).map( function(d) { return parseInt(d); } );
@@ -569,7 +581,13 @@ $('#deselectCountries').click(function() {
 	
 	d3.selectAll(".country").classed("selected", false);	
 	d3.selectAll(".bar")
-	  	.attr('fill', 'black');
+	  	.attr('fill', function(d) {
+		  if (d.value.continentID%2 == 0) {
+			return "#607B8D";
+		  } else {
+			return "#424242";
+		  }
+	    });
 
 	if (sidebar.attr("out") == "true"){
 		$("#openclose").animateRotate(45, {
