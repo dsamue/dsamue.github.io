@@ -7,11 +7,16 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 
 
+	<!-- Jquery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
 	<!-- Latest compiled and minified Bootstrap CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 	<!-- Latest compiled and minified Bootstrap JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	
+
 </head>
 
 <body class="container">
@@ -34,25 +39,20 @@
 <div class="projectarea row">
 
 
-	<div class="project col-sm-6">
+	<div class="project col-sm-6" data-toggle="modal" data-target="#myModal">
 		<h1>Enviromind</h1>
 		<br/>
+		<p>
 		This is a group project within the course <i>Information Visualization</i> at KTH and developed during spring 2017. Enviromind lets you compare CO2 emissions and trade balance around the world and since 1960. The idea is to raise awareness that CO2 emissions is a global problem and that we can not only look at our own emissions when we trade with the rest of the world.
 		<br/>
-		<img class="image" src="img/enviro1.png"/ width="100%">
-		<a href="image2.gif" ><img src="image1.gif"/></a>
 
-		<br/><br/>
-		What happens with CO2 emissions if we look at emissions per capita or in total for each land? And how does different countries compare to each other over time? What is happening in China in the 21th century?
-		<br/><br/>
-		For this project I've worked with the web development and has for example done the interaction between the timeline and responding visualizations, the functional parts of the CO2 bar chart and worked with color coding of the map. 
-		<br/>
-		<img class="image enviro2" src="img/enviro2.png"/ width="50%">	
-		<br/>
+		<img class="image" src="img/enviro1.png"/ width="100%">
+
 		This project will compete at the C Awards may 2017.
 		You can see the current project demo online<a href="http://kattass.com/IVIS17/Enviromind/" target="_blank"> here</a>
 		<br/><br/>
-		<b>Group members</b>: <i>David Samuelsson, Frida Eklund, Viktor Gustavsson, Emma, Klint, Victor Gustavsson, Josefine Möller, Fredrik Spansk, Gustav Höglund</i>
+		<b>Group members</b>: <i>David Samuelsson, Frida Eklund, Viktor Gustavsson, Emma Klint, Victor Gustavsson, Josefine Möller, Fredrik Spansk, Gustav Höglund</i>
+		</p>
 	</div>
 
 	<div class="project col-sm-6">
@@ -72,6 +72,41 @@
 		See the <a href="https://vimeo.com/199125639" target="_blank">video</a>
 		<br/><br/>
 		<b>Group members</b>: <i>David Samuelsson, Jonna Karlsson Sellén, Sandra Dang, Desireé Fredriksson</i></p>
+	</div>
+
+
+	<!-- Modal -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	      </div>
+	      <div class="modal-body">
+	        	<div class="project">
+				<h1>Enviromind</h1>
+				<br/>
+				<p>This is a group project within the course <i>Information Visualization</i> at KTH and developed during spring 2017. Enviromind lets you compare CO2 emissions and trade balance around the world and since 1960. The idea is to raise awareness that CO2 emissions is a global problem and that we can not only look at our own emissions when we trade with the rest of the world.
+				<br/>
+				</p>
+				<img class="image" src="img/enviro1.png"/ width="100%">
+				<p>
+				<br/><br/>
+				What happens with CO2 emissions if we look at emissions per capita or in total for each land? And how does different countries compare to each other over time? What is happening in China in the 21th century?
+				<br/><br/>
+				For this project I've worked with the web development and has for example done the interaction between the timeline and responding visualizations, the functional parts of the CO2 bar chart and worked with color coding of the map. 
+				<br/>
+				<img class="image enviro2" src="img/enviro2.png"/ width="100%">	
+				<br/>
+				This project will compete at the C Awards in may 2017 and is nominated for the category "Best Research Potential".
+				You can see the current project demo online<a href="http://Enviromind.github.io/" target="_blank"> here</a>
+				<br/><br/>
+				<b>Group members</b>: <i>David Samuelsson, Frida Eklund, Viktor Gustavsson, Emma Klint, Victor Gustavsson, Josefine Möller, Fredrik Spansk, Gustav Höglund</i>
+				</p>
+			</div>
+	      </div>
+	    </div>
+	  </div>
 	</div>
 
 

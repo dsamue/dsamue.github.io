@@ -22,6 +22,15 @@ body{
 	line-height: 1.5;
 }
 
+.modal .project p{
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.modal .project h1{
+	text-align: center;
+}
+
 .projectarea{
 	width: 100%;
 	margin: auto;
@@ -29,21 +38,19 @@ body{
 }
 
 .image{
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-top: 10%;
+	margin-bottom: 10%;
 }
 
 .enviro2{
 	display: block;
 	margin: auto;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	max-width: 500px;
 }
 
-.blue{
-	background-color: blue;
-	height: 200px;
-}
-
-.red{
-	background-color: red;
-	height: 200px;
+.modal .modal-dialog { 
+	width: 100%; 
+	max-width: 1200px;
 }
