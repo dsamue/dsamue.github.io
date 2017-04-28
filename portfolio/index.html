@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>David Samuelsson Portfolio</title>
+	<meta charset="utf-8" /> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+
+	<!-- Jquery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+	<!-- Latest compiled and minified Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified Bootstrap JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<!-- Font Awesome Icons -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+
+</head>
+
+<body class="container">
+
+<div class="presentation row">
+	<div class="profile-pict col-sm-4">
+		<img class="profile-pict-img" src="img/profil-rund.png"/ width="100%">
+	</div>
+	<div class="profile-text col-sm-8">
+		<br/>
+		<h1>David Samuelsson</h1>
+		<br/>
+		 I'm a MsC student at KTH studying Interactive Media Technology. I focus on development and interaction design and will graduate spring 2018. This portfolio contains some of the projects made within my bachelor and master's degree at KTH.
+		<br/><br/>
+		<strong>Contact</strong><br/>
+		0704880102<br/>
+		dsamue@kth.se
+		</p>
+
+	</div>
+</div>
+
+<div class="projectarea row">
+	<h1>Projects</h1>
+
+	<div class="col-sm-6">
+		<div class="project" data-toggle="modal" data-target="#enviro-modal">
+			<img class="image miniimage" src="img/enviro3.png"/ width="100%">
+			<h2>Enviromind</h2>
+			<p>Course project in Information visualization
+			<br/>Tools: D3.js, HTML, CSS, JS<br/>
+			<p class="readmore">Read more...</p>
+			</p> 
+		</div>
+	
+
+
+		<div class="project" data-toggle="modal" data-target="#fab-modal">
+			<img class="image miniimage" src="img/fab3.png" width="100%">
+			<h2>Fabulous Swedish</h2>
+			<p>Chourse project in Interaction Programming<br/>
+			Tools: Angular.js, MVC, HTML, CSS, JS<br/>
+			<p class="readmore">Read more...</p>
+		</div>
+	</div>
+
+	<div class="col-sm-6">
+		<div class="project" data-toggle="modal" data-target="#AR-modal">
+			<img class="image miniimage" src="img/AR2.png" width="100%">
+			<h2>AR-Business Card</h2>
+			<p>Course project in Multimodal Interactions <br/>
+			Tools: Unity, Vuforia
+			<br/>
+			<p class="readmore">Read more...</p>
+		</div>
+
+		<div class="project" data-toggle="modal" data-target="#museum-modal">
+			<img class="image miniimage" src="img/museum3.png" width="100%">
+			<h2>Applicaton Prototype</h2>
+			<p>Course Project in HCI <br/>
+			Tools: Prototyping, Evaluation, User studies, Fields studies, Proto.io
+			<p class="readmore">Read more...</p>
+			</p>
+		</div>
+	</div>
+</div>
+
+<div class="footer row">
+	<div class="icon-area">
+
+		<a target="_blank" href="https://github.com/samuelsson87"> 
+			<i class="fa fa-github fa-2x icon" aria-hidden="true"></i>
+		</a>
+
+		<a href="mailto:dsamue@kth.se?Subject=Hi,%20David!" target="_top">
+			<i class="fa fa-envelope fa-2x icon" aria-hidden="true"></i>
+		</a>
+
+		<a target="_blank" href="https://www.facebook.com/dsamuelsson"> 
+			<i class="fa fa-facebook-square fa-2x icon" aria-hidden="true"></i>
+		</a>
+
+	</div>
+</div>
+
+
+
+<!-- Modal Enviro-->
+<div class="modal fade" id="enviro-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-body">
+        	<div class="project">
+			<h1>Enviromind</h1>
+			<br/>
+			<p>This is a group project within the course <i>Information Visualization</i> at KTH and developed during spring 2017. Enviromind lets you compare CO2 emissions and trade balance around the world and since 1960. The idea is to raise awareness that CO2 emissions is a global problem and that we can not only look at our own emissions when we trade with the rest of the world.
+			<br/>
+			</p>
+			<img class="image" src="img/enviro1.png"/ width="100%">
+			<p>
+			<br/><br/>
+			What happens with CO2 emissions if we look at emissions per capita or in total for each land? And how does different countries compare to each other over time? What is happening in China in the 21th century?
+			<br/><br/>
+			For this project I've worked with the web development and has for example done the interaction between the timeline and responding visualizations, the functional parts of the CO2 bar chart and worked with color coding of the map. 
+			<br/>
+			<img class="image enviro2" src="img/enviro2.png"/ width="100%">	
+			<br/>
+			This project will compete at the C Awards in may 2017 and is nominated for the category "Best Research Potential".
+			You can see the current project demo online<a href="http://Enviromind.github.io/" target="_blank"> here</a>
+			<br/><br/>
+			<b>Group members</b>: <i>David Samuelsson, Frida Eklund, Viktor Gustavsson, Emma Klint, Victor Gustavsson, Josefine Möller, Fredrik Spansk, Gustav Höglund</i>
+			</p>
+		</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal AR-->
+<div class="modal fade" id="AR-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-body">
+		<div class="project">
+			<h1>AR-Business Card</h1>
+			<br/>
+			<p>In a more digital world than ever, the classic business card is starting to get old. The limited physical space of the card leaves little room for information and thanks to smartphones, we no longer need to keep our contacts on physical cards.
+			<br/>
+			<br/>
+			This project aims to investigate how augmented reality can be used to extend the information printed on a business card by developing a prototype and evaluate it. When a business card is viewed through the camera of a smartphone additional information will show and link you to social media, show a portfolio or give a short audio presentation of your new business contact.  
+			<br/>
+			<img class="image" src="img/AR.png" width="100%">
+			<br/>
+			The prototype is developed in Unity with the Vuforia SDK and a small user evaluation has been conducted to test how the application would work in a typical scenario. The evaluation shows that the users are positive to the product but that further development can be done to create a more intuitive experience.
+			<br/><br/>
+			This project was an introduction to working with AR in the course <i>Multimodal interaction and interfaces</i> and the development was a tight group process in every step of the way.
+			<br/><br/>
+			See the <a href="https://vimeo.com/199125639" target="_blank">video</a>
+			<br/><br/>
+			<b>Group members</b>: <i>David Samuelsson, Jonna Karlsson Sellén, Sandra Dang, Desireé Fredriksson</i></p>
+		</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal Fab -->
+<div class="modal fade" id="fab-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-body">
+		<div class="project">
+			<h1>Language Web App</h1>
+			<br/>
+			<p>Fabulous Swedish is a web application to learn Swedish. Listen to a sentence and try to recreate it by listening to the words and moving them to the bubble in the right order. Follow your progress and collect points as you go. Avoid making mistakes though..
+			<br/>
+			<img class="image" src="img/fab.png" width="100%">
+			<br/>	
+			This is a project in the course Interaction Programming using the MVC concept and developing strictly with AngularJS.
+			<br/><br/>
+			The project was done in the course <i>Interaction Programming</i> and was basically my first attempt to make an dynamic website using Angular.js. This was a tight group project and everyone worked collectively with the development.
+			<br/><br/>
+			Take a look at the code at <a href="https://github.com/samuelsson87/intprog-projekt" target="_blank">GitHub</a>.
+
+			<br/><br/>
+			<b>Group members</b>: <i>David Samuelsson, Sanna Marklund, Max Dyrhage, Robin Setterwall Gabrielsson</i>
+			</p>
+		</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal Museum -->
+<div class="modal fade" id="museum-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-body">
+		<div class="project">
+			<h1>Museum Applicaton Prototype</h1>
+			<br/>
+			<p>This was a project in the introduction to Human-Computer Interaction at KTH where we were given the task to make a visit to a museum a more engaging experience. After making field studies at Fotografiska we choose to develop a prototype which gives the user access to additional information about the piece of art and the possibility to save it as a favorite .  
+			<br/>
+			<img class="image museum1" src="img/museum1.png" width="80%">
+			<br/>
+			By using iBeacons for positioning the user is given information about the art that they're standing nearby. We used POP (now a part of Marvel) to make the initial prototype and then continued with proto.io for a more HIFI prototype. 
+			<br/><br/>
+			During the process we worked with field studies, think-alouds, personas, scenarios and user evaluation. 
+			<br/>
+			<img class="image" src="img/museum2.png" width="100%">
+			<br/>
+			<b>Group members</b>: <i>David Samuelsson, Pernilla Romanus, Arvid Sätterkvist, Rasmus Bergrén, Matilda Schaffer </i>
+			</p>
+		</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- <p> Skills: Axure, PHP, SQL, XML, HTML, CSS, JS, Angular, Bootstrap, </p> -->
+</body>
+</html>
