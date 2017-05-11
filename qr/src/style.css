@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+/* Generic CSS
+ */
+.center {text-align: center;}
+.text-right {text-align: right;}
+.left {float: left;}
+.right {float: right;}
+.clearBoth {clear:both;}
+.animate:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+.width100 {width: 100%;}
+.nopadding {padding: 0px !important;}
+.nomargin {margin:0px !important;}
+
+.inlineBlock {display: inline-block;}
+/* Colors and backgrounds
+ */
+.text-blue {color: #07c;}
+.bg-blue {background: #07c;}
+.bg-yellow {background: #f7cc36;}
+
+.text-red {color: #F00;}
+.text-green {color: #1ac41a;}
+
+/* Customized Buttons
+ */
+.btn {
+  color: #FFF;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 2px;
+  font-size: 18px;
+}
+
+.list__blue {
+  background: #07c; 
+  border-radius: 4px; 
+  margin: 10px;
+  color: #FFF;
+  padding: 3%;
+}
+
+/* Customized Lists
+ */
+.custom__header {padding:10px; font-size:18px;border-bottom: 1px solid #CCC;background:#EEE;}
+.custom__row-header {
+  padding:10px;
+  font-size:15px;
+  border-bottom: 1px solid #EEE;
+  background:#FFF;
+  font-weight: bold;
+}
+.row-item {
+  padding:10px;
+  margin-bottom: 1px;
+  border-bottom: 1px solid #EEE;
+}
+.row-item:nth-child(even) {background:#FFF;}
+
+.detail-map {
+  background-color: blue;
+  height: 500px;
+  width: 100%;
+}

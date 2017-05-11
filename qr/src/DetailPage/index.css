@@ -1,0 +1,99 @@
+.map-wrapper {
+  height: 40vh !important;
+}
+.pagePadding {padding:10px;}
+
+
+.detail__circle {
+	color: #FFF;
+	padding: 5px;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	border-radius: 40px;
+}
+.detail__circle_adjustment {
+	padding-top: 5px;
+	font-size: 28px;
+}
+
+.detail__custom_margin {
+	margin-left:10px;
+	margin-top: 5px;
+}
+
+.left.customSearch {
+	width: 80%;
+}
+.right.customSearch {
+    width: 20%;
+    border-top: 0px;
+    border-left: 0px;
+    height: 25px;
+    border-left: 0px !important;
+    border-top: 0px !important;
+    text-align: center;
+    padding-top: 6px !important;
+
+	border-bottom-left-radius: 0px !important;
+	border-top-left-radius: 0px !important;
+}
+
+.lockToBottom {
+    position: absolute;
+    bottom: 10px;
+    width: calc(100% - 20px);
+    left: 0px;
+    right: 0px;
+    margin: 0 auto;
+}
+
+.helpbar {
+	background: none !important;
+	padding-left: 5px !important;
+	border-bottom-right-radius: 0px !important;
+	border-top-right-radius: 0px !important;
+}
+
+
+.hidden{display: none;}
+.closeChatBox {
+	position: absolute;
+    right: 10px;
+    margin-right: 20px;
+    color: #f00;
+}
+.dialog-container {
+  height: 100vh !important;
+  width: 100vw;
+}
+.displayChat__content {
+  padding: 20px;
+  height: 100%;
+}
+
+.inline {
+   display:inline-block;
+   margin-right:5px;
+}
+
+
+.red{
+    background-color: red;
+}
+
+.button-wrapper {
+    width: 100%;
+    overflow: hidden; /* will contain if #first is longer than #second */
+}
+.add-button {
+    width:45%;
+    float:left; /* add this */
+    background-color: green;
+    margin: 0px;
+    margin-right: 5px;
+}
+.leave-button {
+    overflow: hidden; /* if you don't want #second to wrap below #first */
+    margin: 0px;
+}

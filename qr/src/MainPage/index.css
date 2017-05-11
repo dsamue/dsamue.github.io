@@ -1,0 +1,42 @@
+/* Style for the main page goes here */
+.ons-icon {font-size: 27px !important;}
+
+.inlineBlock:first-child {
+	margin-right: 10px;
+}
+.main__circle {
+	width: 25px;
+	height: 25px;
+	background: #f7cc36;
+	border-radius: 25px;	
+	margin-left: 3px;
+}
+.main__circle_adjuster {padding-top: 3px;}
+
+.main__map-wrapper {
+  height: 100vh;
+}
+
+.customButtonWidth {width: 40px;}
+.width60 {width:60%; word-wrap: break-all; word-break: break-all;}
+.width40 {width:40%; text-align: right;}
+
+.map__button {
+	top: auto;
+    position: absolute;
+    bottom: 15px !important;
+    left: 10px !important;
+    right: auto;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    color: #FFF;
+    background: #07c;
+    box-shadow: 0 0 4px #333;
+}
+.map_icon__center {
+	text-align: center;
+    width: 40px;
+    padding-top: 5px;
+    position: absolute;
+}

@@ -1,0 +1,28 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.icon{
+  display:inline-block;
+
+}
+
+.marker-info{
+  position:absolute;
+  bottom: -27px;
+  left: 22px;
+  display:inline-block;
+  white-space: nowrap;
+  background-color: white;
+  float: left;
+  color: black;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  box-shadow:0 0 10px rgba(0, 0, 0, 0.3);
+  font-size: 1.3em;
+}
+

@@ -1,0 +1,30 @@
+/* Style for the custom toolbar */
+.CustomToolbar {
+	background: #FFF !important;
+	color: #07c !important;
+	border-bottom: 1px solid #CCC;
+}
+.CustomToolbar .back-button,
+.CustomToolbar__title,
+.CustomToolbar a {
+	color: #07c !important;
+}
+.CustomToolbar__icon {
+    background: #07c !important;
+    position: absolute;
+    top: 0;
+    color: #FFF!important;
+    padding: 0 10px !important;
+    height: 49px;
+    right: 0;
+    z-index: 9999;
+}
+.CustomToolbar__title {
+    font-size: 1.6rem !important;
+    text-align: center !important;
+    position: absolute;
+    width: 120px !important;
+    margin: 0 auto !important;
+    left: 0;
+    right: 0;
+}

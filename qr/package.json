@@ -1,0 +1,14 @@
+{
+  "name": "onsenui-v2-react-navigation",
+  "version": "2.2.7+20170324.1",
+  "description": "",
+  "dependencies": {
+    "google-map-react": "^0.24.0",
+    "onsenui": "2.2.x",
+    "prop-types": "^15.5.8",
+    "ramda": "^0.23.0",
+    "react": "15.4.2",
+    "react-dom": "15.4.2",
+    "react-onsenui": "1.2.x"
+  }
+}
