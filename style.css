@@ -6,6 +6,11 @@ body{
 	color: #1a1a1a;
     }
 
+iframe{
+	display: block;
+	margin-bottom: 2em;
+}
+
 .presentation{
 	font-size: 1.1em;
 	margin-top: 10%;
