@@ -19,6 +19,7 @@ body{
 
 .profile-pict-img{
 	/*box-shadow: 0 0 75px #cacaca;*/
+	border-radius: 50%;
 
 }
 
