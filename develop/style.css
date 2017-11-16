@@ -268,6 +268,15 @@ iframe{
 	margin: 5px;
 }
 
+.button-container{
+	text-align: center;
+}
+
+.close-button{
+	cursor: pointer;	
+	margin-top: 8%;
+}
+
 body h1:first-child{
 	margin: 3%;
 	margin-top: 11%;
