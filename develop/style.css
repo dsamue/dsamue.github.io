@@ -191,6 +191,21 @@ iframe{
     transform: scale(1.01);
 }
 
+.abstract-text{
+	text-align: left;
+	max-width: 700px;
+	padding: 3%; 
+	margin: auto;
+}
+
+.academic-tile a{
+	font-size: 0.6em !important;
+}
+
+.readbutton{
+	margin: 2%;
+}
+
 .writingarea a{
 	color: #1a1a1a;
 }
@@ -291,6 +306,10 @@ body h1:first-child{
 
 	.academic-tile p{
 		margin-top: 4%;
+	}
+
+	.readbutton{
+		margin: 10%;
 	}
 }
 
