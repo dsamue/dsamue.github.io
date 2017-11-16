@@ -10,18 +10,12 @@ iframe{
 	display: block;
 	margin-bottom: 2em;
 }
- 
-
-.profile-text{
-	padding-left: 5% !important;
-    padding-right: 5% !important;
-}
-
 
 .presentation{
 	font-size: 1.1em;
-	margin-top: 5%;
+	margin-top: 10%;
 	line-height: 1.5;
+	margin-bottom: 7%;
 }
 
 .profile-pict{
@@ -30,7 +24,9 @@ iframe{
 }
 
 .profile-pict-img{
+	/*box-shadow: 0 0 75px #cacaca;*/
 	border-radius: 50%;
+
 }
 
 .projectarea{
@@ -46,10 +42,23 @@ iframe{
 	line-height: 1.5;
 	border-radius: 5px;
 	box-shadow: 0 0 75px #eaeaea;
+	/*box-shadow:0 0 20px rgba(0,0,0,0.07);*/
 	margin-bottom: 5%;
+/*	height: 520px;*/
 }
 
+/*.projectarea .project h2{
+	text-align: center;
 
+}*/
+
+/*.text-area{
+	height: 100px;
+}
+
+.img-area{
+	height: 300px;
+}*/
 
 .projectarea h1{
 	text-align: center;
@@ -82,14 +91,13 @@ iframe{
 
 .modal .project h1{
 	text-align: center;
-	margin: 5%;
 }
 
 
 
 .image{
-	margin-top: 5%;
-	margin-bottom: 5%;
+	margin-top: 10%;
+	margin-bottom: 10%;
 
 }
 
@@ -114,8 +122,8 @@ iframe{
 	display: block;
 	margin: auto;
 	max-width:300px;
-	margin-top: 5%;
-	margin-bottom: 5%;
+	margin-top: 10%;
+	margin-bottom: 10%;
 }
 
 .modal .modal-dialog { 
@@ -150,6 +158,9 @@ iframe{
 	color: #565656;
 }
 
+.writingarea{
+	margin-top: 8em;
+}
 
 .writingarea h1{
 	text-align: center;
@@ -226,6 +237,7 @@ iframe{
 
 .skills{
 	text-align: center;
+	margin-top: 10%;
 	margin-left: 15px !important;
 	margin-right: 15px !important;
 	margin-bottom: 15px;
@@ -240,11 +252,6 @@ iframe{
 	padding: 5px 10px;
 	border: solid 2px black !important;
 	margin: 5px;
-}
-
-body h1:first-child{
-	margin: 3%;
-	margin-top: 11%;
 }
 
 
@@ -269,9 +276,3 @@ body h1:first-child{
 	.skills{
 		margin-bottom: 25%;
 	}
-
-	body h1:first-child{
-		margin: 6%;
-		margin-top: 28%;
-	}
-}
