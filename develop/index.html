@@ -4,18 +4,11 @@
 	<title>David Samuelsson - Portfolio</title>
 	<meta charset="utf-8" /> 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="style.css">
-
-
-	<!-- Jquery -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-
-	<!-- Latest compiled and minified Bootstrap CSS -->
+	<!-- Compiled and minified Bootstrap CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-	<!-- Latest compiled and minified Bootstrap JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
 	<!-- Font Awesome Icons -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	
@@ -24,6 +17,7 @@
 
 <body class="container">
 
+<!-- Presentation -->
 <div class="presentation row">
 	<div class="profile-pict col-sm-4">
 		<img class="profile-pict-img" src="img/profil.jpg"/ width="100%">
@@ -42,34 +36,39 @@
 	</div>
 </div>
 
+
+<!-- Projectarea -->
 <div class="projectarea row">
 	<h1>Projects</h1>
 
 	<div class="col-sm-6">
 
 		<div class="project" data-toggle="modal" data-target="#simon-modal">
-			<img class="image miniimage" src="img/simon.jpg"/ width="100%">
-			<h2>Simon</h2>
-			<p>Course project in Physical Interaction Design
-			<br/>Tools: Arduino, C/C++, Physical Prototyping<br/>
+			<img class="image miniimage" src="img/simon.jpg" width="100%">
+			<h2>Physical Interaction Design</h2>
+			<p>Simon, a dancing rabbit-robot made with pure love.</p>
+			<p>Tools: Arduino, C/C++, Physical Prototyping</p>
+			<p class="date-info">Autumn 2017</p>
 			<p class="readmore">Read more...</p>
 			</p> 
 		</div>
 
 		<div class="project" data-toggle="modal" data-target="#enviro-modal">
-			<img class="image miniimage" src="img/enviro3.png"/ width="100%">
-			<h2>Enviromind</h2>
-			<p>Course project in Information Visualization
-			<br/>Tools: D3.js, HTML, CSS, JS<br/>
+			<img class="image miniimage" src="img/enviro3.png" width="100%">
+			<h2>Information Visualization</h2>
+			<p>Enviromind is a tool that visualize the connection between trade balance and CO<sub>2</sub> emissions.</p>
+			<p>Tools: D3.js, HTML, CSS, JS</p>	
+			<p class="date-info">Spring 2017</p>
 			<p class="readmore">Read more...</p>
 			</p> 
 		</div>
 
 		<div class="project" data-toggle="modal" data-target="#fab-modal">
 			<img class="image miniimage" src="img/fab3.png" width="100%">
-			<h2>Fabulous Swedish</h2>
-			<p>Chourse project in Interaction Programming<br/>
-			Tools: Angular.js, MVC, HTML, CSS, JS<br/>
+			<h2>Interaction Programming</h2>
+			<p>Fabulous Swedish - An interactive way to learn Swedish.<p>
+			<p>Tools: Angular.js, MVC, HTML, CSS, JS</p>
+			<p class="date-info">Spring 2015</p>
 			<p class="readmore">Read more...</p>
 		</div>
 	</div>
@@ -77,28 +76,30 @@
 	<div class="col-sm-6">
 
 		<div class="project" data-toggle="modal" data-target="#locallife-modal">
-			<img class="image miniimage" src="img/local-logo-white.png"/ width="100%">
-			<h2>Local Life</h2>
-			<p>Summer internship at Local Life
-			<br/>Tools: Angular.js, SASS, Material Design, Adobe XD, Prototyping<br/>
+			<img class="image miniimage local-img" src="img/local-logo-white.png">
+			<h2>Summer Internship</h2>
+			<p>Intership as an UX-designer and developer at Local Life.</p>
+			<p>Tools: Angular.js, SASS, Material Design, Adobe XD, Prototyping</p>
+			<p class="date-info">Summer 2017</p>
 			<p class="readmore">Read more...</p>
 			</p> 
 		</div>
 
 		<div class="project" data-toggle="modal" data-target="#AR-modal">
 			<img class="image miniimage" src="img/AR2.png" width="100%">
-			<h2>AR-Business Card</h2>
-			<p>Course project in Multimodal Interactions <br/>
-			Tools: Unity, Vuforia
-			<br/>
+			<h2>Multimodal Interactions</h2>
+			<p>An AR-business card to make swapping contact info a bit more interactive.</p>
+			<p>Tools: Unity, Vuforia</p>
+			<p class="date-info">Winter 2016</p>
 			<p class="readmore">Read more...</p>
 		</div>
 
 		<div class="project" data-toggle="modal" data-target="#museum-modal">
 			<img class="image miniimage" src="img/museum3.png" width="100%">
-			<h2>Application Prototype</h2>
-			<p>Course Project in HCI <br/>
-			Tools: Prototyping, Evaluation, User studies, Fields studies, Proto.io
+			<h2>Museum Application</h2>
+			<p>A prototype for a museum application, made in the first HCI course.</p>
+			<p>Tools: Prototyping, Evaluation, User studies, Fields studies</p>
+			<p class="date-info">Autumn 2014</p>
 			<p class="readmore">Read more...</p>
 			</p>
 		</div>
@@ -106,12 +107,15 @@
 </div>
 
 
+<!-- Academic Writing -->
 <div class="writingarea row">
 	<h1>Academic Writing</h1>
-	<a target="_blank" href="pdf/The Perception of Amplified Head Rotations in Virtual Reality.pdf"><div class="academic-tile kexjobb">The Perception of Amplified Head Rotations in Virtual Reality<br/><p>Course Paper in Human Perception - December 2016</p></div></a>
-	<a target="_blank" href="pdf/Videoföreläsningar som resurs i matematikstudier.pdf"><div class="academic-tile kexjobb">Videolectures as a Resource in Mathematical Studies<br/><p>Bachelor Thesis - June 2015</p></div></a>
+	<a target="_blank" href="pdf/The Perception of Amplified Head Rotations in Virtual Reality.pdf"><div class="academic-tile kexjobb p-5">The Perception of Amplified Head Rotations in Virtual Reality<br/><p>Course Paper in Human Perception - December 2016</p></div></a>
+	<a target="_blank" href="pdf/Videoföreläsningar som resurs i matematikstudier.pdf"><div class="academic-tile kexjobb p-0">Videolectures as a Resource in Mathematical Studies<br/><p>Bachelor Thesis - June 2015</p></div></a>
 </div>
 
+
+<!-- Skills -->
 <div class="skills row">
 	<h1>Skills</h1>
 	<div class="skill">HTML</div>
@@ -141,10 +145,8 @@
 
 </div>
 
-<!-- MATLAB, Adobe XD, Vuforia, Unity, D3.js, Arduino, Ionic, User studies, UX evaluation, Prototyping, jQuery   -->
-<!-- <p> Skills: HTML, CSS, JS, AngularJS, Bootstrap, Axure, PHP, XML, SQL, Xpath, Xquery, Java, Python </p> -->
 
-
+<!-- Footer -->
 <div class="footer row">
 	<div class="icon-area">
 
@@ -181,7 +183,6 @@
 				<div class="col-sm-2"></div>
 				<div class="col-sm-4"><img style="display: inline" class="image" src="img/local1.png" width="100%"></div>
 				<div class="col-sm-4"><img style="display: inline " class="image" src="img/local2.png" width="100%"></div>
-<!-- 				<div class="col-sm-4"><img style="display: inline" class="image" src="img/local3.png" width="100%"></div> -->
 				<div class="col-sm-2"></div>
 			</div>
 			<br/>
@@ -190,8 +191,7 @@
 			<div class="row">
 				<div class="col-sm-2"></div>
 				<div class="col-sm-4"><img style="display: inline" class="image" src="img/local-feed2.png" width="100%"></div>
-<!-- 				<div class="col-sm-4"><img style="display: inline " class="image" src="img/local-post.png" width="100%"></div>
- -->				<div class="col-sm-4"><img style="display: inline" class="image" src="img/local-inbox.png" width="100%"></div>
+				<div class="col-sm-4"><img style="display: inline" class="image" src="img/local-inbox.png" width="100%"></div>
  				<div class="col-sm-2"></div>
 			</div>
 			
@@ -356,8 +356,7 @@
 				<div class="col-sm-4"><img style="display: inline" class="image" src="img/museum4.jpg" width="100%"></div>
  				<div class="col-sm-2"></div>
 			</div>
-<!-- 			<img class="image" src="img/museum4.png" width="100%">
-			<img class="image" src="img/museum5.png" width="100%"> -->
+
 			<br/>
 			<p>
 			<b>Group members</b>: <i>David Samuelsson, Pernilla Romanus, Arvid Sätterkvist, Rasmus Bergrén, Matilda Schaffer </i>
@@ -367,6 +366,11 @@
     </div>
   </div>
 </div>
+
+
+<!-- Script -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 </body>
 </html>

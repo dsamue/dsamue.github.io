@@ -40,6 +40,12 @@ iframe{
 	margin-top: 3%;
 }
 
+.local-img{
+	width: 93%;
+    margin: auto;
+    display: block;
+}
+
 .projectarea .project{
 	padding: 7% !important;
 	font-size: 1.1em;
@@ -49,7 +55,10 @@ iframe{
 	margin-bottom: 5%;
 }
 
-
+.date-info{
+	margin-top: -13px;
+	font-size: 0.9em;
+}
 
 .projectarea h1{
 	text-align: center;
@@ -274,4 +283,19 @@ body h1:first-child{
 		margin: 6%;
 		margin-top: 28%;
 	}
+
+	.academic-tile{
+		font-size: 1.2em;
+		padding: 7%;
+	}
+
+	.academic-tile p{
+		margin-top: 4%;
+	}
 }
+
+
+
+
+
+
