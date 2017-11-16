@@ -53,6 +53,7 @@ iframe{
 	border-radius: 5px;
 	box-shadow: 0 0 75px #eaeaea;
 	margin-bottom: 5%;
+	cursor: pointer;
 }
 
 .date-info{
