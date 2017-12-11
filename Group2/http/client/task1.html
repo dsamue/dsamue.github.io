@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+    <title>Task 1 - Simple Demo</title>
+
+</head>
+<body>
+<h2>Task 1 - Simple Demo</h2>
+<video id="localVideo" autoplay></video>
+
+<script>
+
+  var constraints = { video: true };
+
+  window.onload = function () {
+    // TODO: Request access to the webcam AND microphone
+
+    function gotStream(stream) {
+      document.getElementById('localVideo').src = URL.createObjectURL(stream);
+    }
+
+    function gotError(error) {
+      console.log(error);
+    }
+
+    navigator.webkitGetUserMedia(constraints, gotStream, gotError);
+  };
+
+</script>
+
+</body>
+</html>

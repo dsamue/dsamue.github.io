@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Task 4</title>
+  <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+  <script src="./Seriously.js/seriously.js"></script>
+  <script src="./Seriously.js/effects/seriously.chroma.js"></script>
+  <script src="./Seriously.js/effects/seriously.blend.js"></script>
+  <script src="task4.js"></script>
+</head>
+
+<body>
+  <video height="300px" id="localVideo" autoplay muted style="width:40%;"></video>
+  <video height="300px" id="remoteVideo" autoplay style="width:40%;"></video>
+  <canvas id="target" width="640" height="480"></canvas>
+  <br/>
+
+  <input type="button" id="start" onclick="start(true);" value="Start Video" />
+
+  <script type="text/javascript">
+    pageReady();
+  </script>
+</body>
+
+</html>

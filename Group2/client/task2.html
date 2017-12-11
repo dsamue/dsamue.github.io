@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <title>CSS Filters</title>
+    <link href="./CSS-Filters/common.css" rel="stylesheet" type="text/css">
+    <link href="./CSS-Filters/filters.css" rel="stylesheet" type="text/css">
+
+    <script>
+
+      // insert javascript here
+
+    </script>
+
+</head>
+
+<body>
+
+<hgroup>
+    <h2>CSS Filter Effects</h2>
+</hgroup>
+
+<article>
+    <section>
+        <div class="drop-shadow">
+            <img src="CSS-filters/bluesky.jpg" id="pic"></img>
+        </div>
+    </section>
+    <section>
+        <output>-webkit-filter: none;</output>
+    </section>
+    <section class="cols">
+        <span><span>blur</span><input type="range" onchange="set('blur', this.value + 'px');" value="0" step="1" min="0"
+                                      max="10"></span>
+        <span><span>grayscale</span><input type="range" onchange="set('grayscale', this.valueAsNumber);" value="0"
+                                           step="0.1" min="0" max="1"></span>
+        <span><span>drop-shadow</span><input type="range"
+                                             onchange="set('drop-shadow', this.value + 'px ' + this.value + 'px 20px black');"
+                                             value="0" step="1" min="0" max="100"></span>
+        <span><span>sepia</span><input type="range" onchange="set('sepia', this.valueAsNumber);" value="0" step="0.1"
+                                       min="0" max="1"></span>
+        <span><span>brightness</span><input type="range" onchange="set('brightness', this.valueAsNumber);" value="0"
+                                            step="0.1" min="0" max="10"></span>
+        <span><span>contrast</span><input type="range" onchange="set('contrast', this.valueAsNumber);" value="0"
+                                          step="0.1" min="0" max="10"></span>
+        <span><span>hue-rotate</span><input type="range" onchange="set('hue-rotate', this.value + 'deg');" value="0"
+                                            step="30" min="0" max="360"></span>
+        <span><span>invert</span><input type="range" onchange="set('invert', this.valueAsNumber);" value="0" step="0.1"
+                                        min="0" max="1"></span>
+        <span><span>saturate</span><input type="range" onchange="set('saturate', this.valueAsNumber);" value="0"
+                                          step="0.1" min="0" max="10"></span>
+        <span><span>opacity</span><input type="range" onchange="set('opacity', this.valueAsNumber);" value="0"
+                                         step="0.1" min="0" max="1"></span>
+        <span><button onclick="reset();" style="margin-top:10px;">reset</button></span>
+    </section>
+    <section>
+        <output>Edited example from <a href="https://html5-demos.appspot.com/static/css/filters/index.html">here.</a>
+        </output>
+    </section>
+</article>
+
+<script>
+  var FILTER_VALS = {};
+  var el = document.getElementById('pic');
+
+  function reset() {
+    FILTER_VALS = {};
+    render();
+    document.querySelector('output').textContent = '-webkit-filter: none;';
+    el.className = '';
+
+    var ranges = document.querySelectorAll('input[type="range"]');
+    for (var i = 0, r; r = ranges[i]; i++) {
+      r.value = r.min;
+    }
+  }
+
+  function set(filter, value) {
+    FILTER_VALS[filter] = typeof value == 'number' ? Math.round(value * 10) / 10 : value;
+    if (value == 0 || (typeof value == 'string' && value.indexOf('0') == 0)) {
+      delete FILTER_VALS[filter];
+    }
+    render();
+  }
+
+  function render() {
+    var vals = [];
+    Object.keys(FILTER_VALS).sort().forEach(function (key, i) {
+      vals.push(key + '(' + FILTER_VALS[key] + ')');
+    });
+    var val = vals.join(' ');
+    el.style.webkitFilter = val;
+    document.querySelector('output').textContent = '-webkit-filter: ' + (val ? val : 'none') + ';';
+  }
+
+</script>
+
+</body>
+</html>

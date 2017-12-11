@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Seriously.js Camera Demo</title>
+</head>
+<body>
+
+	<canvas id="targetCanvas" width="640" height="480"></canvas>
+
+	<script src="./Seriously.js/seriously.full.min.js"></script>
+	<script>
+		
+		var seriously = new Seriously(), // the main object that holds the entire composition
+			source = seriously.source('camera'), // wrapper object for source video
+			effect = seriously.effect('ascii'), // ascii effect
+			target = seriously.target('#targetCanvas'); // a wrapper object for our target canvas
+
+		// Connect all nodes in the right order
+		effect.source = source;
+		target.source = effect;
+		 
+		// Start!
+		seriously.go();
+		
+	</script>
+</body>
+</html>
